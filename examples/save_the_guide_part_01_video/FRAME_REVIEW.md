@@ -4,36 +4,37 @@ Frames are retained only after visual inspection. User section approval is expli
 
 ## Approved sections
 
-- **Batch 1 — opening hook:** 10/10 approved. Corrections fixed river geography, immersion state, Evan's snowy framing and pale hands, rope-bag continuity, and Mara's dark glove.
-- **Batch 2 — training flashback:** 11/11 approved. Corrections restored Evan's teal jacket, Mara's dark gloves, and snow-covered ground. Training is dry because it begins “Six hours earlier.”
+- **Batch 1 — opening hook:** 10/10 approved.
+- **Batch 2 — training flashback:** 11/11 approved.
+- **Batch 3 — character and safety setup:** 11/11 approved.
 
-**Total approved frames: 21/146.**
+**Total approved frames: 32/146.**
 
-## Batch 3 — character and safety setup: COMPLETE, AWAITING USER APPROVAL
+## Batch 4 — progress and initial river crossing: FIRST PASS IN REVIEW
 
-All eleven paragraph-3 frames, `beat03m01`–`beat03m11`, have been generated and retained after visual inspection. The complete review sheet is `review/part01_batch03_review.jpg`.
+Ten candidates were generated for `beat04m01`–`beat04m10`. Nine are retained for user review; one was rejected and removed.
 
-### Section content
+### Retained: 9/10
 
-- Evan's cautious repeated pack checks and uncertainty at the winter course.
-- His hesitation and crooked amateur shelter.
-- Mara's experienced adult identity and honest risk discussion beside the intact navy group pack.
-- Spare dry layers in Evan's mustard pack.
-- Throw-rope demonstrations with Mara's dark gloves and the small red bag visibly attached.
-- Mara explaining the lodge check-in with a blank, unreadable phone screen.
+- `beat04m01` — Evan's small training fire succeeds on its raised platform.
+- `beat04m02` — Evan is proud of the crooked branch shelter.
+- `beat04m03` — Evan practices with the compass and sighting mirror.
+- `beat04m04` — Close view of Evan's growing pride.
+- `beat04m05` — Mara and Evan approach the intact river with the correct packs.
+- `beat04m07` — Mara tests the near-bank edge with a dark-gloved hand.
+- `beat04m08` — Mara instructs Evan to wait with a raised dark glove.
+- `beat04m09` — Mara steps onto the ice alone while Evan remains on the near bank.
+- `beat04m10` — Close view of Mara's boot on ordinary-looking intact ice near the far bank.
 
-### Correction history
+The nine-frame review sheet is `review/part01_batch04_review.jpg`.
 
-- `beat03m08`: The first candidate changed Evan's trousers to tan. The final candidate restores his muted teal jacket and grey trousers while preserving Mara's correct outfit and navy pack.
-- `beat03m11`: Generated successfully with Mara in dark gloves, Evan in teal and grey, and no readable phone content.
-- The other nine frames were retained from the first Batch 3 candidate set.
+### Rejected and removed
 
-## Production counter after Batch 3
+- `beat04m06`: Mara's hands appeared bare in the two-person river-establishing shot. Her established dark gloves must remain on. Regenerate with both gloves visible, the packs intact, and no broken opening.
 
-- Approved frames: **21**
-- Batch 3 frames awaiting user approval: **11**
-- **Total retained: 32/146**
-- **Final frames remaining: 114**
+### Batch-completion round
+
+The single `beat04m06` correction will complete Batch 4. If retained, the overall count will be **42/146**, leaving **104 final frames**.
 
 ## Standing continuity rules
 
@@ -43,10 +44,11 @@ All eleven paragraph-3 frames, `beat03m01`–`beat03m11`, have been generated an
 - Evan's jacket remains muted teal, and his trousers remain grey rather than tan or khaki. Rust-orange belongs to Mara alone.
 - Mara's dark gloves remain on whenever her hands appear; crop them out of tight portraits when not required.
 - Snow remains on the training and shelter ground; no exposed dirt, mud, grass, or seasonal change.
-- Mara remains in the established far-bank opening until the scripted extraction, with no second opening near the spruce roots.
+- Before the accident, L01 has no broken opening and Evan remains on the near bank while Mara crosses alone.
+- After the accident, Mara remains in the established far-bank opening until extraction, with no second opening near the spruce roots.
 
-## Next generation batch
+## Next planned batch after Batch 4 approval
 
-After Batch 3 approval, generate **Batch 4**, `beat04m01`–`beat04m10`: Evan's small training successes, growing pride, arrival at the river, and Mara's initial crossing. If all ten pass, the overall retained count will be **42/146**, leaving **104**.
+**Batch 5**, `beat05m01`–`beat05m10`: concealed weak ice, Mara's right-leg breakthrough, full immersion, loss of the navy group pack, and Evan seeing her hands.
 
 No narration, timing file, or stitched video has been produced yet.

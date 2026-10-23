@@ -2,50 +2,51 @@
 
 ## Current stage
 
-**Batch 13 is complete at 9/9 retained frames. Seven frames are approved through the latest continuation; corrected `m02` and `m06` await review. Only Batch 14's final ten moments remain.**
+**All 146 planned narrative frames are now retained. Batches 1–13 are approved at 136 frames; Batch 14's final ten frames have passed production inspection and await user review.**
 
 ## Production counter
 
 | Counter | Frames |
 |---|---:|
 | Planned final narrative frames | **146** |
-| Total approved | **134** |
-| Retained frames awaiting review | **2** |
-| **Total retained on disk** | **136** |
+| Total approved | **136** |
+| Retained frames awaiting review | **10** |
+| **Total retained on disk** | **146** |
 | Pending corrections | **0** |
-| **Final Batch 14 frames not yet produced** | **10** |
+| **Planned frames not yet produced** | **0** |
 
-## Batch 13 — phone/check-in countdown: COMPLETE 9/9
+## Batch 14 — final emotional turn: COMPLETE 10/10
 
-The complete sequence is in `review/part01_batch13_review.jpg`.
+The complete sequence is in `review/part01_batch14_review.jpg`.
 
-- `m01` — repeat phone check beside the small fire, with Mara's locked shelter state.
-- `m02` — wide darkening valley, unintended log/branch debris removed and tiny Mara in silver outer coverage.
-- `m03` — remote timber lodge and warm window establishing the telephone location.
-- `m04` — matching black rotary telephone on-hook beside an unreadable route sheet.
-- `m05` — matching desk and phone with the receiver off the hook and still cord-connected.
-- `m06` — wide waiting shot with exactly one thin parallel-natural-stick fire platform and visible snow gaps.
-- `m07` — Evan lowers the phone with a fragile controlled expression.
-- `m08` — people-free small fire on thin parallel natural sticks.
-- `m09` — tired Evan beside Mara; silver bivy outside, no pillow, hands inside and straight legs.
-
-Only `m02` and `m06` await review; the other seven are approved.
+- `m01` — Evan moves closer to Mara at the open snowy site.
+- `m02` — he crouches at her eye level and asks what comes next.
+- `m03` — Mara slowly opens unfocused eyes.
+- `m04` — over Evan's shoulder, she looks ahead with a vacant, confused gaze.
+- `m05` — she mentions catching a bus while Evan begins to doubt.
+- `m06` — an empty roadless and vehicle-free valley establishes fifty miles of isolation.
+- `m07` — Evan's relieved expression vanishes into alarm.
+- `m08` — Mara is still and no longer shivering.
+- `m09` — realisation replaces false relief; auburn-braid and silver-over-green continuity are preserved.
+- `m10` — the final wide night hold makes clear that the rescue was only the beginning.
 
 ## Completed
 
 - Research, series bible, full 14-paragraph/1,009-word Part 1 script, approved locked reference pack and validated 146-moment visual plan.
-- `beats.jsonl` — 14 narration beats derived from the plan.
+- `beats.jsonl` — 14 narration beats derived from the approved script.
 - All post-setup bivy prompts lock silver-over-green coverage and the no-pillow rule; full-body shelter prompts require straight together legs and tucked hands/gloves.
-- All **136 retained frames** validate at native **1376×768**; narration text validates verbatim across all 146 moments.
+- All **146 retained frames** validate at native **1376×768**, with one unique frame for every planned moment.
+- All **146 narration rows** join verbatim to the 14 approved script paragraphs; `beats.jsonl` also matches those paragraphs verbatim.
 
 ## Runtime policy
 
-There is **no fixed runtime cap**. Actual narration timing will determine the final runtime after frame production.
+There is **no fixed runtime cap**. Actual narration timing will determine the final runtime.
 
 ## Next production steps
 
-1. Obtain review of Batch 13 `m02` and `m06`.
-2. Produce final Batch 14's **10 moments**: Evan moves closer, asks what comes next, Mara looks through him, mentions a bus that does not exist, and Evan realises the rescue was only the beginning.
-3. After all 146 frames are approved, produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
+1. Obtain user review of Batch 14's final ten frames.
+2. After all 146 frames are approved, produce one continuous `en-US-AndrewNeural` narration take at `-5%`.
+3. Require complete WordBoundary moment locking, stitch native-resolution frames with hard cuts only, and perform audio/visual/timing QA.
+4. Record Part 1's ending state for Part 2 continuity.
 
-No narration or stitched video has been produced yet.
+No narration, measured timing file or stitched video has been produced yet.

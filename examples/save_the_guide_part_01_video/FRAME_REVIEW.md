@@ -5,30 +5,34 @@ Frames are retained only after visual inspection. User approval is explicit thro
 ## Approved frames
 
 - **Batches 1–12:** 127 approved frames.
-- **Batch 13 approved subset:** `m01`, `m03`, `m04`, `m05`, `m07`, `m08`, `m09` = 7 frames.
+- **Batch 13:** 9 approved frames, including the corrected valley and fire-platform shots.
 
-**Total approved frames: 134/146.**
+**Total approved frames: 136/146.**
 
-## Batch 13 — phone/check-in countdown: COMPLETE 9/9
+## Batch 14 — the rescue was only the beginning: COMPLETE 10/10
 
-The complete nine-frame sequence is in `review/part01_batch13_review.jpg`.
+The complete final ten-frame sequence is in `review/part01_batch14_review.jpg`. All ten frames have passed production inspection and await user review:
 
-Two corrected frames await review:
-
-- `beat13m02` — the large foreground log and all loose branch piles are gone. Clean valley snow surrounds the tiny established fire/bedding site, and Mara's outer layer is silver.
-- `beat13m06` — the extra wood raft and thick sawn-log base are gone. Exactly one small fire remains on separate thin parallel natural sticks with visible snow gaps; Mara retains silver-over-green coverage, straight legs and no pillow.
-
-The other seven Batch 13 frames are approved. The lodge telephone remains the same black rotary design across the exterior, on-hook and off-hook shots.
+- `beat14m01` — Evan moves closer and kneels beside Mara; silver-over-green coverage, tucked hands, straight legs and no pillow remain locked.
+- `beat14m02` — Evan crouches at her eye level and asks what comes next with a small hopeful expression.
+- `beat14m03` — close view of Mara slowly opening unfocused eyes, with one auburn braid and no pillow.
+- `beat14m04` — over Evan's connected muted-teal shoulder, Mara looks ahead with a vacant, confused gaze.
+- `beat14m05` — Mara mentions an ordinary bus while Evan begins to doubt; no bus, road or vehicle is shown.
+- `beat14m06` — very wide empty valley with no road, vehicle, cabin or lodge; the tiny open site conveys isolation.
+- `beat14m07` — Evan's hope vanishes into alarm in a close view with no phone or gloves.
+- `beat14m08` — Mara is completely still, with half-open unfocused eyes and no shivering marks.
+- `beat14m09` — realisation replaces false relief; Mara's auburn braid and the locked shelter state are preserved.
+- `beat14m10` — sober final wide hold beneath dark snowy spruces, with one small fire and no unintended structures or vehicles.
 
 ## Production counter
 
-- Approved frames: **134**
-- Frames awaiting review: **2**
-- **Total retained: 136/146**
+- Approved frames: **136**
+- Frames awaiting review: **10**
+- **Total retained: 146/146**
 - Pending corrections: **0**
-- Final Batch 14 frames not yet produced: **10**
+- Planned frames not yet produced: **0**
 
-Batch 14 contains the final **10 moments**. If all pass, the complete 146-frame narrative plan will be retained.
+All 146 moment-specific narrative frames now exist at native 1376×768. Final Batch 14 approval is the remaining visual gate before narration, WordBoundary timing and stitching.
 
 ## Standing continuity and QA rules
 

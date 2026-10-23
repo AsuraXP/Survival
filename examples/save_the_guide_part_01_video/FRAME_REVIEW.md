@@ -1,52 +1,37 @@
 # Save the Guide — Part 1 Frame Review
 
-Frames are retained only after visual inspection. User approval is explicit through review/continue approval. Rejected candidates never count toward the 146 final frames, and a corrected replacement awaits review even when it replaces a previously approved image.
+Frames are retained only after visual inspection. User approval is explicit through review/continue approval. Rejected candidates never count toward the 146 final frames, and corrected replacements await review.
 
 ## Approved frames
 
-- **Batches 1–8:** 85/85 approved, including all earlier user-requested corrections.
-- **Batch 9 approved subset:** `m01`, `m03`, and `m04` = 3 frames.
+- **Batches 1–9:** 97/97 approved, including the cleaned `beat09m09` shelter-debris correction and replacement phone/body frame.
+- **Batch 10 approved first-pass subset:** `m02`, `m04`, `m07`, and `m08` = 4 frames.
 
-**Total approved frames: 88/146.** The previously approved `beat09m09` was reopened during the user's shelter-consistency audit and its replacement now awaits re-review.
+**Total approved frames: 101/146.**
 
-## Shelter continuity audit
+## Batch 10 — fire-first decision and confusion: COMPLETE 11/11
 
-The user was right that wooden handmade frames appeared in some intermediate images. Those candidates were rejected and are not in the retained sequence. The current Batch 9 sheet contains **no tent, lean-to or wooden A-frame**. The silver plastic-like material is the intentional emergency bivy: loose when assessed, then wrapped outside the green sleeping bag.
+The complete section is shown in `review/part01_batch10_review.jpg`. These **seven frames await user review**:
 
-The audit found one retained mismatch: `beat09m09` contained a natural log and stick debris that disappeared later. The replacement removes that debris while preserving Mara, Evan, the blue pad, green sleeping bag and silver bivy. Batch 10 may introduce only the scripted fire materials; its fire base is a **small, low, flat stick platform**, not a sleeping-shelter frame.
+- `beat10m01` — Evan turns toward the trail; Mara's resting hand is now fully covered.
+- `beat10m03` — exactly one visible Mara hand, dark-gloved and catching Evan's sleeve; her other hand is covered.
+- `beat10m05` — Evan gathers natural branches while Mara's background hand remains covered and the mustard pack stays beside her.
+- `beat10m06` — exactly three distinct piles of natural snapped branches, with no sawn logs.
+- `beat10m09` — the second bundle smokes and collapses without flame; the extra cup is removed.
+- `beat10m10` — Mara speaks confusedly behind Evan at the failed, non-flaming fire attempt; no extra person.
+- `beat10m11` — close view of Mara's wrong-name confusion with correct green/silver bedding and no phantom person.
 
-## Batch 9 — supply doubts and shelter rewarming: COMPLETE 12/12 RETAINED
-
-Nine frames await user review: `m02`, `m05`, `m06`, `m07`, `m08`, cleaned `m09`, `m10`, `m11`, and replacement `m12`. The `m12` replacement specifically resolves the user-flagged detached-body/phone-orientation problem with a connected waist-up Evan and the phone back toward the viewer.
-
-## Batch 10 — fire-first decision and confusion: FIRST PASS
-
-Four frames passed inspection and are shown in `review/part01_batch10_review.jpg`:
-
-- `beat10m02` — the long deep-snow trail into dusk.
-- `beat10m04` — Mara lucidly directing “fire first,” with no fire or wooden construction yet.
-- `beat10m07` — the correct small, low, flat parallel-stick fire base.
-- `beat10m08` — tiny sparks dying above tinder with no established flame.
-
-### Rejected candidates and pending work
-
-- `beat10m01` — Mara's resting hand is bare; cover it completely with bedding.
-- `beat10m03` — the action hand correctly wears a dark glove, but Mara's second hand is bare; only one dark-gloved action hand may be visible.
-- `beat10m05` — Mara's background hand is bare; cover it while preserving the branch gathering and pack placement.
-- `beat10m06` — the large-fuel pile became sawn logs with round cut ends. Use thicker natural dead branches with irregular snapped ends, exactly three piles.
-- `beat10m09` — an extra cylindrical cup/container appeared beside the failed smoking bundle; remove it and preserve the no-flame state.
-- `beat10m10` and `beat10m11` — not yet generated; these complete Mara's wrong-name confusion beat with no additional person.
+The retained fire sequence is ordered and deliberate: clear unbuilt area → gathered branches → three natural size piles → low flat platform → dying sparks → collapsed smoking bundle → renewed attempt in the next section. No retained image contains a handmade sleeping-shelter tent or A-frame.
 
 ## Production counter
 
-- Approved frames: **88**
-- Batch 9 frames awaiting review/re-review: **9**
-- Batch 10 first-pass frames awaiting review: **4**
-- **Total retained: 101/146**
-- **Final frames remaining: 45**
-- Pending Batch 10 work: **5 corrections + 2 completion frames = 7**
+- Approved frames: **101**
+- Batch 10 frames awaiting user review: **7**
+- **Total retained: 108/146**
+- **Final frames remaining: 38**
+- Pending Batch 10 corrections/completions: **0**
 
-If all seven next-round frames pass, Batch 10 will be complete at 11/11 and the overall count will be **108/146 retained**, leaving **38**.
+The next section is Batch 11, Evan's “What is the next thing?” reset and successful fire lighting, with **10 planned moments**. If all pass, the count will be **118/146 retained**, leaving **28**.
 
 ## Standing continuity and QA rules
 
@@ -57,7 +42,8 @@ If all seven next-round frames pass, Batch 10 will be complete at 11/11 and the 
 - Mara remains on the single blue pad in the green sleeping bag with the silver bivy visibly outside after wrapping. No duplicate bedding or premature clothing-state changes.
 - The sleeping shelter is only open spruce cover plus pad/bag/bivy. No tent, lean-to, wooden A-frame, poles or handmade sleeping-shelter frame.
 - Keep loose logs and branch debris out of the immediate pre-fire continuity background. Once the script introduces firewood, use natural dead branches with irregular snapped ends, never sawn logs or milled lumber.
-- The fire base is low, flat and horizontal. First sparks die without flame; the second bundle smokes and collapses without open flame. No extra cup, first-aid book or unrelated fire-kit props.
+- The fire base is low, flat and horizontal. In Batch 10 the first sparks die and the second bundle smokes without open flame. A real flame is allowed only when Batch 11's narration deliberately reaches it.
+- No extra cup, first-aid book, phantom person or unrelated prop.
 - Every final frame must be native 1376×768, full-bleed, with no captions, border or polished-panel treatment.
 
 No narration, timing file or stitched video has been produced yet.

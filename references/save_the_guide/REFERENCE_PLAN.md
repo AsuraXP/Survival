@@ -1,6 +1,6 @@
 # Save the Guide — Reference Image Plan
 
-**Status:** Proposed pack for discussion. No character, location, or prop references have been generated yet.
+**Status:** All seven character references and all five location references are approved and locked. All seven prop candidates have been generated and are awaiting user review.
 
 ## Purpose
 

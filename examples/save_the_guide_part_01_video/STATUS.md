@@ -2,7 +2,7 @@
 
 ## Current stage
 
-**Research, series planning, full Part 1 narration, and reference planning are complete. The global style and two master character bases are approved. Ten additional character/location reference candidates have been generated and are awaiting review; seven prop references remain.**
+**Research, series planning, full Part 1 narration, and reference planning are complete. The global style, all seven character references, and all five location references are approved and locked. All seven prop candidates have been generated and are awaiting user review.**
 
 No narrative frames have been generated.
 
@@ -21,19 +21,13 @@ There is **no fixed runtime cap**. The story should use the length required for 
 
 ## Approval needed next
 
-1. Part 1 story, character dynamics, and cliffhanger.
-2. Three-part series arc and the way the final rescue is earned.
-3. Mara and Evan's proposed wardrobe and visual identity.
-4. River, shelter, and meadow geography.
-5. The proposed reference pack before generating it.
+Review and approve the seven prop candidates, `P01`–`P07`. The character and location anchors are already approved and locked.
 
-## After approval
+## Next production steps
 
-1. Generate and approve base character references.
-2. Generate and approve character states, locations, and props.
-3. Lock the reference manifest.
-4. Split the approved Part 1 script into narration moments and write `visuals.csv`.
-5. Generate narrative frames in controlled batches with continuity review.
-6. Produce narration, word-locked timing, stitching, and final quality control using the proven pipeline adapted into this repository.
+1. Lock the complete reference manifest after prop approval.
+2. Split the approved Part 1 script into narration moments and write `visuals.csv`.
+3. Generate narrative frames in controlled batches with continuity review.
+4. Produce narration, word-locked timing, stitching, and final quality control using the proven pipeline adapted into this repository.
 
 Research sources and their exact story applications are documented in `RESEARCH.md`.

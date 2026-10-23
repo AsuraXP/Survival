@@ -2,7 +2,7 @@
 
 ## Current stage
 
-**Research, series planning, full Part 1 narration, and the complete reference pack are approved and locked. The full 146-moment visual plan is validated. Batches 1–6 are approved. Batch 7 is now complete: all eleven coordinated-extraction frames are retained and await user review.**
+**Research, series planning, full Part 1 narration, and the complete reference pack are approved and locked. The full 146-moment visual plan is validated. Batches 1–7 are approved. Batch 8 first-pass QA retained eight frames; two corrections and one section-completion frame remain.**
 
 ## Production counter
 
@@ -15,11 +15,13 @@
 | Approved progress/initial crossing | **10** |
 | Approved accident | **10** |
 | Approved first rescue attempt | **11** |
-| **Total approved** | **63** |
-| Complete Batch 7 awaiting user approval | **11** |
-| **Total retained on disk** | **74** |
-| Rejected candidates pending correction | **0** |
-| **Final frames remaining** | **72** |
+| Approved coordinated extraction | **11** |
+| **Total approved** | **74** |
+| Batch 8 first-pass frames awaiting user review | **8** |
+| **Total retained on disk** | **82** |
+| Batch 8 corrections pending | **2** |
+| Batch 8 completion frames not yet generated | **1** |
+| **Final frames remaining** | **64** |
 
 Batch numbering tracks planned production batches; correction and section-completion generations are additional rounds and do not increase the final 146-frame requirement.
 
@@ -29,11 +31,11 @@ Batch numbering tracks planned production batches; correction and section-comple
 - `SERIES_BIBLE.md` — premise, characters, themes, equipment logic, three-part arc, setup/payoff ledger, and continuity rules.
 - `RESEARCH.md` — sourced survival guidance and exact story applications.
 - `references/save_the_guide/` — complete approved reference pack plus modular prompt and continuity rules.
-- `visuals.csv` — **146 short narration moments** across 14 paragraphs; every paragraph is reproduced verbatim by its ordered `moment_text` values. Validation passes after the Batch 7 prompt corrections.
+- `visuals.csv` — **146 short narration moments** across 14 paragraphs; every paragraph is reproduced verbatim by its ordered `moment_text` values. Validation passes after the Batch 8 prompt corrections.
 - `beats.jsonl` — 14 narration beats converted from the validated visual plan.
 - `FRAME_REVIEW.md` — approvals, visual QA, corrections, counters, and standing continuity rules.
-- **Batches 1–6:** 63 frames approved.
-- **Batch 7:** 11/11 generated, visually inspected, and retained for review.
+- **Batches 1–7:** 74 frames approved.
+- **Batch 8:** eight first-pass frames retained; `m01` and `m07` require correction, and `m11` remains to be generated.
 
 ## Runtime policy
 
@@ -41,9 +43,10 @@ There is **no fixed runtime cap**. Actual narration timing will determine the fi
 
 ## Next production steps
 
-1. Obtain user approval for the complete Batch 7 extraction section.
-2. Generate **Batch 8**, first pass `beat08m01`–`beat08m10` followed by `beat08m11`: shiver-broken instructions, moving out of the wind, the rope-around-pack action, foam-pad insulation, right-knee injury, and stiffening wet clothes.
-3. Continue remaining frames in controlled batches of at most ten per generation round with visual inspection, user review, and checkpoint pushes.
-4. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
+1. Obtain user review of the eight retained Batch 8 frames.
+2. Run a three-frame Batch 8 completion round: regenerate `m01` and `m07`, then create `m11`.
+3. If all three pass, Batch 8 will contain 11/11 frames and the overall count will be **85/146 retained**, leaving **61**.
+4. Continue remaining frames in controlled batches of at most ten per generation round with visual inspection, user review, and checkpoint pushes.
+5. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
 
 No narration or stitched video has been produced yet.

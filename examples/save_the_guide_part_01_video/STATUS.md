@@ -2,30 +2,41 @@
 
 ## Current stage
 
-**Batch 12 is complete at 9/9 retained frames, and Batch 10 is restored to 11/11. The headless/glove-fitting candidate was replaced with Mara's head visible and Evan checking beneath the cover without pulling out a hand. All following stillness frames keep her hands and gloves tucked inside. Six corrected frames await user review.**
+**The silver emergency bivy layer-order audit reopened 14 post-setup frames. Six corrected frames have passed inspection and await user review; eight remain pending and are excluded from the retained sequence.** The fixed stack is blue foam pad on snow → dark-green sleeping bag on the pad → silver bivy outside and over the bag's top and sides.
 
 ## Production counter
 
 | Counter | Frames |
 |---|---:|
 | Planned final narrative frames | **146** |
-| Approved Batches 1–11 with `beat10m11` reopened | **117** |
-| Approved Batch 12 subset (`m02`, `m04`, `m08`, `m09`) | **4** |
-| **Total approved** | **121** |
-| Corrected frames awaiting review | **6** |
-| **Total retained on disk** | **127** |
-| Pending corrections | **0** |
-| **Final frames remaining** | **19** |
+| Total approved | **112** |
+| Corrected/retained frames awaiting review | **7** |
+| **Total retained on disk** | **119** |
+| Pending bivy corrections | **8** |
+| **Final frames not yet produced** | **19** |
+
+## Retained and awaiting review
+
+- **Batch 9:** 10/12 retained and approved; `m11` and `m12` pending correction.
+- **Batch 10:** 10/11 retained. `m03`, `m05`, `m10`, and `m11` have corrected silver-over-green bedding and await review; `m01` pending.
+- **Batch 11:** 9/10 retained. Corrected `m04` awaits review; `m10` pending.
+- **Batch 12:** 5/9 retained. Corrected `m01` and previously retained `m07` await review; `m03`, `m05`, `m06`, and `m08` pending.
+- `review/part01_bivy_layer_review.jpg` contains the six newly corrected frames.
+
+## Pending correction notes
+
+- `beat09m11`: candidate changed Evan's grey trousers to tan; restore grey while retaining the corrected bedding.
+- `beat09m12`: candidate changed the phone to red and the sky to dusk; restore the black phone and pale cold daytime background.
+- `beat10m01`: candidate still reads as seated/tucked; require a low, straight, fully extended body.
+- `beat11m10`: candidate introduced a possible protruding hand/glove; remove it and keep all hands inside.
+- `beat12m03`, `m05`, `m06`, `m08`: still require silver-over-green replacements.
 
 ## Completed
 
 - Research, series bible, full 14-paragraph/1,009-word Part 1 script, approved locked reference pack and validated 146-moment visual plan.
 - `beats.jsonl` — 14 narration beats derived from the plan.
-- **Batch 10:** restored to **11/11 retained**, with corrected `m11` awaiting re-review.
-- **Batch 11:** 10/10 approved.
-- **Batch 12:** complete at **9/9 retained**; four approved and five awaiting review.
-- `PROMPT_BIBLE.md` — requires straight, together legs and upper-body-only use of C04; the visual plan now keeps Mara's hands/gloves tucked during and after the hand check.
-- All **127 retained frames** validated at native **1376×768**; narration text validates verbatim across all 146 moments.
+- `PROMPT_BIBLE.md` and the affected visual prompts now lock the post-setup layer order, straight together legs, visible head, and tucked hands/gloves.
+- All **119 retained frames** validate at native **1376×768**; narration text validates verbatim across all 146 moments.
 
 ## Runtime policy
 
@@ -33,10 +44,10 @@ There is **no fixed runtime cap**. Actual narration timing will determine the fi
 
 ## Next production steps
 
-1. Review the corrected Mara-only frame and complete Batch 12 sheet.
-2. Produce Batch 13, the phone/check-in countdown and Evan's attempt to make the situation manageable: **9 moments**.
-3. If all nine pass, the count will be **136/146 retained**, leaving **10**.
-4. Produce the final Batch 14's ten frames after Batch 13 review/corrections.
+1. Finish the eight pending bivy corrections and rebuild the affected review sheets.
+2. Obtain review of the corrected shelter sequence.
+3. Produce Batch 13, the phone/check-in countdown and Evan's attempt to make the situation manageable: **9 moments**.
+4. Produce final Batch 14's ten frames after Batch 13 review/corrections.
 5. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
 
 No narration or stitched video has been produced yet.

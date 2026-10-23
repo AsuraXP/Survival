@@ -4,45 +4,61 @@ Frames are retained only after visual inspection. User approval is explicit thro
 
 ## Approved frames
 
-- **Batches 1–11 with `beat10m11` reopened:** 117 approved frames.
-- **Batch 12 approved subset:** `m02`, `m04`, `m08`, and `m09` = 4 frames.
+- **Batches 1–8:** 85 approved frames.
+- **Batch 9:** `m01`–`m10` = 10 approved frames.
+- **Batch 10 approved subset:** `m02`, `m04`, `m06`, `m07`, `m08`, `m09` = 6 frames.
+- **Batch 11 approved subset:** `m01`, `m02`, `m03`, `m05`, `m06`, `m07`, `m08`, `m09` = 8 frames.
+- **Batch 12 approved subset:** `m02`, `m04`, `m09` = 3 frames.
 
-**Total approved frames: 121/146.**
+**Total approved frames: 112/146.**
 
-## Batch 10 — restored to 11/11 retained
+## Silver bivy layer-order correction
 
-`beat10m11` now shows Mara alone with her head visible, hands tucked, both legs together and fully extended, right knee straight, and one continuous sleeping-bag silhouette. The wooden surround is gone; only open snowy spruces remain. This corrected frame awaits user re-review in `part01_batch10_review.jpg`.
+The user correctly identified that the silver emergency bivy was below the green sleeping bag in some images and above it in others. This was not an intentional story change. The fixed post-setup order is:
 
-## Batch 12 — “You did it” and mistaken reassurance: COMPLETE 9/9
+**blue foam pad on snow → dark-green sleeping bag on the pad → silver emergency bivy outside and visibly over the bag's top and sides.**
 
-The complete section is shown in `review/part01_batch12_review.jpg`. These **five Batch 12 frames await user review**:
+Only active setup shots may show Evan adjusting coverage. The silver layer must not become a groundsheet beneath or a loose sheet behind an exposed green bag. Use `beat12m07` as the layer-order anchor; C04 remains an upper-body identity reference only, not a layer-order or leg-pose reference.
 
-- `beat12m01` — Mara watches the fire with straight, together legs and all hands tucked.
-- `beat12m03` — Evan laughs while Mara's former bare hand is completely covered.
-- `beat12m05` — **headless/glove-fitting candidate replaced.** Mara's head, face and one braid are clearly visible. Evan checks beneath the bivy opening without pulling out a hand or fitting a glove; no detached hand is shown.
-- `beat12m06` — Mara remains quieter with every hand and glove tucked inside while Evan misreads her stillness as reassurance.
-- `beat12m07` — Evan's expression softens as he watches Mara's covered stillness; no protruding glove, visible flame or orange wardrobe remains, and snowy spruces are restored.
+### Six corrected frames awaiting review
 
-The other four Batch 12 frames are approved. No retained image shows a headless Mara, a detached glove, or Evan appearing to change/fit her gloves.
+Shown together in `review/part01_bivy_layer_review.jpg`:
+
+- `beat10m03` — one dark-gloved hand catches Evan's sleeve; the other remains inside. Silver bivy covers the bag and both legs are straight.
+- `beat10m05` — distant Mara and the mustard pack remain in place while Evan gathers branches; silver bivy is outside.
+- `beat10m10` — confused Mara remains behind the failed smoking fire; silver bivy is outside and her hands are tucked.
+- `beat10m11` — Mara alone with silver over the green bag, visible face, straight together legs and open snowy spruces.
+- `beat11m04` — Evan nearly runs; Mara remains low and straight beneath the outer silver bivy.
+- `beat12m01` — Mara watches the fire with silver over the bag, visible head, tucked hands and straight legs.
+
+Previously retained `beat12m07` also awaits review, making **7 retained frames awaiting review** in total.
+
+### Eight pending corrections
+
+- `beat09m11` — restore Evan's grey trousers in the otherwise corrected candidate.
+- `beat09m12` — restore the black phone and pale cold daytime background.
+- `beat10m01` — replace the remaining seated/tucked read with a low straight body.
+- `beat11m10` — remove a possible protruding hand/glove introduced by the edit.
+- `beat12m03`, `m05`, `m06`, `m08` — generate and inspect silver-over-green replacements.
+
+These eight frames are quarantined and do not appear in the retained frame directory or rebuilt batch sheets.
 
 ## Production counter
 
-- Approved frames: **121**
-- Frames awaiting review: **6** = corrected `beat10m11` plus five Batch 12 frames
-- **Total retained: 127/146**
-- **Final frames remaining: 19**
-- Pending corrections: **0**
+- Approved frames: **112**
+- Frames awaiting review: **7**
+- **Total retained: 119/146**
+- Pending corrections: **8**
+- Final frames not yet produced: **19**
 
-The next section is Batch 13, the phone/check-in countdown and Evan's attempt to make the situation feel manageable, with **9 planned moments**. If all pass, the count will be **136/146 retained**, leaving **10**.
+After all eight corrections pass, the retained total will return to **127/146**, with **15 awaiting review** and zero pending corrections. Batch 13 then has **9 planned moments**, followed by Batch 14's ten.
 
 ## Standing continuity and QA rules
 
 - Evan's hands are pale and ungloved; his jacket, sleeves and cuffs remain muted teal, trousers grey.
 - Mara has one auburn braid and her face remains visible in shelter shots unless the script deliberately changes coverage.
-- After wrapping, Mara's hands and gloves remain tucked inside the bedding. The hand check happens beneath the bivy opening without pulling a hand outside; no detached hand, protruding glove or glove-fitting read.
+- At rest and during every hand check or stillness shot, all Mara's hands and gloves remain tucked inside. Evan checks beneath the bivy without pulling a hand outside; no detached hand, protruding glove or glove-fitting read. Only explicit reaching/pointing actions may show exactly one dark-gloved hand.
 - In every full-body shelter frame, Mara's legs remain together and fully extended along the blue pad, right knee straight, with one continuous sleeping-bag silhouette. No raised knee, curled leg, bent two-section shape or separate leg lumps.
-- Use C04 for upper-body wrap identity only, never for leg pose. Use P04 plus explicit straight-leg composition for full-body shots.
-- Mara remains on the single blue pad in the green sleeping bag with the silver bivy visibly outside.
 - The sleeping shelter is only open spruce cover plus pad/bag/bivy. No tent, lean-to, wooden A-frame, poles, log surround or handmade sleeping-shelter frame.
 - Fire remains outside on a low flat platform of separate natural sticks over snow, never against the bedding. No stone slab, dirt base, sawn logs or roaring campfire.
 - No extra cup, first-aid book, phantom person or unrelated prop.

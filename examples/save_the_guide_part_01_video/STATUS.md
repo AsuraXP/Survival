@@ -2,7 +2,7 @@
 
 ## Current stage
 
-**Research, series planning, full Part 1 narration, and the complete reference pack are approved and locked. The full 146-moment visual plan is validated. Batches 1–8 and four Batch 9 frames are approved. Batch 9 now has ten retained frames; six new frames await review and only `m07` and `m11` still require correction.**
+**Research, series planning, full Part 1 narration, and the complete reference pack are approved and locked. The full 146-moment visual plan is validated. Batch 9 is now complete at 12/12 frames. The user-flagged countdown image has been replaced with a connected waist-up Evan, natural phone orientation and correct shelter bedding. Eight Batch 9 frames await user review.**
 
 ## Production counter
 
@@ -12,10 +12,10 @@
 | Approved Batches 1–8 | **85** |
 | Approved Batch 9 first-pass subset | **4** |
 | **Total approved** | **89** |
-| New Batch 9 frames awaiting user review | **6** |
-| **Total retained on disk** | **95** |
-| Batch 9 corrections pending | **2** |
-| **Final frames remaining** | **51** |
+| Batch 9 frames awaiting user review | **8** |
+| **Total retained on disk** | **97** |
+| Batch 9 corrections pending | **0** |
+| **Final frames remaining** | **49** |
 
 Batch numbering tracks planned production batches; correction and section-completion generations are additional rounds and do not increase the final 146-frame requirement.
 
@@ -29,8 +29,8 @@ Batch numbering tracks planned production batches; correction and section-comple
 - `beats.jsonl` — 14 narration beats converted from the validated visual plan.
 - `FRAME_REVIEW.md` — approvals, reopened frames, visual QA, corrections, counters and standing continuity/anatomy rules.
 - **Batches 1–8:** 85 frames approved.
-- **Batch 9:** `m01`, `m03`, `m04`, and `m09` approved; corrected `m02`, `m05`, `m06`, `m08`, `m10`, and new `m12` retained for review. Only `m07` and `m11` remain.
-- All **95 retained frames** validated at native **1376×768**.
+- **Batch 9:** complete at **12/12 retained frames**; four approved and eight awaiting review. The user-flagged `m12` phone/body anatomy was replaced and inspected.
+- All **97 retained frames** validated at native **1376×768**.
 
 ## Runtime policy
 
@@ -38,9 +38,9 @@ There is **no fixed runtime cap**. Actual narration timing will determine the fi
 
 ## Next production steps
 
-1. Obtain user review of the six new Batch 9 frames in the refreshed review sheet.
-2. Regenerate only `beat09m07` and `beat09m11`, enforcing two-boot anatomy, the established spruce shelter, and no unapproved structures or firewood.
-3. If both pass, Batch 9 will contain 12/12 frames and the overall count will be **97/146 retained**, leaving **49**.
+1. Obtain user review of the complete Batch 9 sheet, especially the replacement `m12` countdown frame.
+2. Produce Batch 10, the fire-first decision and Mara's confusion: **11 moments**, using a ten-frame first pass and one-frame completion round.
+3. If all Batch 10 frames pass, the overall count will be **108/146 retained**, leaving **38**.
 4. Continue remaining frames in controlled batches of at most ten per generation round with visual inspection, user review and checkpoint pushes.
 5. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
 

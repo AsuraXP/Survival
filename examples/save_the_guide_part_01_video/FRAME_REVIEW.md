@@ -16,44 +16,43 @@ Frames are retained only after visual inspection. User section approval is expli
 
 **Total approved frames: 89/146.**
 
-## Batch 9 — supply doubts and shelter rewarming: SECOND-PASS REVIEW
+## Batch 9 — supply doubts and shelter rewarming: COMPLETE 12/12
 
-`review/part01_batch09_review.jpg` contains all **ten retained Batch 9 frames**: the four already approved plus these six new frames awaiting user review:
+`review/part01_batch09_review.jpg` contains the complete twelve-frame section. The following **eight frames await user review**:
 
 - `beat09m02` — exactly one sleeping bag in Evan's hands; Mara remains wet, gloved and booted on the blue pad.
-- `beat09m05` — the sleeping bag, sweater and bivy are separate; Mara remains on the single pad with both boots.
+- `beat09m05` — sleeping bag, sweater and bivy are separate; Mara remains on the single pad with both boots.
 - `beat09m06` — Evan's burdened reaction with Mara's dark gloves restored.
+- `beat09m07` — Mara directs the restart in the snowy spruce stand with exactly two coherent legs and two brown boots.
 - `beat09m08` — Evan is muted teal, Mara is dry-dark-layered and covered, and the wet orange shell is separate.
 - `beat09m10` — native-size, borderless covered removal of the wet charcoal trousers with no nudity.
-- `beat09m12` — blank-screen phone close-up with Evan's orange cuff corrected to muted teal.
+- `beat09m11` — connected full-body phone check, no unapproved structure or firewood, and Mara's hand covered.
+- `beat09m12` — **user-flagged candidate replaced.** The new waist-up composition gives Evan a complete connected head, shoulders, torso and arms. The small phone's back faces the viewer and its screen faces Evan. Mara remains on the blue pad with green sleeping bag and visible silver bivy; there is no wooden frame or detached/giant foreground hand.
 
-### Two frames still pending correction
+Earlier Batch 9 candidates rejected for a duplicate sleeping bag, bare foot/displaced pad, bare Mara hands, exposed dirt, Evan's orange wardrobe, a bordered/wrong-resolution canvas, unapproved shelter structures, missing silver bivy and the user-flagged phone/body anatomy were quarantined rather than counted.
 
-- `beat09m07` — the snow correction passed, but the resulting pose did not show a coherent second brown boot and the spruce shelter became deciduous trees. Regenerate with exactly two legs/two boots and the established spruce setting.
-- `beat09m11` — rejected for adding an unapproved wooden A-frame, poles, logs and firewood around the phone check. The established open snowy shelter must remain unchanged, with no fire or new structures.
-
-Earlier Batch 9 candidates rejected for a duplicate sleeping bag, bare foot/displaced pad, bare Mara hands, exposed dirt, Evan's orange wardrobe, a bordered/wrong-resolution canvas, and an orange phone-shot cuff were quarantined rather than counted. Their successful replacements are listed above where applicable.
-
-## Production counter after Batch 9 second pass
+## Production counter after Batch 9 completion
 
 - Approved frames: **89**
-- New Batch 9 frames awaiting user review: **6**
-- **Total retained: 95/146**
-- **Final frames remaining: 51**
-- Pending work within Batch 9: **2 corrections** (`m07`, `m11`)
+- Batch 9 frames awaiting user review: **8**
+- **Total retained: 97/146**
+- **Final frames remaining: 49**
+- Pending Batch 9 corrections: **0**
 
-The next two-frame round will complete Batch 9 if both pass: **97/146 retained**, leaving **49**.
+Batch 9 is complete at **12/12 retained frames**. The next section is Batch 10, the fire-first decision and Mara's confusion, with **11 planned moments**. Its ten-frame first pass plus one-frame completion would bring the total to **108/146**, leaving **38**, if all pass.
 
 ## Standing continuity and QA rules
 
 - Evan's hands remain pale and ungloved. Check hand ownership by sleeve: teal-sleeved hands are pale; orange-sleeved Mara hands are dark-gloved or covered.
 - Evan's jacket, sleeves and cuffs remain muted teal and his trousers grey. Mara's shell remains rust-orange, never mustard, and her trousers remain charcoal with brown boots until their deliberate removal.
 - Mara has exactly one auburn braid. Full-body poses require exactly two coherent legs and two boots with correct orientation; no extra limbs, missing footwear or duplicated hair.
+- Phone shots require a natural grip, a connected body and an unambiguous orientation. When the phone back faces the viewer, the screen must face Evan and remain unseen. Avoid extreme forced perspective that detaches hands from the torso.
 - Targeted edits must be re-inspected for collateral changes to hair, clothing colour, props, anatomy and location.
 - Before rewarming, Mara remains on the blue pad in wet outer clothing with both boots and dark gloves. Do not move the pad or remove clothing early.
 - The green sleeping bag exists as one Evan-owned prop: it may be held by Evan or wrapped around Mara, never both at once.
 - Upper wet shell removal and dry insulation occur before the bivy is added. Lower wet-layer removal happens under cover with no nudity and the right knee still.
-- The established shelter is an open snowy spruce stand. Do not add deciduous trees, wooden A-frames, poles, logs, firewood, fire or other unscripted structures and props.
+- After shelter wrapping, Mara remains on the blue pad in the green sleeping bag with the silver bivy visibly outside and her hands covered.
+- The established shelter is an open snowy spruce stand. Do not add deciduous trees, wooden A-frames, poles, logs, firewood or fire until the script deliberately introduces them.
 - Snow remains continuous; no exposed dirt, mud, grass or seasonal change.
 - Every final frame must be native 1376×768, full-bleed, with no black border, comic frame, captions or polished-panel treatment.
 

@@ -1,8 +1,8 @@
 # Save the Guide — Part 1 Frame Review
 
-Frames are retained only after visual inspection. User section approval is explicit through review/continue approval, and rejected candidates never count toward the 146 final frames.
+Frames are retained only after visual inspection. User section approval is explicit through review/continue approval, and rejected candidates never count toward the 146 final frames. User-reported errors reopen the affected frame even if its section was previously approved.
 
-## Approved sections
+## Fully approved sections
 
 - **Batch 1 — opening hook:** 10/10 approved.
 - **Batch 2 — training flashback:** 11/11 approved.
@@ -10,51 +10,60 @@ Frames are retained only after visual inspection. User section approval is expli
 - **Batch 4 — progress and initial river crossing:** 10/10 approved.
 - **Batch 5 — concealed weak ice and the accident:** 10/10 approved.
 - **Batch 6 — cold shock and first rescue attempt:** 11/11 approved.
-- **Batch 7 — coordinated extraction:** 11/11 approved.
 
-**Total approved frames: 74/146.**
+## Batch 7 — coordinated extraction: ONE CORRECTED FRAME AWAITING RE-REVIEW
 
-## Batch 8 — from extraction to injury discovery: FIRST PASS REVIEW
+Ten Batch 7 frames remain approved. `beat07m10` was reopened after the user identified Evan's dark glove. The replacement restores his pale ungloved C05 hand and preserves Mara's single braid, prone extraction pose, mustard pack, and red rope. An intermediate edit that added extra braids was rejected.
 
-Eight Batch 8 frames passed inspection and are retained in `review/part01_batch08_review.jpg`:
+**Approved frames: 63 + 10 = 73/146. Corrected Batch 7 frame awaiting re-review: 1.**
 
-- `beat08m02` — Mara's speech disrupted by hard shivering while Evan listens.
-- `beat08m03` — Mara pointing toward the sheltering spruces while remaining low.
-- `beat08m04` — Evan's open mustard pack revealing his green sleeping bag and folded dry layers.
-- `beat08m05` — Evan deliberately wrapping the red rope around his mustard pack.
-- `beat08m06` — assisted movement into the trees with Mara's right leg kept off the ground.
-- `beat08m08` — the protected right knee on the blue pad, with no graphic wound.
-- `beat08m09` — Evan asking whether Mara can walk.
-- `beat08m10` — Mara looking at the injured knee and answering “Not today.”
+## Batch 8 — from extraction to injury discovery: COMPLETE, AWAITING USER APPROVAL
 
-### Rejected candidates and required corrections
+All eleven Batch 8 frames, `beat08m01`–`beat08m11`, are generated, inspected, and retained. The complete review sheet is `review/part01_batch08_review.jpg`.
 
-- `beat08m01` — rejected because the supposedly snowy bank contained large exposed tan-ground patches. Regenerate with continuous white snow.
-- `beat08m07` — rejected because Evan's hands became dark-gloved. Regenerate with his established pale ungloved C05 hands; only Mara wears dark gloves.
+### Section content
 
-`beat08m11`, the wet outer clothes stiffening with frost, has not yet been generated.
+- Mara remains low on continuous snow, shivering hard enough to break her speech, and points toward the sheltering spruces.
+- Evan's mustard pack provides his green sleeping bag and folded dry layers; he wraps the red rope around the pack.
+- Evan supports Mara into the trees without loading her right knee, then lowers her onto his blue foam pad with pale ungloved hands.
+- The right-knee injury remains non-graphic and protected. Mara answers “Not today” when asked about walking.
+- The final pose has exactly two charcoal trouser legs aligned in one direction and two brown boots, with no twisted torso.
+- A clothing close-up shows frost stiffening her wet orange shell and charcoal outer layers before any dry wrap.
 
-## Production counter after Batch 8 first pass
+### Correction history
 
-- Approved frames: **74**
-- Batch 8 frames awaiting user review: **8**
-- **Total retained: 82/146**
-- **Final frames remaining: 64**
-- Pending work within Batch 8: **2 corrections + 1 section-completion frame**
+- `beat08m01`: exposed tan ground was replaced with continuous snow.
+- `beat08m06`: Evan's dark-gloved supporting hand was corrected to pale and ungloved; Mara's dark gloves remain unchanged.
+- `beat08m07`: Evan's dark gloves were corrected to pale hands. An intermediate edit shifted Mara's shell toward mustard and was rejected; the final frame restores rust-orange.
+- `beat08m10`: the user-identified third leg and twisted orientation were replaced with a fresh, coherent two-leg side view.
+- `beat08m11`: passed on its first generation as a close clothing-detail frame.
+- The other six first-pass frames were retained without correction.
 
-If all three completion-round frames pass, Batch 8 will be complete at **85/146 retained**, leaving **61**.
+## Production counter after Batch 8 and the Batch 7 correction
 
-## Standing continuity rules
+- Fully approved frames: **73**
+- Corrected Batch 7 frame awaiting re-review: **1**
+- Complete Batch 8 awaiting user approval: **11**
+- **Total retained: 85/146**
+- Rejected candidates pending correction: **0**
+- **Final frames remaining: 61**
+
+## Standing continuity and QA rules
 
 - Evan never appears immersed; his testing boot cracks the ice without breaking through.
-- Evan's hands remain pale and ungloved, matching C05; do not give him brown, dark, or improvised gloves. Mara's hands remain dark-gloved whenever visible.
-- Evan's jacket remains muted teal and his trousers grey. Rust-orange belongs to Mara alone; her trousers remain charcoal with brown boots.
-- The rope storage bag remains red. Before and during the first-throw setup it remains visibly attached in medium and wide shots.
-- Evan's mustard pack cannot vanish from full-body shots. At `beat08m05` he deliberately wraps the red rope around it; the rope-wrapped pack is on his back in `m06` and beside the pad from `m07` onward.
+- Evan's hands remain pale and ungloved, matching C05. Check hand ownership by sleeve: teal-sleeved hands are pale; orange-sleeved Mara hands are dark-gloved.
+- Evan's jacket remains muted teal and his trousers grey. Mara's shell remains rust-orange, never mustard, and her trousers remain charcoal with brown boots.
+- Mara has exactly one auburn braid. Full-body poses require exactly two legs and two boots with coherent orientation; no extra limbs, backward appendages, or duplicated hair.
+- Targeted edits must be re-inspected for collateral changes to hair, clothing colour, props, and anatomy; an edit is not accepted merely because its original defect is gone.
+- The rope storage bag remains red. Evan's mustard pack cannot vanish from full-body shots. At `beat08m05` he deliberately wraps the red rope around it; the rope-wrapped pack is on his back in `m06` and beside the pad from `m07` onward.
 - Mara has no navy pack after it sinks in `beat05m07`–`beat05m08`.
-- Mara remains in wet outer clothing through Batch 8. The sleeping bag and dry layers are visible as Evan's supplies in `m04`, but she is not wrapped or changed yet.
+- Mara remains in wet outer clothing through Batch 8. The sleeping bag and dry layers are Evan's supplies and are not yet wrapped around her.
 - Mara's right leg does not bear weight during assisted movement and remains protected on the pad; no unaided walking or sudden recovery.
 - Snow remains continuous beneath training, riverbank, and shelter scenes; no exposed dirt, mud, grass, or seasonal change.
 - After the accident, there is only the established far-bank opening, with no second opening near the spruce roots.
+
+## Next planned batch after Batch 7/8 review
+
+**Batch 9**, first pass `beat09m01`–`beat09m10` plus completion `beat09m11`–`beat09m12`: Evan doubting his limited supplies, Mara restarting his thinking, removing wet layers while keeping her covered, adding dry insulation, pad and bivy, then checking the phone—no service, five forty-two, eighteen minutes to check-in. If all twelve pass, the overall retained count will be **97/146**, leaving **49**.
 
 No narration, timing file, or stitched video has been produced yet.

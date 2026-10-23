@@ -12,35 +12,33 @@ Frames are retained only after visual inspection. User section approval is expli
 
 **Total approved frames: 52/146.**
 
-## Batch 6 — cold shock and first rescue attempt: FIRST PASS REVIEW
+## Batch 6 — cold shock and first rescue attempt: COMPLETE, AWAITING USER APPROVAL
 
-Seven Batch 6 frames passed inspection and are retained in `review/part01_batch06_review.jpg`:
+All eleven Batch 6 frames, `beat06m01`–`beat06m11`, are generated, inspected, and retained. The complete review sheet is `review/part01_batch06_review.jpg`.
 
-- `beat06m01` — Mara's involuntary gasp and cold-shock tension.
-- `beat06m02` — Mara trying to pull her chest onto the shelf without the lost pack.
-- `beat06m03` — the shelf crumbling again beneath her elbows.
-- `beat06m05` — cracks radiating beneath Evan's boot without him breaking through.
-- `beat06m07` — Evan's blank panic.
-- `beat06m08` — the first return of focus, with the red rope entering his attention.
-- `beat06m09` — Evan flat on the solid snowy bank with the rope bag visibly attached.
+### Section content
 
-### Rejected candidates and required corrections
+- Mara gasps from cold shock, tries to climb onto the shelf, and slips back when the edge crumbles again.
+- Evan takes one unsafe step, feels the ice crack beneath his boot, and hears Mara's command to go back and use the rope from the bank.
+- His blank panic gives way to one concrete next action.
+- Evan lies flat on the solid snowy bank, untangles the rope, and throws while remaining prone.
+- The red loop travels toward chest-deep Mara, then lands visibly short of her outstretched glove.
 
-- `beat06m04` — rejected because Mara appeared standing on the ice rather than chest-deep in the opening. Regenerate with only her soaked head, shoulders, and arms visible.
-- `beat06m06` — rejected because Evan's jacket was orange. The revised composition omits Evan and focuses on Mara's command plus the rope waiting ashore.
-- `beat06m10` — rejected because Mara appeared standing rather than chest-deep during the throw. Regenerate with only her head, shoulders, and dark-gloved arms above water.
+### Correction history
 
-`beat06m11`, the first throw landing short, has not yet been generated.
+- `beat06m04`: The first candidate showed Mara standing. The retained frame shows Evan stepping from the bank while Mara remains chest-deep with only her head, shoulders, and arms visible.
+- `beat06m06`: The first candidate gave Evan an orange jacket. The retained composition omits Evan and clearly shows Mara's stop gesture plus the attached red rope and bag waiting ashore.
+- `beat06m10`: The first candidate again showed Mara standing. The retained frame keeps her chest-deep and Evan prone on the safe bank during the throw.
+- `beat06m11`: The section-completion frame passed on its first generation.
+- The other seven frames were retained from the initial Batch 6 candidate set.
 
-## Production counter after Batch 6 first pass
+## Production counter after Batch 6
 
 - Approved frames: **52**
-- Batch 6 frames awaiting user review: **7**
-- **Total retained: 59/146**
-- **Final frames remaining: 87**
-- Pending work within Batch 6: **3 corrections + 1 section-completion frame**
-
-If all four completion-round frames pass, Batch 6 will be complete at **63/146 retained**, leaving **83**.
+- Complete Batch 6 awaiting user approval: **11**
+- **Total retained: 63/146**
+- Rejected candidates pending correction: **0**
+- **Final frames remaining: 83**
 
 ## Standing continuity rules
 
@@ -54,5 +52,9 @@ If all four completion-round frames pass, Batch 6 will be complete at **63/146 r
 - Mara's upper body is dry before immersion and soaked from `beat05m04` onward.
 - Mara's navy pack remains attached through `beat05m06`, sinks in `beat05m07`–`beat05m08`, and never returns.
 - After the accident and until extraction, Mara remains CHEST-DEEP in the established far-bank opening: no standing pose, visible legs, or dry-platform appearance; no second opening near the spruce roots.
+
+## Next planned batch after Batch 6 approval
+
+**Batch 7**, first pass `beat07m01`–`beat07m10` plus section-completion `beat07m11`: the second throw beside Mara's elbow, her unresponsive fingers, Evan's useful command, the spruce-root brace, coordinated pulling and kicking, Mara sliding onto the ice, and rolling toward Evan instead of standing. If all eleven pass, the overall retained count will be **74/146**, leaving **72**.
 
 No narration, timing file, or stitched video has been produced yet.

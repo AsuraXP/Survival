@@ -1,6 +1,6 @@
 # Save the Guide — Series Bible
 
-**Status:** Creative draft for user review. No story frames or reference images generated yet.
+**Status:** Three-part series arc and full Part 1 script complete. The complete production reference pack is approved and locked; narrative visual planning is underway.
 
 ## Core premise
 

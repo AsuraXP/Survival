@@ -34,19 +34,20 @@ Approval state is explicit. A generated candidate is not considered locked until
 
 | Asset | Status |
 |---|---|
-| `P01_mara_group_pack.png` | Generated; awaiting user review |
-| `P02_evan_mustard_pack.png` | Generated; awaiting user review |
-| `P03_throw_rope.png` | Generated; awaiting user review |
-| `P04_sleep_shelter_kit.png` | Generated; awaiting user review |
-| `P05_fire_first_aid_kit.png` | Generated; awaiting user review |
-| `P06_navigation_signal_kit.png` | Generated; awaiting user review |
-| `P07_orange_shell_jacket.png` | Generated; awaiting user review |
+| `P01_mara_group_pack.png` | **APPROVED / LOCKED** |
+| `P02_evan_mustard_pack.png` | **APPROVED / LOCKED** |
+| `P03_throw_rope.png` | **APPROVED / LOCKED** |
+| `P04_sleep_shelter_kit.png` | **APPROVED / LOCKED** |
+| `P05_fire_first_aid_kit.png` | **APPROVED / LOCKED** |
+| `P06_navigation_signal_kit.png` | **APPROVED / LOCKED** |
+| `P07_orange_shell_jacket.png` | **APPROVED / LOCKED** |
 
 ## Production status
 
 - Approved and locked character references: **7**
 - Approved and locked location references: **5**
-- Generated prop references awaiting user review: **7**
+- Approved and locked prop references: **7**
+- **Complete production reference pack: APPROVED / LOCKED**
 - Total production reference images present: **19**, plus the approved global style image
 - Narrative frames generated: **0**
 

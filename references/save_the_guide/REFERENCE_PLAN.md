@@ -1,6 +1,6 @@
 # Save the Guide — Reference Image Plan
 
-**Status:** All seven character references and all five location references are approved and locked. All seven prop candidates have been generated and are awaiting user review.
+**Status:** Complete. All seven character references, five location references, and seven prop references are approved and locked.
 
 ## Purpose
 

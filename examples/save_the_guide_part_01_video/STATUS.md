@@ -2,7 +2,7 @@
 
 ## Current stage
 
-**Research, series planning, full Part 1 narration, and the complete reference pack are approved and locked. The full 146-moment visual plan is validated. Batches 1–6 are approved. Batch 7 first-pass QA retained four frames; five corrections and two ungenerated frames remain.**
+**Research, series planning, full Part 1 narration, and the complete reference pack are approved and locked. The full 146-moment visual plan is validated. Batches 1–6 are approved. Batch 7 is now complete: all eleven coordinated-extraction frames are retained and await user review.**
 
 ## Production counter
 
@@ -16,11 +16,10 @@
 | Approved accident | **10** |
 | Approved first rescue attempt | **11** |
 | **Total approved** | **63** |
-| Batch 7 first-pass frames awaiting user review | **4** |
-| **Total retained on disk** | **67** |
-| Batch 7 corrections pending | **5** |
-| Batch 7 frames not yet generated | **2** |
-| **Final frames remaining** | **79** |
+| Complete Batch 7 awaiting user approval | **11** |
+| **Total retained on disk** | **74** |
+| Rejected candidates pending correction | **0** |
+| **Final frames remaining** | **72** |
 
 Batch numbering tracks planned production batches; correction and section-completion generations are additional rounds and do not increase the final 146-frame requirement.
 
@@ -34,7 +33,7 @@ Batch numbering tracks planned production batches; correction and section-comple
 - `beats.jsonl` — 14 narration beats converted from the validated visual plan.
 - `FRAME_REVIEW.md` — approvals, visual QA, corrections, counters, and standing continuity rules.
 - **Batches 1–6:** 63 frames approved.
-- **Batch 7:** `m02`, `m03`, `m05`, and `m06` retained; `m01`, `m04`, `m08`, `m09`, and `m10` require correction; `m07` and `m11` remain to be generated.
+- **Batch 7:** 11/11 generated, visually inspected, and retained for review.
 
 ## Runtime policy
 
@@ -42,10 +41,9 @@ There is **no fixed runtime cap**. Actual narration timing will determine the fi
 
 ## Next production steps
 
-1. Obtain user review of the four retained Batch 7 frames.
-2. Run a seven-frame Batch 7 completion round: regenerate `m01`, `m04`, `m08`, `m09`, and `m10`; generate `m07` and `m11`.
-3. If all seven pass, Batch 7 will contain 11/11 frames and the overall count will be **74/146 retained**, leaving **72**.
-4. Continue remaining frames in controlled batches of at most ten per generation round with visual inspection, user review, and checkpoint pushes.
-5. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
+1. Obtain user approval for the complete Batch 7 extraction section.
+2. Generate **Batch 8**, first pass `beat08m01`–`beat08m10` followed by `beat08m11`: shiver-broken instructions, moving out of the wind, the rope-around-pack action, foam-pad insulation, right-knee injury, and stiffening wet clothes.
+3. Continue remaining frames in controlled batches of at most ten per generation round with visual inspection, user review, and checkpoint pushes.
+4. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
 
 No narration or stitched video has been produced yet.

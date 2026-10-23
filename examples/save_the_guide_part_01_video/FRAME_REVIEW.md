@@ -4,39 +4,35 @@ Frames are retained only after visual inspection. User approval is explicit thro
 
 ## Approved frames
 
-- **Batches 1–10:** 108/108 approved, including the complete shelter and failed-fire sequences.
+- **Batches 1–10:** 108/108 approved.
+- **Batch 11 approved subset:** `m01` and `m03` = 2 frames. The user flagged `m08`, so it was not counted as approved.
 
-**Total approved frames: 108/146.**
+**Total approved frames: 110/146.**
 
-## Batch 11 — reset and successful fire: FIRST PASS
+## Batch 11 — reset and successful fire: COMPLETE 10/10
 
-Three frames passed inspection and are shown in `review/part01_batch11_review.jpg`:
+The complete section is shown in `review/part01_batch11_review.jpg`. These **eight frames await user review**:
 
-- `beat11m01` — Evan frozen before the failed components on the low flat platform, pale hands motionless and no flame.
-- `beat11m03` — the same blank river panic in a clean close-up.
-- `beat11m08` — one tiny amber catch in dry fibers with Evan's pale hand and striker, before the larger flame states.
+- `beat11m02` — confused fire components on a clear natural-stick platform over snow; the stone slab is gone.
+- `beat11m04` — Evan almost rises in muted teal; no A-frame, and Mara's covered hand was verified with a close crop.
+- `beat11m05` — Evan chooses to stay and looks at his pale hands; all upright structure is removed.
+- `beat11m06` — the correct orange-lidded tinder container and striker beside a natural-branch base with no sawn logs.
+- `beat11m07` — the rebuilt fire lay with exactly three waiting natural-branch size groups; the fourth pile was removed.
+- `beat11m08` — **user-flagged ambiguous base replaced.** Separate thin parallel sticks and white-snow gaps now make clear that there is no stone or solid slab beneath the tiny amber catch.
+- `beat11m09` — the fragile flame on a visible low stick platform over continuous snow, with no exposed dirt.
+- `beat11m10` — a real but controlled flame on the same type of natural-stick platform, with Mara safely distant; no stone or sawn-log base.
 
-### Seven rejected candidates awaiting correction
-
-- `beat11m02` — replaced the stick platform with a stone slab; restore the low parallel-stick base over snow.
-- `beat11m04` — added an A-frame, changed Evan's jacket to orange and exposed Mara's hand; all three errors are excluded.
-- `beat11m05` — added a large wooden A-frame behind Evan; remove all upright poles and preserve only the failed low platform.
-- `beat11m06` — put the platform on sawn logs with circular cut ends; replace them with natural snapped branches.
-- `beat11m07` — changed Evan to orange, exposed dirt, added sawn logs and misplaced his pack; regenerate with teal, snow, natural branches and no pack beside him.
-- `beat11m09` — removed the visible platform and exposed brown dirt; restore the low stick base and continuous snow beneath the fragile flame.
-- `beat11m10` — used a stone slab and sawn logs for the real flame; replace them with the established natural-stick platform and a small controlled flame.
-
-No rejected A-frame, orange wardrobe, bare-hand, stone-base or exposed-ground candidate is included in the retained sequence.
+All earlier A-frame, orange wardrobe, bare-hand, stone/dirt and sawn-log candidates were quarantined rather than retained.
 
 ## Production counter
 
-- Approved frames: **108**
-- Batch 11 first-pass frames awaiting user review: **3**
-- **Total retained: 111/146**
-- **Final frames remaining: 35**
-- Pending Batch 11 corrections: **7**
+- Approved frames: **110**
+- Batch 11 frames awaiting user review: **8**
+- **Total retained: 118/146**
+- **Final frames remaining: 28**
+- Pending Batch 11 corrections: **0**
 
-If all seven corrections pass, Batch 11 will be complete at 10/10 and the overall count will be **118/146 retained**, leaving **28**.
+The next section is Batch 12, “You did it” and Evan's mistaken reassurance as Mara becomes still, with **9 planned moments**. If all pass, the count will be **127/146 retained**, leaving **19**.
 
 ## Standing continuity and QA rules
 
@@ -46,7 +42,7 @@ If all seven corrections pass, Batch 11 will be complete at 10/10 and the overal
 - Mara remains on the single blue pad in the green sleeping bag with the silver bivy visibly outside after wrapping. No duplicate bedding or premature clothing-state changes.
 - The sleeping shelter is only open spruce cover plus pad/bag/bivy. No tent, lean-to, wooden A-frame, poles or handmade sleeping-shelter frame.
 - Use natural dead branches with irregular snapped ends, never sawn logs or milled lumber. Keep the mustard pack beside Mara unless the script deliberately moves it.
-- The fire base is only a small, low, flat platform of parallel natural sticks directly above continuous snow. Never replace it with a stone slab, exposed-dirt patch, sawn-log raft or upright wooden frame. Use approved `beat10m07` as the fire-base continuity anchor.
+- The fire base is only a small, low, flat platform of separate parallel natural sticks directly above continuous snow, with visible snow gaps. Never replace it with a stone slab, solid/ambiguous brown base, exposed-dirt patch, sawn-log raft or upright wooden frame. Use approved `beat10m07` as the continuity anchor.
 - Fire states must follow narration: failed components → no-flame reset → tinder/rebuild → tiny catch → fragile fed flame → small real flame. No roaring campfire.
 - No extra cup, first-aid book, phantom person or unrelated prop.
 - Every final frame must be native 1376×768, full-bleed, with no captions, border or polished-panel treatment.

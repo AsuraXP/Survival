@@ -2,34 +2,42 @@
 
 ## Current stage
 
-**The silver-bivy, straight-leg, tucked-hand and no-pillow correction audit is complete. All 127 retained frames are back on disk, with 16 awaiting user review and zero corrections pending.** The fixed stack is blue foam pad on snow → dark-green sleeping bag on the pad → silver bivy outside and over the bag. Mara rests directly in the integrated sleeping-bag hood/on the pad; no separate pillow or pillow-shaped silver bunch remains.
+**Batches 1–12 are complete and approved at 127 frames. Batch 13 has 7/9 frames retained and awaiting review; `m02` and `m06` remain quarantined for targeted corrections.**
 
 ## Production counter
 
 | Counter | Frames |
 |---|---:|
 | Planned final narrative frames | **146** |
-| Total approved | **111** |
-| Retained frames awaiting review | **16** |
-| **Total retained on disk** | **127** |
-| Pending corrections | **0** |
-| **Final frames not yet produced** | **19** |
+| Total approved | **127** |
+| Retained frames awaiting review | **7** |
+| **Total retained on disk** | **134** |
+| Pending Batch 13 corrections | **2** |
+| **Final Batch 14 frames not yet produced** | **10** |
 
-## Batch state
+## Batch 13 — phone/check-in countdown
 
-- **Batch 9:** 12/12 retained; `m01`–`m10` approved, corrected `m11` and `m12` awaiting review.
-- **Batch 10:** 11/11 retained; six approved, corrected `m01`, `m03`, `m05`, `m10`, and `m11` awaiting review.
-- **Batch 11:** 10/10 retained; eight approved, corrected `m04` and `m10` awaiting review.
-- **Batch 12:** 9/9 retained; `m04` and `m09` approved, while `m01`, `m02`, `m03`, `m05`, `m06`, `m07`, and `m08` await review.
-- `review/part01_bivy_layer_review.jpg` contains the first nine corrected bivy frames.
-- `review/part01_bivy_layer_final_review.jpg` contains the final six corrections.
+Retained in `review/part01_batch13_review.jpg`:
+
+- `m01` — Evan checks the same phone beside the small fire; Mara keeps the locked silver-over-green, straight-leg, no-pillow state.
+- `m03` — remote one-storey timber lodge at dusk, with one warm window and the established desk telephone.
+- `m04` — the same rotary telephone on-hook beside an unreadable route sheet.
+- `m05` — the same telephone with its receiver unmistakably off the hook, still attached by the cord.
+- `m07` — Evan lowers the phone with a fragile controlled expression.
+- `m08` — small steady fire on separate thin parallel natural sticks over snow, no people.
+- `m09` — tired Evan beside Mara with silver bivy outside, no pillow, tucked hands and straight legs.
+
+Pending:
+
+- `m02` — remove the large foreground log and loose branch piles; keep the tiny distant Mara in a silver outer bivy.
+- `m06` — replace the thick sawn-log raft with the approved thin parallel natural-stick platform and visible snow gaps.
 
 ## Completed
 
 - Research, series bible, full 14-paragraph/1,009-word Part 1 script, approved locked reference pack and validated 146-moment visual plan.
 - `beats.jsonl` — 14 narration beats derived from the plan.
-- All post-setup bivy prompts now lock the silver-over-green layer order and no-pillow rule; full-body shelter prompts require straight together legs and tucked hands/gloves.
-- All **127 retained frames** validate at native **1376×768**; narration text validates verbatim across all 146 moments.
+- All post-setup bivy prompts lock silver-over-green coverage and the no-pillow rule; full-body shelter prompts require straight together legs and tucked hands/gloves.
+- All **134 retained frames** validate at native **1376×768**; narration text validates verbatim across all 146 moments.
 
 ## Runtime policy
 
@@ -37,9 +45,8 @@ There is **no fixed runtime cap**. Actual narration timing will determine the fi
 
 ## Next production steps
 
-1. Obtain review of the 16 corrected/retained shelter frames.
-2. Produce Batch 13, the phone/check-in countdown and Evan's attempt to make the situation manageable: **9 moments**. If all pass, the retained total becomes **136/146**, leaving **10**.
-3. Produce final Batch 14's ten frames after Batch 13 review/corrections.
-4. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
+1. Correct Batch 13 `m02` and `m06`, rebuild the complete nine-frame sheet and obtain review.
+2. Produce final Batch 14's **10 moments**. If all ten pass after Batch 13 approval, the full 146-frame plan will be retained.
+3. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
 
 No narration or stitched video has been produced yet.

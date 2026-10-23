@@ -4,38 +4,31 @@ Frames are retained only after visual inspection. User approval is explicit thro
 
 ## Approved frames
 
-**Batches 1–12 are complete and approved: 127/146 frames.**
+- **Batches 1–12:** 127 approved frames.
+- **Batch 13 approved subset:** `m01`, `m03`, `m04`, `m05`, `m07`, `m08`, `m09` = 7 frames.
 
-The latest continuation approved the 16 shelter corrections. The fixed post-setup stack remains **blue foam pad → green sleeping bag → silver bivy outside and over the bag**, with Mara's head in the integrated hood/on the pad and no pillow.
+**Total approved frames: 134/146.**
 
-## Batch 13 — phone/check-in countdown: 7/9 retained
+## Batch 13 — phone/check-in countdown: COMPLETE 9/9
 
-The seven retained frames await review in `review/part01_batch13_review.jpg`:
+The complete nine-frame sequence is in `review/part01_batch13_review.jpg`.
 
-- `beat13m01` — repeat phone check beside the small fire, with Mara's corrected shelter state.
-- `beat13m03` — remote timber lodge and warm window establishing the telephone location.
-- `beat13m04` — matching black rotary telephone on-hook beside an unreadable route sheet.
-- `beat13m05` — matching desk and phone with the receiver off the hook and still cord-connected.
-- `beat13m07` — Evan lowers the phone with a fragile controlled expression.
-- `beat13m08` — people-free small fire on thin parallel natural sticks with snow gaps.
-- `beat13m09` — tired Evan beside Mara; silver bivy outside, no pillow, hands inside and straight legs.
+Two corrected frames await review:
 
-### Two pending corrections
+- `beat13m02` — the large foreground log and all loose branch piles are gone. Clean valley snow surrounds the tiny established fire/bedding site, and Mara's outer layer is silver.
+- `beat13m06` — the extra wood raft and thick sawn-log base are gone. Exactly one small fire remains on separate thin parallel natural sticks with visible snow gaps; Mara retains silver-over-green coverage, straight legs and no pillow.
 
-- `beat13m02` — the wide valley composition works, but the candidate introduced a large foreground log and loose branch piles; remove them and make the tiny Mara's silver outer layer clear.
-- `beat13m06` — the waiting composition works, but the fire base became a thick sawn-log raft; replace it with the approved thin parallel-stick platform and visible snow gaps.
-
-Neither rejected candidate appears in the retained frame directory or review sheet.
+The other seven Batch 13 frames are approved. The lodge telephone remains the same black rotary design across the exterior, on-hook and off-hook shots.
 
 ## Production counter
 
-- Approved frames: **127**
-- Frames awaiting review: **7**
-- **Total retained: 134/146**
-- Pending corrections: **2**
+- Approved frames: **134**
+- Frames awaiting review: **2**
+- **Total retained: 136/146**
+- Pending corrections: **0**
 - Final Batch 14 frames not yet produced: **10**
 
-Completing the two corrections will make Batch 13 **9/9 retained** and bring the total to **136/146**, leaving the final ten moments.
+Batch 14 contains the final **10 moments**. If all pass, the complete 146-frame narrative plan will be retained.
 
 ## Standing continuity and QA rules
 

@@ -82,7 +82,7 @@ The approved global art-style anchor is:
 | Story point | Mara | Evan |
 |---|---|---|
 | Training and crossing | Dry base outfit, orange shell, tied-back hair | Dry teal outfit, mustard pack |
-| Immediately after rescue | Soaked, shivering, hair loosened, right-knee injury begins | Snow at knees and gloves, frightened |
+| Immediately after rescue | Soaked, shivering, hair loosened, right-knee injury begins | Snow at knees and pale hands matching C05, frightened |
 | Shelter setup | Wet outer layers removed; dry base layers and sleeping insulation | Same base outfit, increasingly wet and tired |
 | Part 1 cliffhanger | Sheltered, confused, no longer shivering | Fire lit, alarmed by her condition |
 | Part 2 night | Same wrapped state; gradual, medically plausible response to warming | Soot, snow, exhaustion; no costume change |

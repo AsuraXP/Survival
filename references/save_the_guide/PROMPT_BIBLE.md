@@ -46,12 +46,12 @@ The primary visual anchor is `references/art_style_v1.png`.
 
 ### Base identity — `C05_evan_base.png` APPROVED
 
-> Evan Reed is a 28-year-old adult male wilderness beginner with an ordinary build, short slightly messy dark-brown hair, simple consistent facial features, dot eyes, and a small natural mouth. He wears a muted teal winter jacket, grey winter trousers, brown boots, and a mustard-coloured personal backpack with a fixed pocket and strap layout. He looks cautious and ordinary, not childish and not like a muscular action hero. Preserve his exact face, hair, proportions, and outfit design from the approved base reference.
+> Evan Reed is a 28-year-old adult male wilderness beginner with an ordinary build, short slightly messy dark-brown hair, simple consistent facial features, dot eyes, and a small natural mouth. He wears a muted teal winter jacket, grey winter trousers, brown boots, and a mustard-coloured personal backpack with a fixed pocket and strap layout. His hands retain the pale, simple design shown in C05; do not introduce brown or dark gloves. He looks cautious and ordinary, not childish and not like a muscular action hero. Preserve his exact face, hair, proportions, and outfit design from the approved base reference.
 
 ### Evan state rules
 
 - **Training and crossing:** Dry base outfit; mustard backpack present.
-- **River rescue:** Same outfit; snow and water at gloves and knees; frightened but acting.
+- **River rescue:** Same outfit; snow and water at his pale hands and knees; frightened but acting. Evan remains on the near bank. Frame his close-ups against unmistakable white snow, never blue water surrounding his body.
 - **Shelter setup:** Backpack placed beside the shelter. Teal jacket and grey trousers remain on. Snow, moisture, and mild soot accumulate gradually.
 - **Part 2 night:** Same clothing and hair; increasing exhaustion, no random wounds or new accessories.
 - **Part 3 signal:** Same base outfit, using Mara's orange jacket only as a marker. His expression is afraid but focused, not triumphant or superhuman.
@@ -82,7 +82,7 @@ The primary visual anchor is `references/art_style_v1.png`.
 
 - **Mara's group pack:** Large navy expedition pack with fixed outer-pocket layout. It contains the group shelter, stove, her sleeping bag, and satellite messenger. It disappears beneath the ice and does not return.
 - **Evan's backpack:** Mustard personal pack matching C05. Its pockets and straps do not change.
-- **Throw rope:** Red rope with a simple loop and storage bag. Used from the bank, then stored on Evan's pack.
+- **Throw rope:** Red rope with a simple loop and small red storage bag. Before the first throw, the bag remains visibly attached in every medium or wide shot and is small enough to hang from one hand; a close-up may exclude it only through cropping. Never turn it into a tall canister or make it appear and disappear between shots. Used from the bank, then stored on Evan's pack.
 - **Sleep shelter kit:** Dark-green sleeping bag, blue foam pad, silver emergency bivy, and spare dry sweater. These remain at the shelter unless the story explicitly moves them.
 - **Fire and first-aid kit:** Small fire kit, dry tinder container, metal cup, and waterproof first-aid booklet.
 - **Navigation and signal kit:** Compass with sighting mirror and simple emergency whistle.

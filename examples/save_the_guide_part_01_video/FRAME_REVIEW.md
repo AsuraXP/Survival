@@ -1,29 +1,26 @@
 # Save the Guide — Part 1 Frame Review
 
-Frames are retained only after visual inspection. User approval is explicit through review/continue approval. Rejected candidates never count toward the 146 final frames, and user-flagged or audit-flagged frames reopen even after prior approval.
+Frames were retained only after visual inspection. User approval was explicit through review/continue approval. Rejected candidates never counted toward the 146 final frames, and user-flagged or audit-flagged frames were reopened even after prior approval.
 
-## Full 146-frame audit: COMPLETE
+## Visual production: APPROVED AND LOCKED 146/146
 
-Every current image was freshly checked against its narration moment and the locked continuity rules. **142 frames passed unchanged; 4 were corrected and passed whole-image reinspection.** Full coverage and per-frame hashes are in `FULL_FRAME_AUDIT.md` and `FRAME_AUDIT.csv`.
+Every current image was freshly checked against its narration moment and the locked continuity rules. **142 frames passed the full audit unchanged; 4 were corrected and passed whole-image reinspection. The user has now approved those final four corrections as well.**
 
-The user's latest continuation approved the preceding 146-frame set. The four audit replacements are new visual material and therefore await review:
-
-- `beat04m01` — raised training-fire table replaced with a low flat natural-stick platform and small controlled flame.
-- `beat09m09` — Evan adjusts the silver bivy while Mara's straight legs, tucked hands, silver-over-green order and no-pillow state remain locked.
-- `beat09m10` — just-removed wet trousers are clearly separate while Mara remains fully covered with straight legs and no exposed base-layer legs.
-- `beat12m02` — Mara whispers “You did it” while reclining, matching the adjacent shelter posture and preserving the silver rim and integrated hood.
-
-Review sheet: `review/part01_full_audit_corrections.jpg`. The affected Batch 04, 09 and 12 sheets have also been rebuilt from current frames.
-
-## Production counter
-
-- Approved frames: **142**
-- Corrected frames awaiting review: **4**
-- **Total retained and production-audited: 146/146**
+- Approved frames: **146/146**
+- Frames awaiting review: **0**
 - Pending production corrections: **0**
 - Planned frames not yet produced: **0**
 
-All 146 moment-specific narrative frames exist at native 1376×768. Approval of the four audit replacements is the remaining visual gate before narration, WordBoundary timing and stitching.
+Full coverage and per-frame hashes are in `FULL_FRAME_AUDIT.md` and `FRAME_AUDIT.csv`; every audit row is marked approved.
+
+The four final audit corrections were:
+
+- `beat04m01` — low flat natural-stick training-fire platform.
+- `beat09m09` — bivy adjustment with locked identity, straight legs and silver-over-green coverage.
+- `beat09m10` — wet trousers removed while Mara remains fully covered.
+- `beat12m02` — reclining whisper consistent with adjacent shelter shots.
+
+The blond-Evan/twin-tail-looking setup retry was discarded and never installed. The retained `beat09m09` is the later dark-brown-haired, single-auburn-braid version.
 
 ## Standing continuity and QA rules
 
@@ -35,6 +32,8 @@ All 146 moment-specific narrative frames exist at native 1376×768. Approval of 
 - Open spruce cover only: no tent, lean-to, wooden A-frame, poles, log surround or handmade sleeping shelter. The earlier crooked training shelter is intentional only where the script names it.
 - Fire remains outside on the established low natural-stick platform over snow, never on a raised table or against bedding. No stone slab, dirt base, sawn-log raft or roaring campfire.
 - The lodge telephone remains the same black rotary design across exterior, on-hook and off-hook shots; no people or readable route-sheet text.
-- Every final frame must be native 1376×768, full-bleed, with no captions, border or polished-panel treatment.
+- Every final frame is native 1376×768, full-bleed, with no captions, border or polished-panel treatment.
 
-No narration, timing file or stitched video has been produced yet.
+## Next stage
+
+Use the one-cell `SAVE_THE_GUIDE_PART01_KAGGLE.ipynb` notebook to generate one-take `en-US-AndrewNeural` narration at `-5%`, require all 146 WordBoundary locks, stitch with hard cuts and run video QA. No narration, measured timing file or stitched video exists in the repository yet.

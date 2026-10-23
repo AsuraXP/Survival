@@ -9,7 +9,7 @@ Scope: **all 146 current narrative frames**, not historical candidates or reject
 - **142 frames passed the fresh whole-image audit unchanged.**
 - **4 frames were reopened, corrected and passed native whole-image reinspection.**
 - **146/146 current frames now have a production-audit result.**
-- The four replacements await user review; no production correction remains pending.
+- The four replacements have now received user approval; no production correction remains pending.
 
 The per-frame outcome, approval state, native dimensions and SHA-256 hash for every image are recorded in `FRAME_AUDIT.csv`. The four corrected frames are collected in `review/part01_full_audit_corrections.jpg`.
 
@@ -69,6 +69,6 @@ Two rejected setup retries were not installed: one changed Evan's hair/identity 
 
 ## Approval gate
 
-The user's continuation approved the preceding 146-frame set before this audit. The four audited replacements are new visual material, so the current approval state is **142 approved + 4 awaiting review**. After those four are approved, one-take narration, WordBoundary timing, hard-cut stitching and QA can begin.
+The user approved the preceding 146-frame set and subsequently approved all four audit replacements. **Visual production is now approved and locked at 146/146; every row in `FRAME_AUDIT.csv` is marked approved.**
 
-No narration, measured timing file or stitched video has been produced yet.
+Use the one-cell Kaggle notebook for one-take narration, WordBoundary timing, hard-cut stitching and QA. No narration, measured timing file or stitched video exists in the repository yet.

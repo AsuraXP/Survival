@@ -2,7 +2,7 @@
 
 ## Current stage
 
-**Research, series planning, full Part 1 narration, and the complete reference pack are approved and locked. The full 146-moment visual plan is validated. Batches 1–3 are approved. Batch 4's first pass is complete: nine frames are retained, and one missing-glove error is queued for correction.**
+**Research, series planning, full Part 1 narration, and the complete reference pack are approved and locked. The full 146-moment visual plan is validated. Batches 1–3 are approved. Batch 4 is now complete: all ten progress and initial-crossing frames are retained and awaiting user review.**
 
 ## Production counter
 
@@ -13,10 +13,10 @@
 | Approved training | **11** |
 | Approved character/safety setup | **11** |
 | **Total approved** | **32** |
-| Batch 4 retained, awaiting user review | **9** |
-| **Total retained on disk** | **41** |
-| Rejected Batch 4 candidates pending correction | **1** |
-| **Final frames still needed** | **105** |
+| Complete Batch 4 awaiting user approval | **10** |
+| **Total retained on disk** | **42** |
+| Rejected candidates pending correction | **0** |
+| **Final frames remaining** | **104** |
 
 Batch numbering tracks planned production batches; correction and section-completion generations are additional rounds and do not increase the final 146-frame requirement.
 
@@ -30,6 +30,7 @@ Batch numbering tracks planned production batches; correction and section-comple
 - `beats.jsonl` — 14 narration beats converted from the validated visual plan.
 - `FRAME_REVIEW.md` — section approvals, batch-level visual QA, correction history, production counter, and standing continuity rules.
 - **Batches 1–3:** 32 frames approved.
+- **Batch 4:** 10/10 generated and retained for review.
 
 ## Runtime policy
 
@@ -37,10 +38,9 @@ There is **no fixed runtime cap**. Actual narration timing will determine the fi
 
 ## Next production steps
 
-1. Regenerate `beat04m06` with Mara's dark gloves intact to complete Batch 4.
-2. Review the completed batch at **42/146 retained**, leaving **104 final frames**.
-3. Generate **Batch 5**, the concealed weak ice, accident, and lost-pack sequence.
-4. Continue remaining frames in controlled batches of at most ten with visual inspection, user review, and checkpoint pushes.
-5. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
+1. Obtain user approval for the complete Batch 4 section.
+2. Generate **Batch 5**, `beat05m01`–`beat05m10`: concealed weak ice, right-leg breakthrough, immersion, lost navy pack, and Mara's hands.
+3. Continue remaining frames in controlled batches of at most ten with visual inspection, user review, and checkpoint pushes.
+4. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
 
 No narration or stitched video has been produced yet.

@@ -10,31 +10,29 @@ Frames are retained only after visual inspection. User section approval is expli
 
 **Total approved frames: 32/146.**
 
-## Batch 4 — progress and initial river crossing: FIRST PASS IN REVIEW
+## Batch 4 — progress and initial river crossing: COMPLETE, AWAITING USER APPROVAL
 
-Ten candidates were generated for `beat04m01`–`beat04m10`. Nine are retained for user review; one was rejected and removed.
+All ten Batch 4 frames, `beat04m01`–`beat04m10`, have been generated and retained after visual inspection. The complete review sheet is `review/part01_batch04_review.jpg`.
 
-### Retained: 9/10
+### Section content
 
-- `beat04m01` — Evan's small training fire succeeds on its raised platform.
-- `beat04m02` — Evan is proud of the crooked branch shelter.
-- `beat04m03` — Evan practices with the compass and sighting mirror.
-- `beat04m04` — Close view of Evan's growing pride.
-- `beat04m05` — Mara and Evan approach the intact river with the correct packs.
-- `beat04m07` — Mara tests the near-bank edge with a dark-gloved hand.
-- `beat04m08` — Mara instructs Evan to wait with a raised dark glove.
-- `beat04m09` — Mara steps onto the ice alone while Evan remains on the near bank.
-- `beat04m10` — Close view of Mara's boot on ordinary-looking intact ice near the far bank.
+- Evan's successful small training fire, crooked shelter, compass practice, and growing pride.
+- Mara and Evan arriving at the intact river with the correct navy and mustard packs.
+- Mara testing the near-bank edge and instructing Evan to wait.
+- Mara stepping onto the ice alone while Evan remains on the near bank.
+- Mara's boot reaching ordinary-looking snow-covered ice near the far bank, with no visible warning or opening.
 
-The nine-frame review sheet is `review/part01_batch04_review.jpg`.
+### Correction history
 
-### Rejected and removed
+- `beat04m06`: The first candidate showed Mara with bare hands. The final candidate restores dark gloves on both hands while preserving the intact river, correct packs, and near-bank positioning.
+- The other nine frames were retained from the first Batch 4 candidate set.
 
-- `beat04m06`: Mara's hands appeared bare in the two-person river-establishing shot. Her established dark gloves must remain on. Regenerate with both gloves visible, the packs intact, and no broken opening.
+## Production counter after Batch 4
 
-### Batch-completion round
-
-The single `beat04m06` correction will complete Batch 4. If retained, the overall count will be **42/146**, leaving **104 final frames**.
+- Approved frames: **32**
+- Batch 4 frames awaiting user approval: **10**
+- **Total retained: 42/146**
+- **Final frames remaining: 104**
 
 ## Standing continuity rules
 
@@ -49,6 +47,6 @@ The single `beat04m06` correction will complete Batch 4. If retained, the overal
 
 ## Next planned batch after Batch 4 approval
 
-**Batch 5**, `beat05m01`–`beat05m10`: concealed weak ice, Mara's right-leg breakthrough, full immersion, loss of the navy group pack, and Evan seeing her hands.
+**Batch 5**, `beat05m01`–`beat05m10`: concealed weak ice, Mara's right-leg breakthrough, full immersion, loss of the navy group pack, and Evan seeing her hands. If all ten pass, the overall retained count will be **52/146**, leaving **94**.
 
 No narration, timing file, or stitched video has been produced yet.

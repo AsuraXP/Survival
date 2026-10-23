@@ -1,38 +1,29 @@
 # Save the Guide — Part 1 Frame Review
 
-Frames are retained only after visual inspection. User approval is explicit through review/continue approval. Rejected candidates never count toward the 146 final frames, and user-flagged frames reopen even after prior approval.
+Frames are retained only after visual inspection. User approval is explicit through review/continue approval. Rejected candidates never count toward the 146 final frames, and user-flagged or audit-flagged frames reopen even after prior approval.
 
-## Approved frames
+## Full 146-frame audit: COMPLETE
 
-- **Batches 1–12:** 127 approved frames.
-- **Batch 13:** 9 approved frames, including the corrected valley and fire-platform shots.
+Every current image was freshly checked against its narration moment and the locked continuity rules. **142 frames passed unchanged; 4 were corrected and passed whole-image reinspection.** Full coverage and per-frame hashes are in `FULL_FRAME_AUDIT.md` and `FRAME_AUDIT.csv`.
 
-**Total approved frames: 136/146.**
+The user's latest continuation approved the preceding 146-frame set. The four audit replacements are new visual material and therefore await review:
 
-## Batch 14 — the rescue was only the beginning: COMPLETE 10/10
+- `beat04m01` — raised training-fire table replaced with a low flat natural-stick platform and small controlled flame.
+- `beat09m09` — Evan adjusts the silver bivy while Mara's straight legs, tucked hands, silver-over-green order and no-pillow state remain locked.
+- `beat09m10` — just-removed wet trousers are clearly separate while Mara remains fully covered with straight legs and no exposed base-layer legs.
+- `beat12m02` — Mara whispers “You did it” while reclining, matching the adjacent shelter posture and preserving the silver rim and integrated hood.
 
-The complete final ten-frame sequence is in `review/part01_batch14_review.jpg`. All ten frames have passed production inspection and await user review:
-
-- `beat14m01` — Evan moves closer and kneels beside Mara; silver-over-green coverage, tucked hands, straight legs and no pillow remain locked.
-- `beat14m02` — Evan crouches at her eye level and asks what comes next with a small hopeful expression.
-- `beat14m03` — close view of Mara slowly opening unfocused eyes, with one auburn braid and no pillow.
-- `beat14m04` — over Evan's connected muted-teal shoulder, Mara looks ahead with a vacant, confused gaze.
-- `beat14m05` — Mara mentions an ordinary bus while Evan begins to doubt; no bus, road or vehicle is shown.
-- `beat14m06` — very wide empty valley with no road, vehicle, cabin or lodge; the tiny open site conveys isolation.
-- `beat14m07` — Evan's hope vanishes into alarm in a close view with no phone or gloves.
-- `beat14m08` — Mara is completely still, with half-open unfocused eyes and no shivering marks.
-- `beat14m09` — realisation replaces false relief; Mara's auburn braid and the locked shelter state are preserved.
-- `beat14m10` — sober final wide hold beneath dark snowy spruces, with one small fire and no unintended structures or vehicles.
+Review sheet: `review/part01_full_audit_corrections.jpg`. The affected Batch 04, 09 and 12 sheets have also been rebuilt from current frames.
 
 ## Production counter
 
-- Approved frames: **136**
-- Frames awaiting review: **10**
-- **Total retained: 146/146**
-- Pending corrections: **0**
+- Approved frames: **142**
+- Corrected frames awaiting review: **4**
+- **Total retained and production-audited: 146/146**
+- Pending production corrections: **0**
 - Planned frames not yet produced: **0**
 
-All 146 moment-specific narrative frames now exist at native 1376×768. Final Batch 14 approval is the remaining visual gate before narration, WordBoundary timing and stitching.
+All 146 moment-specific narrative frames exist at native 1376×768. Approval of the four audit replacements is the remaining visual gate before narration, WordBoundary timing and stitching.
 
 ## Standing continuity and QA rules
 
@@ -41,8 +32,8 @@ All 146 moment-specific narrative frames now exist at native 1376×768. Final Ba
 - At rest and during every hand check or stillness shot, all Mara's hands and gloves remain tucked inside. Only explicit reaching/pointing actions may show exactly one dark-gloved hand.
 - Full-body Mara: both legs together and fully extended along the blue pad, right knee straight, one continuous silhouette; no raised knee, curled leg or separate leg sections.
 - Silver bivy remains outside and over the green sleeping bag. No pillow or pillow-shaped bunch beneath/behind the head.
-- Open spruce cover only: no tent, lean-to, wooden A-frame, poles, log surround or handmade sleeping shelter.
-- Fire remains outside on a low flat platform of separate thin natural sticks over snow, never against bedding. No stone slab, dirt base, sawn logs, thick log raft or roaring campfire.
+- Open spruce cover only: no tent, lean-to, wooden A-frame, poles, log surround or handmade sleeping shelter. The earlier crooked training shelter is intentional only where the script names it.
+- Fire remains outside on the established low natural-stick platform over snow, never on a raised table or against bedding. No stone slab, dirt base, sawn-log raft or roaring campfire.
 - The lodge telephone remains the same black rotary design across exterior, on-hook and off-hook shots; no people or readable route-sheet text.
 - Every final frame must be native 1376×768, full-bleed, with no captions, border or polished-panel treatment.
 

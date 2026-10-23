@@ -46,7 +46,7 @@ The primary visual anchor is `references/art_style_v1.png`.
 
 ### Base identity — `C05_evan_base.png` APPROVED
 
-> Evan Reed is a 28-year-old adult male wilderness beginner with an ordinary build, short slightly messy dark-brown hair, simple consistent facial features, dot eyes, and a small natural mouth. He wears a muted teal winter jacket, grey winter trousers, brown boots, and a mustard-coloured personal backpack with a fixed pocket and strap layout. His muted teal jacket must never become rust-orange or red; rust-orange belongs to Mara alone. His hands retain the pale, simple design shown in C05; do not introduce brown or dark gloves. He looks cautious and ordinary, not childish and not like a muscular action hero. Preserve his exact face, hair, proportions, and outfit design from the approved base reference.
+> Evan Reed is a 28-year-old adult male wilderness beginner with an ordinary build, short slightly messy dark-brown hair, simple consistent facial features, dot eyes, and a small natural mouth. He wears a muted teal winter jacket, grey winter trousers, brown boots, and a mustard-coloured personal backpack with a fixed pocket and strap layout. His muted teal jacket must never become rust-orange or red; rust-orange belongs to Mara alone. His winter trousers remain grey, never tan or khaki. His hands retain the pale, simple design shown in C05; do not introduce brown or dark gloves. He looks cautious and ordinary, not childish and not like a muscular action hero. Preserve his exact face, hair, proportions, and outfit design from the approved base reference.
 
 ### Evan state rules
 

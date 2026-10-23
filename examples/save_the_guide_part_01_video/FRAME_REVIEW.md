@@ -1,41 +1,57 @@
 # Save the Guide — Part 1 Frame Review
 
-Frames are retained only after visual inspection. User batch approval is explicit, and rejected candidates never count toward the 146 final frames.
+Frames are retained only after visual inspection. User section approval is explicit, and rejected candidates never count toward the 146 final frames.
 
-## Batch 1 — opening hook: APPROVED
+## Approved sections
 
-The user reviewed the corrected ten-frame opening and directed production to continue. All ten opening files, `beat01m01`–`beat01m10`, are approved and retained at native **1376×768**.
+### Batch 1 — opening hook: 10/10 APPROVED
 
-Opening corrections fixed Mara's opening location and immersion state, Evan's snowy framing and pale hands, the attached rope bag and its size, and Mara's dark glove.
+The corrected opening is approved. Corrections fixed Mara's opening location and immersion state, Evan's snowy framing and pale hands, the attached rope bag and its size, and Mara's dark glove.
 
-## Batch 2 — training: COMPLETE, AWAITING USER APPROVAL
+### Batch 2 — training flashback: 11/11 APPROVED
 
-The complete training section now contains all eleven current frames, `beat02m01`–`beat02m11`. Every current frame has been visually inspected and retained for user review. The review sheet is `review/part01_batch02_review.jpg`.
+The user approved the complete training section. Corrections restored Evan's teal jacket, Mara's dark gloves, and snow-covered ground. Training is dry because it begins “Six hours earlier”; the opening previews the later soaking accident.
 
-### Training correction history
+**Total approved frames: 21/146.**
 
-- `beat02m04`: The first candidate changed Evan's jacket to orange. The next candidate restored teal but exposed brown dirt. The final candidate retains Evan's teal jacket, Mara's orange shell and dark gloves, and a fully snow-covered training floor.
-- `beat02m06`: Regenerated to restore Evan's muted teal jacket while preserving his frustrated action and Mara's calm response.
-- `beat02m08`: Regenerated as a head-and-shoulders portrait with Mara's hands completely outside the frame, eliminating the bare-glove error.
-- `beat02m11`: Generated Evan rebuilding the fire lay in teal on snow, with Mara supervising in orange.
-- `beat02m01`, `beat02m02`, `beat02m03`, `beat02m05`, `beat02m07`, `beat02m09`, and `beat02m10` were retained from the first training candidate set.
+## Batch 3 — character and safety setup: FIRST PASS IN REVIEW
 
-### Timeline clarification
+Ten candidates were generated for `beat03m01`–`beat03m10`. Nine are retained for user review; one was rejected and removed.
 
-The opening previews the later soaking accident. Training begins with “Six hours earlier,” so Mara and Evan are correctly dry throughout this flashback. Mara becomes soaked again when the chronological story reaches the river accident.
+### Retained: 9/10
+
+- `beat03m01` — Evan carefully checks a mustard-pack buckle.
+- `beat03m02` — Evan repeats the same check while Mara waits.
+- `beat03m03` — Evan arrives at the winter course, uncertain but willing.
+- `beat03m04` — Evan hesitates beside a training task.
+- `beat03m05` — Evan is overwhelmed by the crooked branch shelter.
+- `beat03m06` — Full-body experienced Mara in her correct dry outfit.
+- `beat03m07` — Mara demonstrates the rope with dark gloves and attached bag.
+- `beat03m09` — Mara shows the spare dry layers in Evan's mustard pack.
+- `beat03m10` — Mara demonstrates the throw rope with the small bag attached.
+
+The nine-frame review sheet is `review/part01_batch03_review.jpg`.
+
+### Rejected and removed
+
+- `beat03m08`: Evan's trousers became tan instead of remaining grey. The navy group pack, Mara's outfit, and the risk discussion were otherwise correct.
+
+### Section-completion round
+
+1. Regenerate `beat03m08` with Evan in muted teal and explicitly grey trousers.
+2. Generate `beat03m11`, Mara explaining the six-o'clock lodge check-in on a phone with no readable screen.
+3. Review the complete eleven-frame paragraph-3 section before moving to the final-afternoon progress and river crossing.
+
+After both are retained, paragraph 3 will be complete and the overall retained count will be **32/146**, leaving **114 final frames**.
 
 ## Standing continuity rules
 
 - Evan never appears surrounded by river water; river close-ups use white snow around him.
 - Before the first throw, the small red rope bag remains visibly attached in medium and wide shots.
 - Evan's pale C05 hand design stays consistent; no brown gloves appear.
-- Evan's jacket remains muted teal in every state. Rust-orange belongs to Mara alone.
+- Evan's jacket remains muted teal, and his trousers remain grey rather than tan or khaki. Rust-orange belongs to Mara alone.
 - Mara's dark gloves remain on whenever her hands appear; crop them out of tight portraits when not required.
 - Snow remains on the training and shelter ground; no exposed dirt, mud, grass, or seasonal change.
 - Mara remains in the established far-bank opening until the scripted extraction, with no second opening near the spruce roots.
-
-## Next generation queue
-
-After the complete training section is approved, generate `beat03m01`–`beat03m10`, covering Evan's cautious personality, Mara's experience, and the early safety-system demonstrations. Review those before generating the final paragraph-3 frame.
 
 No narration, timing file, or stitched video has been produced yet.

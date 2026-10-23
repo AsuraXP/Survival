@@ -1,38 +1,44 @@
 # Save the Guide — Part 1 Frame Review
 
-Frames are retained only after visual inspection. User section approval is explicit, and rejected candidates never count toward the 146 final frames.
+Frames are retained only after visual inspection. User section approval is explicit through review/continue approval, and rejected candidates never count toward the 146 final frames.
 
 ## Approved sections
 
 - **Batch 1 — opening hook:** 10/10 approved.
 - **Batch 2 — training flashback:** 11/11 approved.
 - **Batch 3 — character and safety setup:** 11/11 approved.
+- **Batch 4 — progress and initial river crossing:** 10/10 approved.
 
-**Total approved frames: 32/146.**
+**Total approved frames: 42/146.**
 
-## Batch 4 — progress and initial river crossing: COMPLETE, AWAITING USER APPROVAL
+## Batch 5 — concealed weak ice and the accident: COMPLETE, AWAITING USER APPROVAL
 
-All ten Batch 4 frames, `beat04m01`–`beat04m10`, have been generated and retained after visual inspection. The complete review sheet is `review/part01_batch04_review.jpg`.
+All ten Batch 5 frames, `beat05m01`–`beat05m10`, passed first-pass visual inspection and are retained. The complete review sheet is `review/part01_batch05_review.jpg`.
 
 ### Section content
 
-- Evan's successful small training fire, crooked shelter, compass practice, and growing pride.
-- Mara and Evan arriving at the intact river with the correct navy and mustard packs.
-- Mara testing the near-bank edge and instructing Evan to wait.
-- Mara stepping onto the ice alone while Evan remains on the near bank.
-- Mara's boot reaching ordinary-looking snow-covered ice near the far bank, with no visible warning or opening.
+- An ordinary snow-covered surface conceals the current-thinned ice.
+- Mara's right boot starts a hairline fracture, then her right leg breaks through while her upper body remains above the surface.
+- Mara drops chest-deep into the single far-bank opening, now soaked and still wearing the navy group pack.
+- The pack catches beneath the broken shelf and drags sideways while she pulls at its straps with both dark-gloved hands.
+- The navy pack sinks with the group shelter, stove, sleeping bag, and satellite messenger; none of that equipment returns.
+- Evan remains on snowy ground in muted teal and grey with his mustard pack, the red rope, and its visibly attached red storage bag.
+- The final point-of-view frame isolates Mara's two dark-gloved hands on the broken shelf.
 
-### Correction history
+### First-pass QA
 
-- `beat04m06`: The first candidate showed Mara with bare hands. The final candidate restores dark gloves on both hands while preserving the intact river, correct packs, and near-bank positioning.
-- The other nine frames were retained from the first Batch 4 candidate set.
+- No Batch 5 candidate required rejection.
+- Mara has dark gloves in every frame where her hands appear.
+- Evan remains on snow, never in the river.
+- The accident stays at the established far-bank opening; the near-bank roots do not gain a second opening.
+- All ten files are native 1376×768.
 
-## Production counter after Batch 4
+## Production counter after Batch 5
 
-- Approved frames: **32**
-- Batch 4 frames awaiting user approval: **10**
-- **Total retained: 42/146**
-- **Final frames remaining: 104**
+- Approved frames: **42**
+- Batch 5 frames awaiting user approval: **10**
+- **Total retained: 52/146**
+- **Final frames remaining: 94**
 
 ## Standing continuity rules
 
@@ -43,10 +49,12 @@ All ten Batch 4 frames, `beat04m01`–`beat04m10`, have been generated and retai
 - Mara's dark gloves remain on whenever her hands appear; crop them out of tight portraits when not required.
 - Snow remains on the training and shelter ground; no exposed dirt, mud, grass, or seasonal change.
 - Before the accident, L01 has no broken opening and Evan remains on the near bank while Mara crosses alone.
+- Mara's upper body is dry before immersion and soaked from `beat05m04` onward.
+- Mara's navy pack remains attached through `beat05m06`, sinks in `beat05m07`–`beat05m08`, and never returns.
 - After the accident, Mara remains in the established far-bank opening until extraction, with no second opening near the spruce roots.
 
-## Next planned batch after Batch 4 approval
+## Next planned batch after Batch 5 approval
 
-**Batch 5**, `beat05m01`–`beat05m10`: concealed weak ice, Mara's right-leg breakthrough, full immersion, loss of the navy group pack, and Evan seeing her hands. If all ten pass, the overall retained count will be **52/146**, leaving **94**.
+**Batch 6**, first pass `beat06m01`–`beat06m10` plus section-completion `beat06m11`: cold shock, failed self-rescue, Evan's unsafe step, Mara's rope command, Evan remembering the next action, and the first throw falling short. If all eleven pass, the overall retained count will be **63/146**, leaving **83**.
 
 No narration, timing file, or stitched video has been produced yet.

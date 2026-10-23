@@ -2,7 +2,7 @@
 
 ## Current stage
 
-**Research, series planning, full Part 1 narration, and the complete reference pack are approved and locked. The full 146-moment visual plan is validated. Batches 1–6 are approved. Ten Batch 7 frames remain approved; its corrected m10 awaits re-review. Batch 8 is complete at 11/11 and awaits user review.**
+**Research, series planning, full Part 1 narration, and the complete reference pack are approved and locked. The full 146-moment visual plan is validated. Batches 1–8 are approved, including all user-requested corrections. Batch 9 first-pass QA retained four frames; six corrections and two section-completion frames remain.**
 
 ## Production counter
 
@@ -15,13 +15,14 @@
 | Approved progress/initial crossing | **10** |
 | Approved accident | **10** |
 | Approved first rescue attempt | **11** |
-| Approved coordinated-extraction frames | **10** |
-| **Total fully approved** | **73** |
-| Corrected Batch 7 frame awaiting re-review | **1** |
-| Complete Batch 8 awaiting user approval | **11** |
-| **Total retained on disk** | **85** |
-| Rejected candidates pending correction | **0** |
-| **Final frames remaining** | **61** |
+| Approved coordinated extraction | **11** |
+| Approved injury discovery | **11** |
+| **Total approved** | **85** |
+| Batch 9 first-pass frames awaiting user review | **4** |
+| **Total retained on disk** | **89** |
+| Batch 9 corrections pending | **6** |
+| Batch 9 completion frames not yet generated | **2** |
+| **Final frames remaining** | **57** |
 
 Batch numbering tracks planned production batches; correction and section-completion generations are additional rounds and do not increase the final 146-frame requirement.
 
@@ -31,12 +32,11 @@ Batch numbering tracks planned production batches; correction and section-comple
 - `SERIES_BIBLE.md` — premise, characters, themes, equipment logic, three-part arc, setup/payoff ledger, and continuity rules.
 - `RESEARCH.md` — sourced survival guidance and exact story applications.
 - `references/save_the_guide/` — complete approved reference pack plus modular prompt and continuity rules.
-- `visuals.csv` — **146 short narration moments** across 14 paragraphs; every paragraph is reproduced verbatim by its ordered `moment_text` values. Validation passes after the latest prompt corrections.
+- `visuals.csv` — **146 short narration moments** across 14 paragraphs; every paragraph is reproduced verbatim by its ordered `moment_text` values. Validation passes after the Batch 9 prompt corrections.
 - `beats.jsonl` — 14 narration beats converted from the validated visual plan.
 - `FRAME_REVIEW.md` — approvals, reopened frames, visual QA, corrections, counters, and standing continuity/anatomy rules.
-- **Batches 1–6:** 63 frames approved.
-- **Batch 7:** 10 frames approved; user-flagged `m10` corrected and awaiting re-review.
-- **Batch 8:** 11/11 generated, visually inspected, and retained for review, including the user-flagged glove and anatomy corrections.
+- **Batches 1–8:** 85 frames approved.
+- **Batch 9:** `m01`, `m03`, `m04`, and `m09` retained; six first-pass candidates rejected; `m11` and `m12` remain to be generated.
 
 ## Runtime policy
 
@@ -44,9 +44,10 @@ There is **no fixed runtime cap**. Actual narration timing will determine the fi
 
 ## Next production steps
 
-1. Obtain user re-review of corrected `beat07m10` and approval of the complete Batch 8 section.
-2. Generate **Batch 9**, first pass `beat09m01`–`beat09m10` followed by `beat09m11`–`beat09m12`: supply doubts, renewed shelter actions, wet-layer removal with dry insulation and wind protection, then the no-service phone check and eighteen-minute countdown.
-3. Continue remaining frames in controlled batches of at most ten per generation round with visual inspection, user review, and checkpoint pushes.
-4. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
+1. Obtain user review of the four retained Batch 9 frames.
+2. Run an eight-frame Batch 9 completion round: regenerate `m02`, `m05`, `m06`, `m07`, `m08`, and `m10`; generate `m11` and `m12`.
+3. If all eight pass, Batch 9 will contain 12/12 frames and the overall count will be **97/146 retained**, leaving **49**.
+4. Continue remaining frames in controlled batches of at most ten per generation round with visual inspection, user review, and checkpoint pushes.
+5. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
 
 No narration or stitched video has been produced yet.

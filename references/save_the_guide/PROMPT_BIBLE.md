@@ -68,7 +68,7 @@ The primary visual anchor is `references/art_style_v1.png`.
 
 ### Spruce shelter — `L03_spruce_shelter_day.png`
 
-> A sheltered spruce stand a short assisted walk from the river's near bank. Fixed tree trunks and open space for the sleeping pad, bivy, and an outdoor fire platform. Dead branches are available beneath the trees. The site feels protected but not warm or comfortable.
+> A sheltered spruce stand a short assisted walk from the river's near bank. Fixed tree trunks and open space for the sleeping pad, bivy, and an outdoor fire platform. Dead branches are available beneath the trees. The ground remains covered in white snow with pale-cyan shadows; no exposed dirt, mud, grass, or seasonal change. The site feels protected but not warm or comfortable.
 
 ### Night shelter — `L04_spruce_shelter_night.png`
 

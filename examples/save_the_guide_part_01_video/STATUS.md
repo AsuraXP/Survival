@@ -2,7 +2,7 @@
 
 ## Current stage
 
-**Research, series planning, full Part 1 narration, and the complete reference pack are approved and locked. The full 146-moment visual plan is validated. Batch 9 is now complete at 12/12 frames. The user-flagged countdown image has been replaced with a connected waist-up Evan, natural phone orientation and correct shelter bedding. Eight Batch 9 frames await user review.**
+**The shelter audit is complete. Rejected intermediate drafts did contain handmade wooden frames, but the retained Batch 9 sequence contains no tent or A-frame. The silver layer is the intentional emergency bivy. A real background-debris mismatch in `beat09m09` was corrected and that frame awaits re-review. Batch 10 has begun: four first-pass frames retained, five corrections and two completion frames pending.**
 
 ## Production counter
 
@@ -10,27 +10,26 @@
 |---|---:|
 | Planned final narrative frames | **146** |
 | Approved Batches 1–8 | **85** |
-| Approved Batch 9 first-pass subset | **4** |
-| **Total approved** | **89** |
-| Batch 9 frames awaiting user review | **8** |
-| **Total retained on disk** | **97** |
-| Batch 9 corrections pending | **0** |
-| **Final frames remaining** | **49** |
+| Approved Batch 9 subset (`m01`, `m03`, `m04`) | **3** |
+| **Total approved** | **88** |
+| Batch 9 awaiting review/re-review | **9** |
+| Batch 10 first-pass awaiting review | **4** |
+| **Total retained on disk** | **101** |
+| Batch 10 corrections pending | **5** |
+| Batch 10 completion frames not yet generated | **2** |
+| **Final frames remaining** | **45** |
 
-Batch numbering tracks planned production batches; correction and section-completion generations are additional rounds and do not increase the final 146-frame requirement.
+The approved count moved from 89 to 88 because the user's continuity audit reopened `beat09m09`; its cleaned replacement has not yet been user-reviewed.
 
 ## Completed
 
-- `script.md` — complete Part 1 narration: 14 paragraphs and 1,009 words.
-- `SERIES_BIBLE.md` — premise, characters, themes, equipment logic, three-part arc, setup/payoff ledger and continuity rules.
-- `RESEARCH.md` — sourced survival guidance and exact story applications.
-- `references/save_the_guide/` — complete approved reference pack plus modular prompt and continuity rules.
-- `visuals.csv` — **146 short narration moments** across 14 paragraphs; every paragraph is reproduced verbatim by its ordered `moment_text` values. Validation passes after the latest prompt corrections.
-- `beats.jsonl` — 14 narration beats converted from the validated visual plan.
-- `FRAME_REVIEW.md` — approvals, reopened frames, visual QA, corrections, counters and standing continuity/anatomy rules.
+- Research, series bible, full 14-paragraph/1,009-word Part 1 script, approved locked reference pack and validated 146-moment visual plan.
+- `beats.jsonl` — 14 narration beats derived from the plan.
 - **Batches 1–8:** 85 frames approved.
-- **Batch 9:** complete at **12/12 retained frames**; four approved and eight awaiting review. The user-flagged `m12` phone/body anatomy was replaced and inspected.
-- All **97 retained frames** validated at native **1376×768**.
+- **Batch 9:** complete at **12/12 retained frames**; three approved and nine awaiting review/re-review. No retained tent or handmade sleeping-shelter frame.
+- **Batch 10:** `m02`, `m04`, `m07`, and `m08` retained. Corrections pending for `m01`, `m03`, `m05`, `m06`, and `m09`; `m10` and `m11` not yet generated.
+- `PROMPT_BIBLE.md` updated to prohibit shelter-frame drift, pre-fire debris popping, C04 bare-hand leakage and non-flat fire construction.
+- All **101 retained frames** validated at native **1376×768**; narration text still validates verbatim across all 146 moments.
 
 ## Runtime policy
 
@@ -38,10 +37,10 @@ There is **no fixed runtime cap**. Actual narration timing will determine the fi
 
 ## Next production steps
 
-1. Obtain user review of the complete Batch 9 sheet, especially the replacement `m12` countdown frame.
-2. Produce Batch 10, the fire-first decision and Mara's confusion: **11 moments**, using a ten-frame first pass and one-frame completion round.
-3. If all Batch 10 frames pass, the overall count will be **108/146 retained**, leaving **38**.
-4. Continue remaining frames in controlled batches of at most ten per generation round with visual inspection, user review and checkpoint pushes.
+1. Review the cleaned Batch 9 sheet and four retained Batch 10 frames.
+2. Run a seven-frame Batch 10 completion round: correct `m01`, `m03`, `m05`, `m06`, and `m09`; generate `m10` and `m11`.
+3. If all seven pass, Batch 10 will be complete at 11/11 and the count will be **108/146 retained**, leaving **38**.
+4. Continue in controlled batches of at most ten per generation round with inspection, user review and checkpoint pushes.
 5. Produce one-take `en-US-AndrewNeural` narration at `-5%`, require complete WordBoundary moment locking, and stitch native-resolution frames with hard cuts only.
 
 No narration or stitched video has been produced yet.

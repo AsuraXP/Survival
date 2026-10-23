@@ -1,59 +1,63 @@
 # Save the Guide — Part 1 Frame Review
 
-Frames are retained only after visual inspection. User section approval is explicit through review/continue approval, and rejected candidates never count toward the 146 final frames. User-reported errors reopen the affected frame even if its section was previously approved.
+Frames are retained only after visual inspection. User approval is explicit through review/continue approval. Rejected candidates never count toward the 146 final frames, and a corrected replacement awaits review even when it replaces a previously approved image.
 
 ## Approved frames
 
-- **Batch 1 — opening hook:** 10/10 approved.
-- **Batch 2 — training flashback:** 11/11 approved.
-- **Batch 3 — character and safety setup:** 11/11 approved.
-- **Batch 4 — progress and initial river crossing:** 10/10 approved.
-- **Batch 5 — concealed weak ice and the accident:** 10/10 approved.
-- **Batch 6 — cold shock and first rescue attempt:** 11/11 approved.
-- **Batch 7 — coordinated extraction:** 11/11 approved after the user-requested m10 glove correction.
-- **Batch 8 — extraction to injury discovery:** 11/11 approved after user-requested glove and anatomy corrections.
-- **Batch 9 first-pass subset:** `m01`, `m03`, `m04`, and `m09` approved through the user's continuation.
+- **Batches 1–8:** 85/85 approved, including all earlier user-requested corrections.
+- **Batch 9 approved subset:** `m01`, `m03`, and `m04` = 3 frames.
 
-**Total approved frames: 89/146.**
+**Total approved frames: 88/146.** The previously approved `beat09m09` was reopened during the user's shelter-consistency audit and its replacement now awaits re-review.
 
-## Batch 9 — supply doubts and shelter rewarming: COMPLETE 12/12
+## Shelter continuity audit
 
-`review/part01_batch09_review.jpg` contains the complete twelve-frame section. The following **eight frames await user review**:
+The user was right that wooden handmade frames appeared in some intermediate images. Those candidates were rejected and are not in the retained sequence. The current Batch 9 sheet contains **no tent, lean-to or wooden A-frame**. The silver plastic-like material is the intentional emergency bivy: loose when assessed, then wrapped outside the green sleeping bag.
 
-- `beat09m02` — exactly one sleeping bag in Evan's hands; Mara remains wet, gloved and booted on the blue pad.
-- `beat09m05` — sleeping bag, sweater and bivy are separate; Mara remains on the single pad with both boots.
-- `beat09m06` — Evan's burdened reaction with Mara's dark gloves restored.
-- `beat09m07` — Mara directs the restart in the snowy spruce stand with exactly two coherent legs and two brown boots.
-- `beat09m08` — Evan is muted teal, Mara is dry-dark-layered and covered, and the wet orange shell is separate.
-- `beat09m10` — native-size, borderless covered removal of the wet charcoal trousers with no nudity.
-- `beat09m11` — connected full-body phone check, no unapproved structure or firewood, and Mara's hand covered.
-- `beat09m12` — **user-flagged candidate replaced.** The new waist-up composition gives Evan a complete connected head, shoulders, torso and arms. The small phone's back faces the viewer and its screen faces Evan. Mara remains on the blue pad with green sleeping bag and visible silver bivy; there is no wooden frame or detached/giant foreground hand.
+The audit found one retained mismatch: `beat09m09` contained a natural log and stick debris that disappeared later. The replacement removes that debris while preserving Mara, Evan, the blue pad, green sleeping bag and silver bivy. Batch 10 may introduce only the scripted fire materials; its fire base is a **small, low, flat stick platform**, not a sleeping-shelter frame.
 
-Earlier Batch 9 candidates rejected for a duplicate sleeping bag, bare foot/displaced pad, bare Mara hands, exposed dirt, Evan's orange wardrobe, a bordered/wrong-resolution canvas, unapproved shelter structures, missing silver bivy and the user-flagged phone/body anatomy were quarantined rather than counted.
+## Batch 9 — supply doubts and shelter rewarming: COMPLETE 12/12 RETAINED
 
-## Production counter after Batch 9 completion
+Nine frames await user review: `m02`, `m05`, `m06`, `m07`, `m08`, cleaned `m09`, `m10`, `m11`, and replacement `m12`. The `m12` replacement specifically resolves the user-flagged detached-body/phone-orientation problem with a connected waist-up Evan and the phone back toward the viewer.
 
-- Approved frames: **89**
-- Batch 9 frames awaiting user review: **8**
-- **Total retained: 97/146**
-- **Final frames remaining: 49**
-- Pending Batch 9 corrections: **0**
+## Batch 10 — fire-first decision and confusion: FIRST PASS
 
-Batch 9 is complete at **12/12 retained frames**. The next section is Batch 10, the fire-first decision and Mara's confusion, with **11 planned moments**. Its ten-frame first pass plus one-frame completion would bring the total to **108/146**, leaving **38**, if all pass.
+Four frames passed inspection and are shown in `review/part01_batch10_review.jpg`:
+
+- `beat10m02` — the long deep-snow trail into dusk.
+- `beat10m04` — Mara lucidly directing “fire first,” with no fire or wooden construction yet.
+- `beat10m07` — the correct small, low, flat parallel-stick fire base.
+- `beat10m08` — tiny sparks dying above tinder with no established flame.
+
+### Rejected candidates and pending work
+
+- `beat10m01` — Mara's resting hand is bare; cover it completely with bedding.
+- `beat10m03` — the action hand correctly wears a dark glove, but Mara's second hand is bare; only one dark-gloved action hand may be visible.
+- `beat10m05` — Mara's background hand is bare; cover it while preserving the branch gathering and pack placement.
+- `beat10m06` — the large-fuel pile became sawn logs with round cut ends. Use thicker natural dead branches with irregular snapped ends, exactly three piles.
+- `beat10m09` — an extra cylindrical cup/container appeared beside the failed smoking bundle; remove it and preserve the no-flame state.
+- `beat10m10` and `beat10m11` — not yet generated; these complete Mara's wrong-name confusion beat with no additional person.
+
+## Production counter
+
+- Approved frames: **88**
+- Batch 9 frames awaiting review/re-review: **9**
+- Batch 10 first-pass frames awaiting review: **4**
+- **Total retained: 101/146**
+- **Final frames remaining: 45**
+- Pending Batch 10 work: **5 corrections + 2 completion frames = 7**
+
+If all seven next-round frames pass, Batch 10 will be complete at 11/11 and the overall count will be **108/146 retained**, leaving **38**.
 
 ## Standing continuity and QA rules
 
-- Evan's hands remain pale and ungloved. Check hand ownership by sleeve: teal-sleeved hands are pale; orange-sleeved Mara hands are dark-gloved or covered.
-- Evan's jacket, sleeves and cuffs remain muted teal and his trousers grey. Mara's shell remains rust-orange, never mustard, and her trousers remain charcoal with brown boots until their deliberate removal.
-- Mara has exactly one auburn braid. Full-body poses require exactly two coherent legs and two boots with correct orientation; no extra limbs, missing footwear or duplicated hair.
-- Phone shots require a natural grip, a connected body and an unambiguous orientation. When the phone back faces the viewer, the screen must face Evan and remain unseen. Avoid extreme forced perspective that detaches hands from the torso.
-- Targeted edits must be re-inspected for collateral changes to hair, clothing colour, props, anatomy and location.
-- Before rewarming, Mara remains on the blue pad in wet outer clothing with both boots and dark gloves. Do not move the pad or remove clothing early.
-- The green sleeping bag exists as one Evan-owned prop: it may be held by Evan or wrapped around Mara, never both at once.
-- Upper wet shell removal and dry insulation occur before the bivy is added. Lower wet-layer removal happens under cover with no nudity and the right knee still.
-- After shelter wrapping, Mara remains on the blue pad in the green sleeping bag with the silver bivy visibly outside and her hands covered.
-- The established shelter is an open snowy spruce stand. Do not add deciduous trees, wooden A-frames, poles, logs, firewood or fire until the script deliberately introduces them.
-- Snow remains continuous; no exposed dirt, mud, grass or seasonal change.
-- Every final frame must be native 1376×768, full-bleed, with no black border, comic frame, captions or polished-panel treatment.
+- Evan's hands are pale and ungloved; his jacket, sleeves and cuffs remain muted teal, trousers grey.
+- Mara has one auburn braid and dark gloves whenever a pre-shelter hand is visible. After wrapping, her hands stay under the bedding; an action may reveal exactly one dark-gloved hand while the other remains covered. Use C04 for pose/bedding, not for a bare resting hand.
+- Full-body poses require coherent connected anatomy, exactly two legs and appropriate footwear; no floating hands, extra limbs or missing torso.
+- Phone shots require natural grip and unambiguous screen/back orientation without extreme forced perspective.
+- Mara remains on the single blue pad in the green sleeping bag with the silver bivy visibly outside after wrapping. No duplicate bedding or premature clothing-state changes.
+- The sleeping shelter is only open spruce cover plus pad/bag/bivy. No tent, lean-to, wooden A-frame, poles or handmade sleeping-shelter frame.
+- Keep loose logs and branch debris out of the immediate pre-fire continuity background. Once the script introduces firewood, use natural dead branches with irregular snapped ends, never sawn logs or milled lumber.
+- The fire base is low, flat and horizontal. First sparks die without flame; the second bundle smokes and collapses without open flame. No extra cup, first-aid book or unrelated fire-kit props.
+- Every final frame must be native 1376×768, full-bleed, with no captions, border or polished-panel treatment.
 
 No narration, timing file or stitched video has been produced yet.

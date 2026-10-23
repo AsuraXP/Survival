@@ -38,7 +38,7 @@ The primary visual anchor is `references/art_style_v1.png`.
 
 - **Training and crossing:** Dry base outfit; braid intact; orange shell worn normally.
 - **After immersion:** Same face and outfit, but soaked; hair partly loosened by water; violent shivering; no blood or graphic injury.
-- **Shelter:** Wet outer layers removed. She wears dry dark base layers and is wrapped in Evan's dark-green sleeping bag, with the blue foam pad beneath and silver bivy outside. Her right knee remains still and cannot bear weight.
+- **Shelter:** Wet outer layers removed. She wears dry dark base layers and is wrapped in Evan's dark-green sleeping bag, with the blue foam pad beneath and silver bivy outside. Her right knee remains still and cannot bear weight. Keep her hands completely covered by the bedding; when an action requires a visible hand, show exactly one dark-gloved hand and keep the other covered. Use C04 for pose and bedding identity, not for a pale resting-hand state.
 - **Part 2:** Same sheltered outfit and bedding. Her expression changes gradually with her condition; do not change her clothes to indicate improvement.
 - **Part 3 and rescue:** She remains injured and sheltered. She does not stand or walk. Her orange jacket is no longer being worn because Evan uses it as a signal marker.
 
@@ -68,7 +68,7 @@ The primary visual anchor is `references/art_style_v1.png`.
 
 ### Spruce shelter — `L03_spruce_shelter_day.png`
 
-> A sheltered spruce stand a short assisted walk from the river's near bank. Fixed tree trunks and open space for the sleeping pad, bivy, and an outdoor fire platform. Dead branches are available beneath the trees. The ground remains covered in white snow with pale-cyan shadows; no exposed dirt, mud, grass, or seasonal change. The site feels protected but not warm or comfortable.
+> A sheltered spruce stand a short assisted walk from the river's near bank. Fixed tree trunks and open space for the sleeping pad, bivy, and an outdoor fire platform. Dead branches are available beneath the trees. The ground remains covered in white snow with pale-cyan shadows; no exposed dirt, mud, grass, or seasonal change. The site feels protected but not warm or comfortable. Never turn this location into a tent, lean-to, wooden A-frame, or constructed sleeping shelter. Before the script deliberately gathers firewood, keep loose logs and branch piles out of the immediate continuity background. The later fire base is only a small, low, flat platform of parallel natural sticks, never a shelter frame.
 
 ### Night shelter — `L04_spruce_shelter_night.png`
 

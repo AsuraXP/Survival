@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–8 are complete through P067. The next ungenerated beat is P068, Lena reacting to the shutter motor's volume. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–8 are complete through P067. Paragraph 9 is accepted through P070's partial curtain descent; the next ungenerated beat is P071, fists striking the steel. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -100,11 +100,11 @@ See `BATCH08_REVIEW.md` for dispositions and validation. Batch 8 is complete. Th
 | P065 | The immediate problem was the crowd already pushing. | Accepted tighter front-row pressure; no broken glass. |
 | P066 | Nolan pressed the shutter control. | Accepted after correction; only shutter switch pressed, full bleed. |
 | P067 | The motor answered with a deep metallic groan. | Accepted motor vibration; curtain still raised. |
-| P068 | “That thing is louder than the announcements,” Lena said. | Pending Lena reaction; radio/keys and dark PA retained. |
-| P069 | “It also locks,” Nolan said. | Pending Nolan response; no new switch action. |
-| P070 | They watched the steel curtain descend over the glass. | Pending partial descent only; no impacts or lock yet. |
+| P068 | “That thing is louder than the announcements,” Lena said. | Accepted after correction; clear Lena speech and only front monitor changed. |
+| P069 | “It also locks,” Nolan said. | Accepted Nolan response; no new switch action. |
+| P070 | They watched the steel curtain descend over the glass. | Accepted partial descent only; no impacts or lock yet. |
 
-See `BATCH09_REVIEW.md` for dispositions and validation. Complete P068–P070 before finishing Batch 9.
+See `BATCH09_REVIEW.md` for dispositions and validation. Batch 9 is complete. The next batch begins with P071, fists striking the partial steel curtain.
 
 ## Batch gate
 

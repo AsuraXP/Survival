@@ -2,7 +2,7 @@
 
 Date: 2026-10-23
 
-Status: arc and Part 1 script approved; original C01/C02 identities, unified background and corrected opening master approved for continuation on 2026-10-24; opening pilot frame production in progress
+Status: arc and Part 1 script approved; all 12 opening pilot frames accepted through assistant per-image/sequence QA on 2026-10-24; one-cell Kaggle master-narration/stitching package ready; actual pilot execution pending
 
 ## Why the direction is changing
 

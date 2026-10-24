@@ -1,6 +1,6 @@
 # Opening Pilot — Batch 1 Review (P001–P006)
 
-Status: P001 is the user-approved opening master reused as an actual pilot frame. P002–P006 are generated and **pending user batch review**. All six files are native 1376×768.
+Status: P001 is the user-approved opening master reused as an actual pilot frame. P002–P006 passed assistant per-image and sequence QA on 2026-10-24; the user delegated this continuing image review to the assistant. All six files are native 1376×768.
 
 ## Narration coverage
 
@@ -71,8 +71,8 @@ Threat-detail cutaway with simplified non-graphic infected outside. The glass re
 
 ## Reference rule for the next batch
 
-P002–P006 are **not yet continuation references**. After user review, approved frames may be used with the identity/location masters for direct continuations. Any rejected frame will be moved out of the active frame set and will not guide later images.
+P002–P006 passed assistant QA and may now be used with the identity/location masters for direct continuations. Rejected frames are moved out of the active set and never guide later images. The user retains final pilot/video review rather than having to clear every individual batch.
 
-## Next after batch review
+## Next after accepted batch review
 
 Produce P007–P012 for the office objective, crossing and deadline; then generate/verify the full Part 1 master narration in Kaggle and assemble the reusable 30–45 second opening pilot from its actual opening timings.

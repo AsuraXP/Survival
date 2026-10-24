@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–4 are complete through P034. Paragraph 5 is accepted through P036; P037–P038 require corrections and P039–P040 are pending. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–4 are complete through P034. The planned P035–P040 chunk is also accepted, advancing paragraph 5 through the sale distraction. Paragraph 5 still needs P041–P043 for key retrieval, the kayak/stairs move and the announcement-saved-them beat. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -48,12 +48,12 @@ The full disposition record is in `BATCH05_REVIEW.md`. Paragraphs 1–4 prefligh
 |---|---|---|
 | P035 | The chime was tiny. | Accepted floor-level key impact; no early turn. |
 | P036 | The man turned toward the coolers. | Accepted three-quarter reaction toward keys/cover. |
-| P037 | Nolan saw Lena's eyes over the rim, wide and furious at herself. | Correct with C02 black hair/braid, simple oval eyes and self-directed anger; three failures are isolated. |
-| P038 | Neither of them breathed. | Correct only after P037; preserve three Nolan strokes and Lena's left-hand radio. |
-| P039 | Then the next sale began. | Pending PA/sale insert; no text or premature frontward turn. |
-| P040 | The man snapped his attention toward the front again and staggered past their hiding place. | Pending; keys stay on the floor and protagonists stay hidden. |
+| P037 | Nolan saw Lena's eyes over the rim, wide and furious at herself. | Accepted after corrections; C02 black hair/braid, simple oval eyes and self-directed anger restored. |
+| P038 | Neither of them breathed. | Accepted after correction; three Nolan strokes and Lena's left-hand radio preserved. |
+| P039 | Then the next sale began. | Accepted PA/sale insert; no text or premature frontward turn. |
+| P040 | The man snapped his attention toward the front again and staggered past their hiding place. | Accepted; keys remain on the floor and protagonists remain hidden. |
 
-See `BATCH06_REVIEW.md` for rejection reasons and next-frame gates. Resume at P037, then inspect each correction immediately before unlocking the next dependent shot.
+See `BATCH06_REVIEW.md` for dispositions, rejection reasons and sequence validation. The next batch begins by adding P041–P043 to finish paragraph 5: Lena retrieves the keys, Nolan leads her around the green kayaks toward the rear stairs, and the trapping voice is revealed to have saved them.
 
 ## Batch gate
 

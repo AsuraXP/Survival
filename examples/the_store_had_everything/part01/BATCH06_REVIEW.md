@@ -1,25 +1,23 @@
 # Part 1 Continuation — Batch 6 Review (P035–P040)
 
-Status: **in production**. P035–P036 passed assistant QA on 2026-10-24. P037–P038 require corrections; P039–P040 are pending. Paragraph 5 is not complete and no intermediate Kaggle run is requested.
+Status: **P035–P040 complete**. All six active frames passed assistant per-image and sequence QA on 2026-10-24. Paragraph 5 remains in production because its final three story beats are not yet generated. No intermediate Kaggle run is requested.
 
 ## Narration coverage
 
-Accepted text so far:
+> The chime was tiny. The man turned toward the coolers. Nolan saw Lena's eyes over the rim, wide and furious at herself. Neither of them breathed. Then the next sale began. The man snapped his attention toward the front again and staggered past their hiding place.
 
-> The chime was tiny. The man turned toward the coolers.
+These six rows are a verbatim prefix of approved paragraph 5, not the complete paragraph. Actual timings remain deferred to the approved Andrew master.
 
-The remaining planned rows continue with Lena's self-directed anger, shared stillness, the next sale and the infected man's frontward distraction. All rows must reproduce the approved script verbatim.
-
-## Current dispositions
+## Frame dispositions
 
 | Frame | Result | Review note |
 |---|---|---|
 | P035 | Accepted | Floor-level key impact is readable between blue-cooler edges; the red-hoodie man remains in the same aisle and has not turned yet. |
 | P036 | Accepted | The same man makes a clear three-quarter turn toward the dropped keys/coolers; fixed tent poles, kayaks, office and outside crowd remain coherent. |
-| P037 | In correction | Three candidates were rejected: fear without self-directed anger, overly detailed eye/facial styling, then brown-hair drift despite the corrected simple expression. No active frame is accepted. |
-| P038 | In correction | First candidate placed the radio in the wrong hand; rejected and isolated. Must wait for an accepted P037. |
-| P039 | Pending | PA/sale insert only; no captions or sound-effect words, and no frontward turn before P040. |
-| P040 | Pending | Same man snaps attention front and staggers past cover; protagonists stay hidden and keys remain on the floor until P041. |
+| P037 | Accepted after corrections | Final close-up restores C02's solid black hair and viewer-left braid, simple white oval eyes/black oval pupils, and wide self-directed anger over the cooler rim. |
+| P038 | Accepted after correction | Both characters are motionless behind cover; Nolan has exactly three hair strokes and empty hands, while Lena's radio is correctly in her anatomical-left/viewer-right hand. |
+| P039 | Accepted | Established PA horn begins the next sale without captions or sound-effect words; the man is still cooler-oriented before his distraction. |
+| P040 | Accepted | The same man snaps his attention toward the front PA and staggers toward/past the cooler cover; protagonists remain hidden and the keys stay untouched. |
 
 ## Rejected-candidate record
 
@@ -28,11 +26,19 @@ The remaining planned rows continue with Lena's self-directed anger, shared stil
 - `P037_hair_colour_drift.png`: expression and simple eyes were corrected, but canonical black hair became brown.
 - `P038_radio_wrong_hand.png`: radio hand did not preserve the anatomical-left/viewer-right state.
 
-None of these files may be used as a visual reference.
+None of these files was used as a visual reference.
 
-## Next-frame gates
+## Sequence review and validation
 
-- P037 must combine C02's **black hair and correct braid**, minimal white oval eyes/black oval pupils, a tight self-blaming mouth and angry brows over the blue-cooler rim.
-- P038 must show absolute stillness, Nolan's exactly three hair strokes, empty Nolan hands, Lena's radio in her anatomical-left/viewer-right hand, and no keys back in her hand.
-- P039–P040 may use only newly accepted frames. The glass stays intact, the shutter raised, the outside crowd outside and the office unentered.
-- P034 → P035 → P036 has passed adjacent sequence review. All accepted frames are native 1376×768 with accepted-only references.
+- P034 → P035 preserves the key-slip/impact action; P035 → P036 changes only the infected man's attention.
+- P037 → P038 returns to the same cooler cover with C02 identity and radio-hand continuity intact.
+- P039 → P040 keeps the same PA/direct-aisle geography while moving the man frontward, away from the hiding place.
+- The complete P031–P040 contact sequence was reviewed after the individual frame inspections.
+- All 28 accepted continuation frames P013–P040 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
+- Paragraphs 1–4 preflight still passes with **34 accepted native frames** and verbatim complete-paragraph text. Paragraph 5 is not yet eligible for completed-paragraph preflight.
+
+## Next paragraph-5 gates
+
+1. **P041:** Lena alone sweeps the keys off the floor; radio stays in her left hand and keys return to her right.
+2. **P042:** Nolan leads her around the green kayak display toward the rear stairs without reversing the established route.
+3. **P043:** The PA that trapped them has just saved them; preserve the same announcement and escape geography without entering the office early.

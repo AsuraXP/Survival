@@ -2,7 +2,7 @@
 
 ## Current stage
 
-**Visual production is approved and locked at 146/146 frames. The one-cell Kaggle notebook and complete GitHub-hosted production runner are ready to generate the narration, measured timings, completed MP4, QA report and deliverable ZIP.**
+**PROJECT ON HOLD — the user has confirmed that Part 1 is complete and they have received the finished result. Preserve all assets for a possible later Part 2, but do not rework Part 1 or continue the series unless the user explicitly resumes it. The new active launch story is `The Store Had Everything`.**
 
 ## Production counter
 

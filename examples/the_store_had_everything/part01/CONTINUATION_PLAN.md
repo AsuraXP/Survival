@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: opening approved and locked; Batch 3 accepted. Batch 4 is accepted through P024; P025 remains in correction and P026 is pending. Per the user's instruction, no more intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: opening and paragraphs 2–3 are complete through P026. Batch 5 is accepted through P030; P031 remains in correction and P032–P034 are pending. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 

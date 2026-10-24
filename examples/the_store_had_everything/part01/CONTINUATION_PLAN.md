@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–6 are complete through P050. The next ungenerated beat is P051 inside the security office. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–6 are complete through P050. Paragraph 7 is accepted through P059 at the amplifier power-lead pull; P060's silent aftermath is pending. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -71,6 +71,23 @@ See `BATCH06_REVIEW.md` for dispositions, rejection reasons and sequence validat
 | P050 | They slipped inside and shut the door as softly as they could. | Accepted after correction; clear office interior and soft closing, no panel action. |
 
 See `BATCH07_REVIEW.md` for dispositions, rejection records and validation. Batch 7 is complete. The next batch begins paragraph 7 with P051, using P050 as the office-interior master and preserving the closed door, radio and keys.
+
+## Batch 8 — Paragraph 7: isolate and silence the PA
+
+| Frame | Narration | Current gate |
+|---|---|---|
+| P051 | Inside, monitors glowed above the desk. | Accepted office master; closed door and retained props. |
+| P052 | Nolan's first idea was to kill every switch on the control panel. | Accepted reckless reach; no switch operated. |
+| P053 | Lena caught his wrist. | Accepted after correction; one coherent two-shot with key-hand catch. |
+| P054 | The shutter controls were on the same panel. | Accepted shared horn/shutter icon insert; no shutter action. |
+| P055 | “Not everything,” she said. | Accepted warning with fixed wrist catch and props. |
+| P056 | He nodded, found the public-address amplifier, and opened its cabinet. | Accepted; correct horn-icon cabinet opened. |
+| P057 | The next sale was already counting down. | Accepted active countdown and connected lead. |
+| P058 | He pressed stop. The countdown kept moving. | Accepted failed stop; countdown remains active. |
+| P059 | So he pulled the amplifier's power lead. | Accepted; only PA plug disconnected. |
+| P060 | The cheerful voice died halfway through “everything must—”. | Pending dark/silent PA aftermath; monitors remain on and no quoted text. |
+
+See `BATCH08_REVIEW.md` for dispositions and validation. Complete P060 from accepted P059 before beginning paragraph 8.
 
 ## Batch gate
 

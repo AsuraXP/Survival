@@ -43,8 +43,6 @@ None of these files was used as a visual reference.
 - All 38 accepted continuation frames P013–P050 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
 - Paragraphs 1–6 preflight passed: **50 accepted native frames**, contiguous IDs, verbatim complete paragraphs and valid references.
 
-## Next-batch gates
+## Batch-8 handoff
 
-- Begin paragraph 7 with P051, using P050 as the accepted office-interior master: monitors glow above the desk and the door is now closed.
-- Preserve the radio and keys while Nolan's kill-every-switch impulse, Lena's wrist catch and the shared-panel warning play out.
-- Do not lower the shutter during paragraph 7; that state change remains reserved for the later narrated shutter sequence.
+Batch 8 is in production using P050 as the accepted office-interior master. P051–P059 are accepted through the PA power-lead pull; P060's silent aftermath remains pending. The shutter stays raised and the radio/keys remain with Lena. See `BATCH08_REVIEW.md` for current dispositions.

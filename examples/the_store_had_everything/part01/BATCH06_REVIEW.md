@@ -35,10 +35,8 @@ None of these files was used as a visual reference.
 - P039 → P040 keeps the same PA/direct-aisle geography while moving the man frontward, away from the hiding place.
 - The complete P031–P040 contact sequence was reviewed after the individual frame inspections.
 - All 28 accepted continuation frames P013–P040 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
-- Paragraphs 1–4 preflight still passes with **34 accepted native frames** and verbatim complete-paragraph text. Paragraph 5 is not yet eligible for completed-paragraph preflight.
+- Paragraphs 1–5 preflight now passes with **43 accepted native frames** after P041–P043 completed paragraph 5 in Batch 7.
 
-## Next paragraph-5 gates
+## Paragraph-5 completion
 
-1. **P041:** Lena alone sweeps the keys off the floor; radio stays in her left hand and keys return to her right.
-2. **P042:** Nolan leads her around the green kayak display toward the rear stairs without reversing the established route.
-3. **P043:** The PA that trapped them has just saved them; preserve the same announcement and escape geography without entering the office early.
+P041–P043 are accepted in Batch 7: Lena retrieves the keys with her right hand while retaining the radio left, Nolan leads her around the green kayaks toward S01, and the PA-saved-them beat preserves the established route. See `BATCH07_REVIEW.md` for their dispositions.

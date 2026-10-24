@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–4 are complete through P034. The planned P035–P040 chunk is also accepted, advancing paragraph 5 through the sale distraction. Paragraph 5 still needs P041–P043 for key retrieval, the kayak/stairs move and the announcement-saved-them beat. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–5 are complete through P043. Paragraph 6 is accepted through P046 at the office-lock scrape; P047 requires a radio/key-hand correction and P048–P050 are pending. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -53,7 +53,24 @@ The full disposition record is in `BATCH05_REVIEW.md`. Paragraphs 1–4 prefligh
 | P039 | Then the next sale began. | Accepted PA/sale insert; no text or premature frontward turn. |
 | P040 | The man snapped his attention toward the front again and staggered past their hiding place. | Accepted; keys remain on the floor and protagonists remain hidden. |
 
-See `BATCH06_REVIEW.md` for dispositions, rejection reasons and sequence validation. The next batch begins by adding P041–P043 to finish paragraph 5: Lena retrieves the keys, Nolan leads her around the green kayaks toward the rear stairs, and the trapping voice is revealed to have saved them.
+See `BATCH06_REVIEW.md` for dispositions, rejection reasons and sequence validation. P041–P043 are now accepted in Batch 7 and complete paragraph 5.
+
+## Batch 7 — Paragraph 5 completion and office-door entry
+
+| Frame | Narration | Current gate |
+|---|---|---|
+| P041 | Lena swept the keys off the floor. | Accepted after correction; single keyring retrieved right, infected remains front/offscreen. |
+| P042 | Nolan led her around the green kayak display and toward the rear stairs. | Accepted; lead/follow, identities and hand props preserved. |
+| P043 | The voice that was trapping them had just saved them. | Accepted after correction; PA-aware stair approach completes paragraph 5. |
+| P044 | They reached the office as the announcement ended. | Accepted after correction; exterior closed-door arrival, no early entry. |
+| P045 | Nolan's key missed the lock twice. | Accepted; one store key misses, door remains locked. |
+| P046 | In the sudden silence, every scrape of metal sounded enormous. | Accepted lock-plate scrape insert; no text or early success. |
+| P047 | Lena held the radio against her chest to stop its crank handle from clicking. | In correction; radio must be left/viewer-right against chest and keys right/viewer-left. |
+| P048 | “Nolan,” she said. | Pending; follow accepted P047 with the urgent whisper. |
+| P049 | He found the keyhole. The lock turned. | Pending; single-key unlock only. |
+| P050 | They slipped inside and shut the door as softly as they could. | Pending; soft entry/closing, no control-panel action yet. |
+
+See `BATCH07_REVIEW.md` for dispositions, rejection records and validation. Resume by correcting P047; do not reference its rejected candidate.
 
 ## Batch gate
 

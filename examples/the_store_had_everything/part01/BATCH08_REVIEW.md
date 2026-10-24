@@ -36,8 +36,6 @@ The rejected file is isolated and was never used as a visual reference.
 - All 48 accepted continuation frames P013–P060 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
 - Paragraphs 1–7 preflight passed: **60 accepted native frames**, contiguous IDs, verbatim complete paragraphs and valid references.
 
-## Next-batch gates
+## Batch-9 handoff
 
-- Begin paragraph 8 with P061: in the new silence, Lena's retrieved keys shake against her palm while the radio remains secured.
-- Keep the PA unplugged and the office monitors on. The front-camera crowd must not conveniently vanish.
-- Do not press the shutter control until its later narrated beat in paragraph 8; the shutter remains raised until then.
+Batch 9 is in production. P061–P067 are accepted through the shutter motor's groan; P068–P070 remain pending. The PA stays unplugged, the office monitors remain on and the curtain has not yet descended. See `BATCH09_REVIEW.md` for current dispositions.

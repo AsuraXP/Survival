@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–7 are complete through P060. The next ungenerated beat is P061 in the new office silence. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–8 are complete through P067. The next ungenerated beat is P068, Lena reacting to the shutter motor's volume. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -88,6 +88,23 @@ See `BATCH07_REVIEW.md` for dispositions, rejection records and validation. Batc
 | P060 | The cheerful voice died halfway through “everything must—”. | Accepted dark/silent PA aftermath; monitors remain on and no quoted text. |
 
 See `BATCH08_REVIEW.md` for dispositions and validation. Batch 8 is complete. The next batch begins paragraph 8 with P061, preserving the unplugged PA, active office monitors and Lena's shaking keys.
+
+## Batch 9 — Paragraph 8 and the start of Paragraph 9
+
+| Frame | Narration | Current gate |
+|---|---|---|
+| P061 | The silence was so complete that Nolan heard Lena's keys shaking against her palm. | Accepted trembling retrieved keyring; PA dark. |
+| P062 | On the front camera, the crowd did not vanish. | Accepted monitor master; crowd remains outside intact glass. |
+| P063 | That would have been too easy. | Accepted restrained two-shot with identities and props. |
+| P064 | But no new infected were running toward the glass, and the ones at the back were beginning to turn toward other noises in the street. | Accepted after correction; clean office monitor and visible back-row turn. |
+| P065 | The immediate problem was the crowd already pushing. | Accepted tighter front-row pressure; no broken glass. |
+| P066 | Nolan pressed the shutter control. | Accepted after correction; only shutter switch pressed, full bleed. |
+| P067 | The motor answered with a deep metallic groan. | Accepted motor vibration; curtain still raised. |
+| P068 | “That thing is louder than the announcements,” Lena said. | Pending Lena reaction; radio/keys and dark PA retained. |
+| P069 | “It also locks,” Nolan said. | Pending Nolan response; no new switch action. |
+| P070 | They watched the steel curtain descend over the glass. | Pending partial descent only; no impacts or lock yet. |
+
+See `BATCH09_REVIEW.md` for dispositions and validation. Complete P068–P070 before finishing Batch 9.
 
 ## Batch gate
 

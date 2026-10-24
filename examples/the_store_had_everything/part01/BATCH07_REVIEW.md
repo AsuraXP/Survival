@@ -43,6 +43,6 @@ None of these files was used as a visual reference.
 - All 38 accepted continuation frames P013–P050 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
 - Paragraphs 1–6 preflight passed: **50 accepted native frames**, contiguous IDs, verbatim complete paragraphs and valid references.
 
-## Batch-8 handoff
+## Batch-8 completion
 
-Batch 8 is in production using P050 as the accepted office-interior master. P051–P059 are accepted through the PA power-lead pull; P060's silent aftermath remains pending. The shutter stays raised and the radio/keys remain with Lena. See `BATCH08_REVIEW.md` for current dispositions.
+Batch 8 is complete through P060 using P050 as the accepted office-interior master. The PA is unplugged and dark, the office monitors remain on and the shutter stays raised. See `BATCH08_REVIEW.md` for dispositions and the paragraph-8 handoff.

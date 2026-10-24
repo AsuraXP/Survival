@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–6 are complete through P050. Paragraph 7 is accepted through P059 at the amplifier power-lead pull; P060's silent aftermath is pending. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–7 are complete through P060. The next ungenerated beat is P061 in the new office silence. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -85,9 +85,9 @@ See `BATCH07_REVIEW.md` for dispositions, rejection records and validation. Batc
 | P057 | The next sale was already counting down. | Accepted active countdown and connected lead. |
 | P058 | He pressed stop. The countdown kept moving. | Accepted failed stop; countdown remains active. |
 | P059 | So he pulled the amplifier's power lead. | Accepted; only PA plug disconnected. |
-| P060 | The cheerful voice died halfway through “everything must—”. | Pending dark/silent PA aftermath; monitors remain on and no quoted text. |
+| P060 | The cheerful voice died halfway through “everything must—”. | Accepted dark/silent PA aftermath; monitors remain on and no quoted text. |
 
-See `BATCH08_REVIEW.md` for dispositions and validation. Complete P060 from accepted P059 before beginning paragraph 8.
+See `BATCH08_REVIEW.md` for dispositions and validation. Batch 8 is complete. The next batch begins paragraph 8 with P061, preserving the unplugged PA, active office monitors and Lena's shaking keys.
 
 ## Batch gate
 

@@ -1,12 +1,10 @@
 # Part 1 Continuation — Batch 8 Review (P051–P060)
 
-Status: **in production**. P051–P059 passed assistant per-image and sequence QA on 2026-10-24. Paragraph 7 is accepted through the amplifier power-lead pull; P060's silent aftermath is pending. No intermediate Kaggle run is requested.
+Status: **complete**. All ten active frames passed assistant per-image and sequence QA on 2026-10-24. Paragraph 7 is complete through the PA shutdown and silent aftermath. No intermediate Kaggle run is requested.
 
 ## Narration coverage
 
-The accepted rows reproduce paragraph 7 verbatim from the glowing office monitors through “So he pulled the amplifier's power lead.” The remaining sentence ends the cheerful voice halfway through “everything must—”. Paragraph 7 is not yet eligible for completed-paragraph preflight.
-
-Paragraphs 1–6 preflight remains green with **50 accepted native frames**.
+The ten rows reproduce approved paragraph 7 verbatim, from the glowing office monitors through the cheerful voice dying halfway through “everything must—”. Completed-paragraph preflight passes as part of **60 accepted native frames across paragraphs 1–7**. Actual timings remain deferred to the approved Andrew master.
 
 ## Frame dispositions
 
@@ -21,7 +19,7 @@ Paragraphs 1–6 preflight remains green with **50 accepted native frames**.
 | P057 | Accepted | PA countdown is visibly active through amber segments/progress ring; stop button and connected power lead established. |
 | P058 | Accepted | Nolan depresses only the red PA stop button while the countdown remains illuminated and moving. |
 | P059 | Accepted | Nolan pulls only the PA power plug partly free of its socket; no sparks, wrong cable or other-system shutdown. |
-| P060 | Pending | Show the PA display/voice dying after disconnect, with office monitors still on and no quoted phrase or shutter action. |
+| P060 | Accepted | PA display is completely dark and the plug fully withdrawn; office monitors remain on and no quoted phrase or shutter action appears. |
 
 ## Rejected-candidate record
 
@@ -33,11 +31,13 @@ The rejected file is isolated and was never used as a visual reference.
 
 - P050 → P051 completes entry and establishes the office without starting panel action early.
 - P052 → P053 → P055 preserves the interrupted reach and wrist catch through the shared-panel warning.
-- P056 → P057 → P058 → P059 uses the same horn-icon cabinet, active countdown, connected lead, failed stop and physical disconnect in that order.
-- The accepted P051–P059 contact sequence was reviewed after individual frame inspections.
-- All 47 accepted continuation frames P013–P059 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
-- P051–P059 are a verbatim paragraph-7 prefix; paragraphs 1–6 preflight still passes with 50 frames.
+- P056 → P057 → P058 → P059 → P060 uses the same horn-icon cabinet, active countdown, failed stop, physical disconnect and dark/silent result in that order.
+- The complete P051–P060 contact sequence was reviewed after individual frame inspections.
+- All 48 accepted continuation frames P013–P060 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
+- Paragraphs 1–7 preflight passed: **60 accepted native frames**, contiguous IDs, verbatim complete paragraphs and valid references.
 
-## P060 gate
+## Next-batch gates
 
-Use accepted P059, P050 and the established PA visual language. The PA amplifier/display must be dark or clearly de-energized with its lead disconnected, while the office monitor bank remains on. Nolan and Lena may show restrained relief, not celebration. Do not print “everything must—”, add captions, lower the shutter or silence the radio.
+- Begin paragraph 8 with P061: in the new silence, Lena's retrieved keys shake against her palm while the radio remains secured.
+- Keep the PA unplugged and the office monitors on. The front-camera crowd must not conveniently vanish.
+- Do not press the shutter control until its later narrated beat in paragraph 8; the shutter remains raised until then.

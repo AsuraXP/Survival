@@ -37,12 +37,12 @@ The store had enough food for months. Enough water. Enough batteries to light ev
 
 ### Lighting and art
 
-Unified Vivid Cel Cartoon: retain the original C01/C02 identities, including Nolan's full spiky side-swept fringe and Lena's right-side braid. Characters and environments share dark outlines, simplified geometric props, two/three-tone cel shading and broad amber/blue light bands. No realistic character faces or backgrounds, flat/combed-down Nolan hair, blank expressions, washed-out palette, captions, logos, borders or watermarks.
+Unified Vivid Cel Cartoon: retain the final C01/C02 identities, including Nolan's round head, black oval eyes, thin anatomy, fixed wardrobe and exactly three simple curved black hair strokes, plus Lena's right-side braid and key hand. Characters and environments share dark outlines, simplified geometric props, two/three-tone cel shading and broad amber/blue light bands. No realistic character faces or backgrounds, missing/extra/replaced Nolan hair strokes, blank expressions, washed-out palette, captions, logos, borders or watermarks.
 
 ## Production gates
 
-1. Select the character and rendering direction. **Complete: original C01/C02 identities retained; unified cel-cartoon rendering selected.**
-2. Lock character, prop, palette, and location references. **Complete on 2026-10-24: corrected opening master approved and reused as P001; earlier realistic and flat-haired proofs are not active references.**
+1. Select the character and rendering direction. **Complete: final C01/C02 identities locked, including the user's three-hair-stroke Nolan correction; unified cel-cartoon rendering selected.**
+2. Lock character, prop, palette, and location references. **Complete on 2026-10-24: final three-stroke C01/C02/L01 pack locked; corrected P001 is the active opening master. Earlier realistic, flat-haired and spiky-haired proofs are not active references.**
 3. Generate the full master narration in Kaggle and verify the actual opening duration and word timings. **Runner/notebook ready; Kaggle execution pending.**
 4. Produce the opening frame batches and review them in sequence under `CONTINUITY_PROTOCOL.md`. **Complete: all 12 frames accepted through assistant per-image/sequence QA.**
 5. Assemble and present the 30–45 second pilot. **One-cell Kaggle package ready: `STORE_OPENING_PILOT_KAGGLE.ipynb`.**

@@ -1,6 +1,6 @@
 # Opening Pilot — Batch 1 Review (P001–P006)
 
-Status: P001 is the user-approved opening master reused as an actual pilot frame. P002–P006 passed assistant per-image and sequence QA on 2026-10-24; the user delegated this continuing image review to the assistant. All six files are native 1376×768.
+Status: all six active frames passed assistant per-image and sequence QA on 2026-10-24. P001 and P005 were regenerated after the user's final three-hair-stroke Nolan instruction; P002–P004 and P006 do not contain Nolan and remain accepted. All six files are native 1376×768.
 
 ## Narration coverage
 
@@ -12,11 +12,11 @@ The complete 12-moment plan in `visuals.csv` reproduces the approved 94-word ope
 
 ## Frames
 
-### P001 — Store abundance / approved opening master
+### P001 — Store abundance / active opening master
 
 **Narration:** “The store had enough food for months.”
 
-Reused from the approved corrected cohesion proof. Original C01 spiky hair and C02 Lena identity; no radio; shutter raised.
+Regenerated with final C01: nearly circular head, black oval eyes, exactly three curved black hair strokes, thin anatomy and fixed teal/charcoal wardrobe. Lena retains her black braid and keys; expressions, checkout positions, unified lighting, shutter and no-radio state are preserved. The former spiky proof is historical and isolated from active references.
 
 ![P001](frames/P001.png)
 
@@ -48,7 +48,7 @@ Close insert of the same front-column PA horn, raised shutter housing and blue-n
 
 **Narration:** “Every thirty seconds, a cheerful voice announced another sale.”
 
-Returns to the approved A01 checkout setup. Nolan and Lena retain their positions; only head attention and expressions change. Nolan's original spiky fringe, Lena's right-side braid and keys in her right hand are preserved. Neither has a radio or backpack.
+Returns to the A01 checkout setup. Nolan's final three-stroke identity, round head, oval eyes, thin anatomy and wardrobe are preserved. Lena's right-side braid and anatomical-right-hand keys are preserved. Neither has a radio or backpack; only head attention and expressions change.
 
 ![P005](frames/P005.png)
 
@@ -66,13 +66,9 @@ Threat-detail cutaway with simplified non-graphic infected outside. The glass re
 - P005 returns to the same A01 character state as P001; no travel has occurred yet.
 - P006 keeps the infected outside and the glass intact, preserving later shutter and breach states.
 - The PA speaker, checkout, tent/cooler/kayak landmarks and cyan office remain in their established locations where visible.
-- All active frames use the unified dark-outlined cel-cartoon treatment. The earlier realistic background and flat-haired Nolan proof are not references.
+- All active frames use the unified dark-outlined cel-cartoon treatment. Historical realistic, flat-haired and spiky-haired Nolan proofs are not active references.
 - All six narration segments match the approved script and all six active images passed native-dimension checks.
 
 ## Reference rule for the next batch
 
-P002–P006 passed assistant QA and may now be used with the identity/location masters for direct continuations. Rejected frames are moved out of the active set and never guide later images. The user retains final pilot/video review rather than having to clear every individual batch.
-
-## Next after accepted batch review
-
-Produce P007–P012 for the office objective, crossing and deadline; then generate/verify the full Part 1 master narration in Kaggle and assemble the reusable 30–45 second opening pilot from its actual opening timings.
+Accepted frames may be used with the current identity/location masters for direct continuations. Rejected and superseded frames are moved out of the active set and never guide later images. The user retains final pilot/video review rather than having to clear every individual batch.

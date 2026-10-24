@@ -42,6 +42,6 @@ These become scene-state records and establishing-master requirements during vis
 
 ## Approval and reuse gates
 
-The arc and script are approved. The next gate is a small expressive-style test, followed by the reference pack and the opening pilot. No frame batch will be treated as approved merely because the script is approved.
+The arc and script are approved. The final reference pack and all 12 opening frames have now passed their separate visual gates, including the user's three-hair-stroke Nolan correction. The next gate is the assembled opening pilot with real master narration and measured timing; no frame batch was treated as approved merely because the script was approved.
 
 The pilot is the actual reusable beginning of Part 1. It will use the opening of the full master narration, final-native-resolution frames, and the production hard-cut pipeline. See `OPENING_PILOT_PLAN.md`.

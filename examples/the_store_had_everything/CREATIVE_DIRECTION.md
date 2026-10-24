@@ -10,12 +10,12 @@ The completed _Save the Guide_ Part 1 remains preserved and on hold. Its restrai
 
 ## 1. New visual target: Unified Vivid Cel Cartoon
 
-The current direction combines the original C01/C02 character designs with a unified hand-drawn environment. The user rejected the realistic background's mismatch and then identified Nolan's flattened hair in a later proof as identity drift. The original spiky C01 hairstyle is retained; style correction must not redesign approved character features.
+The current direction combines the final C01/C02 character designs with a unified hand-drawn environment. The user rejected the realistic background's mismatch and later made a final identity correction: Nolan now has exactly three simple curved black hair strokes, matching the supplied construction JPEG, to improve generation consistency. This supersedes the earlier spiky-fringe direction. Every other identity, wardrobe, expression, pose, lighting, background and continuity detail remains binding.
 
 ### Character requirements
 
 - **Simple recurring construction:** oversized round heads, clean dark outlines, minimal black oval eyes, thin necks and limbs, simplified hands and shoes, and clear head-to-body proportions.
-- **Exact identity silhouettes:** Nolan keeps the original full dark-brown side-swept spiky fringe with pointed locks and upward tufts. The general construction source's three hair strokes are not his haircut. Lena keeps her simple tied-back black braid.
+- **Exact identity silhouettes:** Nolan keeps a nearly circular pale head, black oval eyes, thin neck/limbs and exactly three separate curved black hair strokes matching the supplied construction source. No missing or additional strokes, brown hair mass, fringe or spikes. His teal vest, charcoal clothes, dark trousers, light-soled shoes and blank lanyard remain fixed. Lena keeps her round head, black hair, simple tied-back right-side braid, amber/burgundy/navy wardrobe and right-hand keys.
 - **Expressions without realistic facial detail:** fear, doubt, urgency, relief and determination must read through eyebrow angle, oval-eye shape, mouth curve, head tilt, posture and hands.
 - **Dynamic silhouettes and poses:** weight shift, reaching, recoiling, running and hesitation should read through the whole body.
 - **Scene integration:** characters and environment use related outlines, cel shading, contact shadows and lighting logic.
@@ -31,7 +31,7 @@ The current direction combines the original C01/C02 character designs with a uni
 ### Avoid
 
 - Realistic or highly detailed character faces, forced irises/pupils, complex noses, excessive comic-book muscularity and intricate anatomy that would increase identity drift.
-- Flat/combed-down Nolan hair, three-stroke Nolan hair, switched braid, blank expressions, washed-out colours, static poses and uniformly pale backgrounds.
+- Missing, extra or replaced Nolan hair strokes; oval/pointed heads; changed eyes, anatomy, wardrobe or badge; switched braid/key hand; blank expressions; washed-out colours; static poses and uniformly pale backgrounds.
 - Photorealistic or 3D-looking backgrounds, horror gore, unreadable darkness, characters that resemble flat stickers, or environment detail that fights the character line language.
 - Captions, logos, watermarks and random readable brand text inside story frames.
 

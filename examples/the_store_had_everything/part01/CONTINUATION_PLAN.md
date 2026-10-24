@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: opening approved and locked; Batch 3 (P013–P018) accepted through assistant per-image/sequence QA on 2026-10-24. The cached-master Kaggle continuation runner is validated and ready for the real paragraph-2 build.
+Status: opening approved and locked; Batch 3 accepted. Batch 4 is accepted through P024; P025 remains in correction and P026 is pending. Per the user's instruction, no more intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -25,3 +25,20 @@ Status: opening approved and locked; Batch 3 (P013–P018) accepted through assi
 ## Batch gate
 
 Inspect every frame immediately, archive failures, review P012 → P013 and all adjacent transitions, verify native dimensions and verbatim paragraph text, then commit before using Batch 3 as later references. Actual display durations come from the saved master timing, not estimated reading speeds.
+
+## Batch 4 — Paragraph 3: announcement movement rhythm
+
+| Frame | Narration | Intended shot |
+|---|---|---|
+| P019 | They moved while the speakers held the crowd's attention. | Return to the officeward crossing under announcement cover. |
+| P020 | During each announcement, the infected outside turned toward the same cheerful sound. | Outside-glass crowd turns toward the PA; intact glass and raised shutter. |
+| P021 | In the short gaps, some of them began noticing other things. | Adjacent crowd attention drifts in the gap; nobody enters. |
+| P022 | Nolan and Lena ran during the voice | Side-tracking run with established lead/follow and prop states. |
+| P023 | and froze during the silence. | Matched-angle freeze without moving the characters or landmarks. |
+| P024 | Twenty-eight seconds of movement. | Wider movement interval; no readable timer or captions. |
+| P025 | Two seconds of stillness. | Matched still interval; no readable timer or captions. |
+| P026 | It was not a good system. It was the only one they had. | Resigned two-shot approaching camping; radio still absent until paragraph 4. |
+
+## Final-delivery gate
+
+Continue paragraph-by-paragraph through paragraph 14. Do not ask for another intermediate Kaggle run. Only after every remaining frame is accepted, all manifests and sequence reviews pass, and the full Part 1 package is committed should the user receive the final one-cell Kaggle script.

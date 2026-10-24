@@ -30,6 +30,6 @@ All rejected candidates are isolated under `part01/rejected/` and are not active
 - P018 is a threat cutaway only; it does not advance the shutter, glass damage or office entry.
 - All six active frames are native 1376×768. Every listed reference exists and no rejected path is listed.
 
-## Next production dependency
+## Deferred production dependency
 
-Use the existing Kaggle master narration and saved word timings to extend the video through paragraph 2. Do not enable `FORCE_TTS`. A fresh-session build requires the exported approved master assets described in `opening_pilot/APPROVAL.md`.
+The existing Kaggle master narration and saved word timings will be reused for the final full Part 1 build. Per the user's latest instruction, no intermediate paragraph-2 video run is requested. Do not enable `FORCE_TTS`. The final run script will be delivered only after every Part 1 frame is finished; a fresh-session build will require the exported approved master assets described in `opening_pilot/APPROVAL.md`.

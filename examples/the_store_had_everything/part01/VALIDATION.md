@@ -19,4 +19,4 @@ Date: 2026-10-24
 
 ## Not claimed locally
 
-No real continuation narration or real paragraph-2 video has been generated in this workspace. Synthetic audio and cached word streams validated the production logic only. The next required result is the actual Kaggle continuation run using the user's approved Andrew master, with clean WordBoundary mapping and all 25 real-media QA checks passing.
+No real continuation narration or real paragraph-2 video has been generated in this workspace. Synthetic audio and cached word streams validated the production logic only. Per the user's latest instruction, intermediate Kaggle preview delivery is stopped. The final one-cell script will be delivered only after every Part 1 frame is accepted; that final real build must reuse the approved Andrew master, map every moment without warnings and pass the complete real-media QA.

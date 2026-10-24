@@ -1,6 +1,6 @@
 # Opening Pilot — Continuing Frame Review Log
 
-Review owner: assistant, delegated by the user on 2026-10-24. The user still receives the assembled pilot and can request changes; production does not wait for manual clearance of every individual batch.
+Review owner: assistant, delegated by the user on 2026-10-24. The assembled opening subsequently passed the corrected Kaggle run and was approved and locked by the user; see `APPROVAL.md`. Continuation proceeds without manual clearance of every individual batch, while the user retains final episode review.
 
 ## Required review for every generated frame
 

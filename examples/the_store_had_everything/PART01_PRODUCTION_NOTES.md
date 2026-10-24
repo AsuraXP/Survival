@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Production Notes
 
-Status: arc and script approved. All 12 opening frames passed assistant per-image/sequence QA on 2026-10-24. The Kaggle master-narration/stitching runner and notebook are ready; actual pilot execution is pending. These notes are not narration.
+Status: arc and script approved. The assembled opening was approved and locked by the user on 2026-10-24. Continuation is active from paragraph 2 with P013 onward, reusing the same full master narration and leaving P001–P012 unchanged. These notes are not narration.
 
 ## Script measurements
 

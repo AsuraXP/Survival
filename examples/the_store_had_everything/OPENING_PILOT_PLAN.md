@@ -1,6 +1,6 @@
 # The Store Had Everything — Reusable Opening Pilot Plan
 
-Status: active. All 12 opening frames passed assistant per-image/sequence QA on 2026-10-24. The one-cell Kaggle master-narration/stitching package is ready; actual pilot execution is pending.
+Status: **approved by the user and locked on 2026-10-24.** The corrected Kaggle opening is the reusable beginning of Part 1. Continuation has begun from paragraph 2 with P013 onward; see `opening_pilot/APPROVAL.md` and `part01/CONTINUATION_PLAN.md`.
 
 ## Reuse guarantee
 
@@ -45,5 +45,5 @@ Unified Vivid Cel Cartoon: retain the final C01/C02 identities, including Nolan'
 2. Lock character, prop, palette, and location references. **Complete on 2026-10-24: final three-stroke C01/C02/L01 pack locked; corrected P001 is the active opening master. Earlier realistic, flat-haired and spiky-haired proofs are not active references.**
 3. Generate the full master narration in Kaggle and verify the actual opening duration and word timings. **Runner/notebook ready; Kaggle execution pending.**
 4. Produce the opening frame batches and review them in sequence under `CONTINUITY_PROTOCOL.md`. **Complete: all 12 frames accepted through assistant per-image/sequence QA.**
-5. Assemble and present the 30–45 second pilot. **One-cell Kaggle package ready: `STORE_OPENING_PILOT_KAGGLE.ipynb`.**
-6. Only after pilot approval, continue the remaining Part 1 frames using the same master audio and approved references.
+5. Assemble and present the 30–45 second pilot. **Complete: corrected Kaggle pilot assembled and approved by the user; P001–P012 and its measured opening edit are locked.**
+6. Continue the remaining Part 1 frames using the same master audio and approved references. **Active: Batch 3, P013–P018, starts at paragraph 2. Do not enable `FORCE_TTS`.**

@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: opening approved and locked; Batch 3 (P013–P018) accepted through assistant per-image/sequence QA on 2026-10-24. Kaggle continuation-through-paragraph-2 build is the next step.
+Status: opening approved and locked; Batch 3 (P013–P018) accepted through assistant per-image/sequence QA on 2026-10-24. The cached-master Kaggle continuation runner is validated and ready for the real paragraph-2 build.
 
 ## Reuse and continuity rules
 

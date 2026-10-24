@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Production Notes
 
-Status: arc and script approved by the user on 2026-10-23. Expressive opening style selection is in progress. These notes are not narration.
+Status: arc and script approved by the user on 2026-10-23. The hybrid style has been selected; the opening identity/location reference pack is awaiting approval. These notes are not narration.
 
 ## Script measurements
 

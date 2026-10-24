@@ -2,35 +2,42 @@
 
 Date: 2026-10-23
 
-Status: direction, rough arc and Part 1 script approved by the user on 2026-10-23; expressive opening style selection in progress; no recurring characters or story frames locked
+Status: arc and Part 1 script approved; the user rejected the detailed-character candidates on 2026-10-23 and supplied a simpler character reference; hybrid style test in progress; no recurring characters or story frames locked
 
 ## Why the direction is changing
 
 The completed _Save the Guide_ Part 1 remains preserved and on hold. Its restrained naive/dot-eye style will **not** carry into the new launch story. The user found the finished result too visually dull and the `-5%` narration less natural. The new story will use expressive characters, vivid colour and Andrew at normal **0%** speed.
 
-## 1. New visual target: Expressive Vivid 2D
+## 1. New visual target: Simple Characters, Vivid World
 
-A clear, expressive 2D animated-story/graphic-novel look that remains practical to reproduce across many narrative frames.
+A hybrid 2D animated-story look based on the user's latest direction: **characters use the simple construction in the supplied reference, while environments, props and lighting remain rich and cinematic.** The previous detailed-character candidates were rejected. The user-supplied reference and integration rules are retained in `references/the_store_had_everything/STYLE_REFERENCE.md`.
 
-### Required
+### Character requirements
 
-- **Readable eyes:** visible irises/pupils and restrained highlights where the shot is close enough; eyelids, brows and gaze direction carry emotion. No default dot-eye faces.
-- **Sharp expressions:** fear, doubt, urgency, relief and determination must read immediately through brows, eyes, mouth, posture and hands—not through narration alone.
-- **Vivid colour with purpose:** richer blues, warm ambers, emergency reds and clean saturated accents. Avoid the previous washed-out grey-brown dominance.
-- **Strong lighting and contrast:** emergency lighting, flashlight beams, lit screens and deep but readable shadows. Faces must remain legible in dark scenes.
-- **Dynamic silhouettes and poses:** weight shift, reaching, recoiling, running and hesitation should be visible in the body, not only the face.
-- **Clean hand-drawn/cel-style finish:** confident line work and controlled cel shading rather than the old deliberately awkward naive rendering.
-- **Moment-specific compositions:** wide shots establish geography; close shots carry emotion; action shots show cause and effect.
+- **Simple recurring construction:** oversized round heads, clean dark outlines, minimal black oval eyes, sparse hair strokes, thin necks and limbs, simplified hands and shoes, and clear head-to-body proportions.
+- **Expressions without realistic facial detail:** fear, doubt, urgency, relief and determination must read through eyebrow angle, oval-eye shape, mouth curve, head tilt, posture and hands.
+- **Distinct but reproducible identities:** Nolan and Lena need stable hair silhouettes, wardrobe colours and proportions without adding complex facial anatomy.
+- **Dynamic silhouettes and poses:** weight shift, reaching, recoiling, running and hesitation should read through the whole body.
+- **Scene integration:** simple cel-shaded colour, contact shadows and restrained rim light must place the characters inside the world rather than making them look pasted on top.
+
+### Environment and rendering requirements
+
+- **Vivid colour with purpose:** richer blues, warm ambers, emergency reds and clean saturated accents. Avoid washed-out grey-brown dominance.
+- **Detailed, useful props and locations:** outdoor equipment, shelves, public-address hardware, shutters, monitors and the van need recognizable shapes and consistent placement.
+- **Strong lighting and contrast:** emergency lighting, lit screens, deep but readable shadows and clear character lighting.
+- **Clean hand-drawn/cel-style finish:** confident line work and controlled shading, with richer environmental rendering than the character construction.
+- **Moment-specific compositions:** wide shots establish geography; closer shots carry expression; action shots show cause and effect.
 
 ### Avoid
 
-- Dot eyes, blank expressions, washed-out colours, static symmetrical poses and uniformly pale backgrounds.
-- Photorealism, horror gore, excessive comic-book muscularity, unreadable darkness or so much rendering detail that recurring characters cannot remain consistent.
+- Realistic or highly detailed character faces, forced irises/pupils, complex noses, excessive comic-book muscularity and intricate anatomy that would increase identity drift.
+- Blank expressions, washed-out colours, static symmetrical poses and uniformly pale backgrounds.
+- Photorealism, horror gore, unreadable darkness, characters that resemble flat stickers, or so much character detail that the supplied style is lost.
 - Captions, logos, watermarks and random readable brand text inside story frames.
 
 ### Practical consistency rule
 
-Expressiveness must not come at the cost of identity. Once the style is selected, lock face, eye design, hair, wardrobe, colour palette and lighting rules in recurring references before producing the full story.
+Lock head/body proportions, line weight, eye and brow shapes, hair silhouettes, wardrobe, colour palette and simple lighting rules in recurring references before producing the full story. Richer backgrounds do not remove the need for location masters.
 
 Spatial continuity is equally strict: same-situation frames must preserve character positions, facing, props, background landmarks, and accumulated scene damage unless the story explicitly changes them. The mandatory procedure is in `CONTINUITY_PROTOCOL.md`.
 

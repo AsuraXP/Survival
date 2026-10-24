@@ -32,17 +32,17 @@ The store had enough food for months. Enough water. Enough batteries to light ev
 ### Initial character state
 
 - Nolan begins behind checkout three with his left shoulder toward the storefront, facing toward the rear office. He has his store key/lanyard and box cutter. He does not have a backpack.
-- Lena begins one step behind and to Nolan's right. She has her van keys. She does **not** have the hand-crank radio yet; it is acquired at the camping display in the next paragraph.
+- Lena begins one step behind and to Nolan's right. She has her van keys in her anatomical right hand, with her simple braid over her right shoulder when visible. She does **not** have the hand-crank radio yet; it is acquired at the camping display in the next paragraph.
 - Their movement toward the office occurs only when the narration describes the objective and crossing. A camera change alone cannot move them.
 
 ### Lighting and art
 
-Expressive Vivid 2D: clear irises and gaze, sharp brows/mouth/posture, saturated teal/amber/blue accents, strong but readable lighting, and non-graphic infected silhouettes. No dot eyes, blank expressions, washed-out palette, captions, logos, borders, or watermarks.
+Simple Characters, Vivid World: characters follow the user-supplied round-head, minimal oval-eye, thin-limb construction, with expression carried by brows, eye shape, mouth, head tilt and posture. Environments and props use saturated teal/amber/blue accents, rich 2D detail, strong readable lighting, and non-graphic infected silhouettes. No realistic character faces, blank expressions, washed-out palette, captions, logos, borders, or watermarks.
 
 ## Production gates
 
-1. User selects the opening style candidate.
-2. Lock character, prop, palette, and location references; the selected opening image may become the establishing master only if its geography passes review.
+1. User selects the opening style candidate. **Complete: simple-character/rich-world hybrid selected.**
+2. Lock character, prop, palette, and location references. **In progress: opening pack presented for approval; the selected opening image is a style anchor, not an interchangeable background.**
 3. Generate the full master narration in Kaggle and verify the actual opening duration and word timings.
 4. Produce the opening frame batch and review it in sequence under `CONTINUITY_PROTOCOL.md`.
 5. Assemble and present the 30–45 second pilot.

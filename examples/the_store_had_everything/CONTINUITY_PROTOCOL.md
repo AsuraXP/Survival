@@ -25,7 +25,7 @@ The record fixes:
 
 Example of the required level of specificity:
 
-> Nolan is crouched behind checkout 3, left shoulder toward the front glass, facing screen-right toward Lena. Lena is one step behind him on his right, van keys closed in her left hand. The blue cooler stack remains behind them on frame-left. The orange tent display is farther back on frame-right. Neither changes position until the narration says they run.
+> Nolan is crouched behind checkout 3, left shoulder toward the front glass, facing screen-right toward Lena. Lena is one step behind him on his right, van keys closed in her right hand. The blue cooler stack remains behind them on frame-left. The orange tent display is farther back on frame-right. Neither changes position until the narration says they run.
 
 A prompt such as “Nolan and Lena hide nervously in the store” is not sufficient.
 

@@ -2,7 +2,7 @@
 
 ## Status
 
-**New active channel-launch story. Premise direction approved by the user on 2026-10-23. The rough multipart arc and complete Part 1 script are now drafted and awaiting user review; no references or story frames yet.**
+**New active channel-launch story. Premise, rough four-part arc and complete Part 1 script approved by the user on 2026-10-23. Expressive opening style selection is in progress; no recurring references or story frames locked yet.**
 
 _Save the Guide_ Part 1 is complete and received by the user. That series is on hold with all assets preserved and will not continue unless the user explicitly resumes it.
 

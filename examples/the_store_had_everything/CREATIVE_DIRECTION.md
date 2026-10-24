@@ -2,7 +2,7 @@
 
 Date: 2026-10-23
 
-Status: direction approved by the user on 2026-10-23; arc and Part 1 script drafted for review; no recurring characters or story frames locked
+Status: direction, rough arc and Part 1 script approved by the user on 2026-10-23; expressive opening style selection in progress; no recurring characters or story frames locked
 
 ## Why the direction is changing
 

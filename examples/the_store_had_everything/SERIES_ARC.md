@@ -1,6 +1,6 @@
 # The Store Had Everything — Rough Series Arc
 
-Status: draft for user review, 2026-10-23. Part 1 is fully drafted in `PART01_SCRIPT.md`; later parts remain flexible until the opening pilot and Part 1 are approved.
+Status: rough arc and Part 1 direction approved by the user on 2026-10-23. Part 1 is fully drafted in `PART01_SCRIPT.md`; later parts remain flexible until the opening pilot and Part 1 are complete.
 
 ## Story promise
 

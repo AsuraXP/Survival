@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Production Notes
 
-Status: script draft awaiting user approval. These notes are not narration.
+Status: arc and script approved by the user on 2026-10-23. Expressive opening style selection is in progress. These notes are not narration.
 
 ## Script measurements
 
@@ -40,6 +40,8 @@ The pilot should include the storefront, Nolan and Lena behind checkout three, a
 
 These become scene-state records and establishing-master requirements during visual planning. See `CONTINUITY_PROTOCOL.md`.
 
-## Approval gate
+## Approval and reuse gates
 
-The user reviews the arc and script before recurring references or full story frames are produced. After story approval, the next gate is a small expressive-style test, followed by the reference pack and the opening pilot. No frame batch will be treated as approved merely because the script is approved.
+The arc and script are approved. The next gate is a small expressive-style test, followed by the reference pack and the opening pilot. No frame batch will be treated as approved merely because the script is approved.
+
+The pilot is the actual reusable beginning of Part 1. It will use the opening of the full master narration, final-native-resolution frames, and the production hard-cut pipeline. See `OPENING_PILOT_PLAN.md`.

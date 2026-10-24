@@ -1,6 +1,6 @@
 # The Store Had Everything — Opening Reference Pack
 
-Status: **original C01/C02 character identities retained; unified background and corrected combined proof awaiting user approval.** No pilot frame batch has been generated.
+Status: **approved for continuation by the user on 2026-10-24.** Original C01/C02 identities, unified background, corrected combined proof and store geography are the opening production references. Pilot frame batches still require separate review.
 
 ## Pack purpose
 
@@ -56,7 +56,7 @@ This pack separates character identity, general construction, environment, and g
 
 ![Lena identity](lena_identity.png)
 
-## L01 — Proposed unified opening store background
+## L01 — Approved unified opening store background
 
 **File:** `opening_store_background.png`
 
@@ -71,7 +71,7 @@ This pack separates character identity, general construction, environment, and g
 
 The earlier realistic plate is retained only as `examples/the_store_had_everything/style_tests/rejected_realistic_opening_background.png`; it is not an active reference.
 
-![Proposed unified opening store background](opening_store_background.png)
+![Approved unified opening store background](opening_store_background.png)
 
 ## P01 — Corrected combined cohesion proof
 
@@ -79,7 +79,7 @@ The earlier realistic plate is retained only as `examples/the_store_had_everythi
 
 **Dimensions:** 1376×768
 
-This proof combines the proposed background with the original C01/C02 identities. It restores Nolan's spiky hair after the preceding flat-haired proof was rejected. It is a candidate opening master, not yet an approved final frame.
+This proof combines the approved background with the original C01/C02 identities. It restores Nolan's spiky hair after the preceding flat-haired proof was rejected. It was approved for continuation on 2026-10-24 and is reused as opening pilot frame P001.
 
 ![Corrected combined cohesion proof](../../examples/the_store_had_everything/style_tests/unified_cohesion_proof_corrected.png)
 
@@ -104,11 +104,11 @@ The schematic fixes the front/checkouts, camping landmarks, direct aisle, rear s
 | S01 original hybrid | Character anchor retained | Original Nolan hair is correct; realistic environment is not the active target. |
 | S02 unified cartoon | Rendering anchor selected | Portrait style reference only. |
 | First cohesion proof | Rejected | Nolan's hair flattened; Lena's spacing/braid also drifted. |
-| Corrected cohesion proof | Awaiting user review | Original spiky C01 hair restored; unified background retained. |
-| C01/C02 identities | Retained for pack review | No replacement three-stroke Nolan was generated or saved. |
-| L01 unified background | Awaiting user review | Required landmarks present; old realistic plate removed from active references. |
+| Corrected cohesion proof | Approved for continuation 2026-10-24 | Original spiky C01 hair restored; reused as actual pilot P001. |
+| C01/C02 identities | Approved for continuation 2026-10-24 | No replacement three-stroke Nolan was generated or saved. |
+| L01 unified background | Approved for continuation 2026-10-24 | Required landmarks present; old realistic plate removed from active references. |
 | M01 schematic | Pass | Valid SVG; relationships match written geography. |
 
-## Approval requested
+## Approval record
 
-Review **P01 first for the combined look and Nolan's restored hair**, then approve or request changes to C01, C02, L01 and M01 as the opening pack. Pilot frames will still require their own batch and sequence approval.
+The user approved continuation on 2026-10-24 after reviewing the corrected combined proof. C01, C02, L01, M01 and P01 are now the opening production references. P01 is copied into the pilot as actual frame P001. Later frames become continuation references only after approval; rejected or different-state frames must not be used. Pilot frames still require batch and sequence approval.

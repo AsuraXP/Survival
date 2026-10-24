@@ -1,6 +1,6 @@
 # The Store Had Everything — Reusable Opening Pilot Plan
 
-Status: active after arc/script approval. Original C01/C02 identities are retained; the unified background and corrected combined proof await approval before recurring references and pilot frames are locked.
+Status: active. Original C01/C02 identities, unified background and corrected combined opening master were approved for continuation on 2026-10-24. Opening pilot frame production is in progress.
 
 ## Reuse guarantee
 
@@ -42,8 +42,8 @@ Unified Vivid Cel Cartoon: retain the original C01/C02 identities, including Nol
 ## Production gates
 
 1. Select the character and rendering direction. **Complete: original C01/C02 identities retained; unified cel-cartoon rendering selected.**
-2. Lock character, prop, palette, and location references. **In progress: corrected combined proof and revised unified background await approval; earlier realistic and flat-haired proofs are not active references.**
+2. Lock character, prop, palette, and location references. **Complete on 2026-10-24: corrected opening master approved and reused as P001; earlier realistic and flat-haired proofs are not active references.**
 3. Generate the full master narration in Kaggle and verify the actual opening duration and word timings.
-4. Produce the opening frame batch and review it in sequence under `CONTINUITY_PROTOCOL.md`.
+4. Produce the opening frame batches and review them in sequence under `CONTINUITY_PROTOCOL.md`. **Batch 1 P001–P006 generated and presented for user review; P007–P012 planned.**
 5. Assemble and present the 30–45 second pilot.
 6. Only after pilot approval, continue the remaining Part 1 frames using the same master audio and approved references.

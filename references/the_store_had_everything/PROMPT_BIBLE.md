@@ -1,6 +1,6 @@
 # The Store Had Everything — Prompt Bible
 
-Status: revised after the user's background-cohesion and Nolan-hairstyle corrections. Proposed for corrected-reference-pack approval.
+Status: active opening-production prompt rules; reference pack approved for continuation by the user on 2026-10-24.
 
 ## Reference hierarchy
 
@@ -58,6 +58,6 @@ Do not compensate for a weak result by redesigning the location or changing a ch
 
 ## Opening master rule
 
-`opening_store_background.png` is the proposed unified background for setup A01 and becomes canonical only with pack approval. Its native dimensions are 1376×768. Opening story frames must retain that composition and native-output workflow. The 1672×941 original hybrid, 769×1363 unified portrait test and portrait identity references are references, not frames to insert indiscriminately into the video.
+`opening_store_background.png` is the approved unified background for setup A01. Its native dimensions are 1376×768. Opening story frames must retain that composition and native-output workflow. The 1672×941 original hybrid, 769×1363 unified portrait test and portrait identity references are references, not frames to insert indiscriminately into the video.
 
-`examples/the_store_had_everything/style_tests/unified_cohesion_proof_corrected.png` is the current candidate combined opening master. The earlier flat-haired proof is rejected and must not be used as a reference.
+`examples/the_store_had_everything/style_tests/unified_cohesion_proof_corrected.png` is the approved combined opening master and is reused as pilot frame P001. The earlier flat-haired proof is rejected and must not be used as a reference.

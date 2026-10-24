@@ -2,7 +2,7 @@
 
 Date: 2026-10-23
 
-Status: arc and Part 1 script approved; original C01/C02 character identities retained; unified cel-cartoon rendering selected; corrected combined proof and revised background awaiting user approval; no pilot frame batch locked
+Status: arc and Part 1 script approved; original C01/C02 identities, unified background and corrected opening master approved for continuation on 2026-10-24; opening pilot frame production in progress
 
 ## Why the direction is changing
 

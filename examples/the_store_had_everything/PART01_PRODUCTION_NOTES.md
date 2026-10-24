@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Production Notes
 
-Status: arc and script approved by the user on 2026-10-23. Original C01/C02 identities are retained; the unified background and corrected combined proof are awaiting approval. These notes are not narration.
+Status: arc and script approved by the user on 2026-10-23. Opening reference pack and corrected opening master approved for continuation on 2026-10-24; pilot frame production is in progress. These notes are not narration.
 
 ## Script measurements
 

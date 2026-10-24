@@ -30,7 +30,7 @@ This 769×1363 portrait image is a **rendering-style reference only**, not a fin
 
 - The first unified cohesion proof flattened Nolan's hair and was rejected.
 - `examples/the_store_had_everything/style_tests/unified_cohesion_proof_corrected.png` restores the original C01 spiky hairstyle and uses the simplified cel-cartoon store background.
-- The corrected proof is awaiting user review before the opening master and reference pack are locked.
+- The corrected proof and revised opening reference pack were approved for continuation by the user on 2026-10-24.
 - No three-hair-stroke Nolan test was saved; that misunderstanding was aborted and is not part of the direction.
 
 ## Unified target
@@ -40,4 +40,4 @@ This 769×1363 portrait image is a **rendering-style reference only**, not a fin
 - **Integration:** characters and environment share line, shading and lighting logic. Neither realistic backgrounds nor flat sticker-like characters are acceptable.
 - **Continuity:** the style anchor never overrides the current identity, scene state or `CONTINUITY_PROTOCOL.md`.
 
-No full pilot frame batch will be produced until the corrected combined proof and reference pack are approved.
+The corrected combined proof is now actual pilot frame P001. Later pilot batches require separate review; only approved frames may become continuation references.

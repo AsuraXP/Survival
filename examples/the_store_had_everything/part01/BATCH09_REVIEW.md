@@ -41,8 +41,6 @@ Rejected files are isolated and were never used as visual references.
 - All 58 accepted continuation frames P013–P070 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
 - Paragraphs 1–8 preflight passed: **67 accepted native frames**, contiguous IDs, verbatim complete paragraphs and valid references. P068–P070 were separately verified as a verbatim paragraph-9 prefix.
 
-## Next-batch gates
+## Batch-10 handoff
 
-- Begin P071 with fists striking the still-partial steel curtain, then P072's whole-frame shudder; preserve the outside crowd and office geography.
-- Do not move Lena toward the switch until P073, and keep Nolan's uncertainty and non-controlling hand position distinct in P074–P075.
-- Reserve floor contact for P076, lock engagement for P077 and the muted non-celebration for P078.
+Batch 10 is in production. P071–P079 are accepted through the radio being set on the desk; P080's no-service phone beat remains pending. The front shutter is closed and locked, the PA is dark and the office monitors remain on. See `BATCH10_REVIEW.md` for current dispositions and the remaining frame budget.

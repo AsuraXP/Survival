@@ -2,42 +2,42 @@
 
 Date: 2026-10-23
 
-Status: arc and Part 1 script approved; the user rejected the detailed-character candidates on 2026-10-23 and supplied a simpler character reference; hybrid style test in progress; no recurring characters or story frames locked
+Status: arc and Part 1 script approved; original C01/C02 character identities retained; unified cel-cartoon rendering selected; corrected combined proof and revised background awaiting user approval; no pilot frame batch locked
 
 ## Why the direction is changing
 
 The completed _Save the Guide_ Part 1 remains preserved and on hold. Its restrained naive/dot-eye style will **not** carry into the new launch story. The user found the finished result too visually dull and the `-5%` narration less natural. The new story will use expressive characters, vivid colour and Andrew at normal **0%** speed.
 
-## 1. New visual target: Simple Characters, Vivid World
+## 1. New visual target: Unified Vivid Cel Cartoon
 
-A hybrid 2D animated-story look based on the user's latest direction: **characters use the simple construction in the supplied reference, while environments, props and lighting remain rich and cinematic.** The previous detailed-character candidates were rejected. The user-supplied reference and integration rules are retained in `references/the_store_had_everything/STYLE_REFERENCE.md`.
+The current direction combines the original C01/C02 character designs with a unified hand-drawn environment. The user rejected the realistic background's mismatch and then identified Nolan's flattened hair in a later proof as identity drift. The original spiky C01 hairstyle is retained; style correction must not redesign approved character features.
 
 ### Character requirements
 
-- **Simple recurring construction:** oversized round heads, clean dark outlines, minimal black oval eyes, sparse hair strokes, thin necks and limbs, simplified hands and shoes, and clear head-to-body proportions.
+- **Simple recurring construction:** oversized round heads, clean dark outlines, minimal black oval eyes, thin necks and limbs, simplified hands and shoes, and clear head-to-body proportions.
+- **Exact identity silhouettes:** Nolan keeps the original full dark-brown side-swept spiky fringe with pointed locks and upward tufts. The general construction source's three hair strokes are not his haircut. Lena keeps her simple tied-back black braid.
 - **Expressions without realistic facial detail:** fear, doubt, urgency, relief and determination must read through eyebrow angle, oval-eye shape, mouth curve, head tilt, posture and hands.
-- **Distinct but reproducible identities:** Nolan and Lena need stable hair silhouettes, wardrobe colours and proportions without adding complex facial anatomy.
 - **Dynamic silhouettes and poses:** weight shift, reaching, recoiling, running and hesitation should read through the whole body.
-- **Scene integration:** simple cel-shaded colour, contact shadows and restrained rim light must place the characters inside the world rather than making them look pasted on top.
+- **Scene integration:** characters and environment use related outlines, cel shading, contact shadows and lighting logic.
 
 ### Environment and rendering requirements
 
 - **Vivid colour with purpose:** richer blues, warm ambers, emergency reds and clean saturated accents. Avoid washed-out grey-brown dominance.
-- **Detailed, useful props and locations:** outdoor equipment, shelves, public-address hardware, shutters, monitors and the van need recognizable shapes and consistent placement.
-- **Strong lighting and contrast:** emergency lighting, lit screens, deep but readable shadows and clear character lighting.
-- **Clean hand-drawn/cel-style finish:** confident line work and controlled shading, with richer environmental rendering than the character construction.
+- **Simplified, recognizable props and locations:** outdoor equipment, shelves, public-address hardware, shutters, monitors and the van use clean geometric shapes and consistent placement rather than realistic micro-detail.
+- **Strong stylized lighting:** deep-blue night, warm amber light, cyan monitors and broad graphic light/shadow bands. Avoid realistic mirror reflections and material textures.
+- **Clean unified cel-cartoon finish:** related environmental and character line weights, large clean colour shapes and two/three-tone shading.
 - **Moment-specific compositions:** wide shots establish geography; closer shots carry expression; action shots show cause and effect.
 
 ### Avoid
 
 - Realistic or highly detailed character faces, forced irises/pupils, complex noses, excessive comic-book muscularity and intricate anatomy that would increase identity drift.
-- Blank expressions, washed-out colours, static symmetrical poses and uniformly pale backgrounds.
-- Photorealism, horror gore, unreadable darkness, characters that resemble flat stickers, or so much character detail that the supplied style is lost.
+- Flat/combed-down Nolan hair, three-stroke Nolan hair, switched braid, blank expressions, washed-out colours, static poses and uniformly pale backgrounds.
+- Photorealistic or 3D-looking backgrounds, horror gore, unreadable darkness, characters that resemble flat stickers, or environment detail that fights the character line language.
 - Captions, logos, watermarks and random readable brand text inside story frames.
 
 ### Practical consistency rule
 
-Lock head/body proportions, line weight, eye and brow shapes, hair silhouettes, wardrobe, colour palette and simple lighting rules in recurring references before producing the full story. Richer backgrounds do not remove the need for location masters.
+Lock head/body proportions, line weight, eye and brow shapes, exact C01/C02 hair silhouettes, wardrobe, colour palette and unified lighting rules in recurring references before producing the full story. Location masters remain mandatory.
 
 Spatial continuity is equally strict: same-situation frames must preserve character positions, facing, props, background landmarks, and accumulated scene damage unless the story explicitly changes them. The mandatory procedure is in `CONTINUITY_PROTOCOL.md`.
 

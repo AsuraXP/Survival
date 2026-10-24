@@ -1,6 +1,6 @@
 # The Store Had Everything — Reusable Opening Pilot Plan
 
-Status: active after the user's approval of the arc and Part 1 script on 2026-10-23. Style selection precedes recurring references and frame generation.
+Status: active after arc/script approval. Original C01/C02 identities are retained; the unified background and corrected combined proof await approval before recurring references and pilot frames are locked.
 
 ## Reuse guarantee
 
@@ -37,12 +37,12 @@ The store had enough food for months. Enough water. Enough batteries to light ev
 
 ### Lighting and art
 
-Simple Characters, Vivid World: characters follow the user-supplied round-head, minimal oval-eye, thin-limb construction, with expression carried by brows, eye shape, mouth, head tilt and posture. Environments and props use saturated teal/amber/blue accents, rich 2D detail, strong readable lighting, and non-graphic infected silhouettes. No realistic character faces, blank expressions, washed-out palette, captions, logos, borders, or watermarks.
+Unified Vivid Cel Cartoon: retain the original C01/C02 identities, including Nolan's full spiky side-swept fringe and Lena's right-side braid. Characters and environments share dark outlines, simplified geometric props, two/three-tone cel shading and broad amber/blue light bands. No realistic character faces or backgrounds, flat/combed-down Nolan hair, blank expressions, washed-out palette, captions, logos, borders or watermarks.
 
 ## Production gates
 
-1. User selects the opening style candidate. **Complete: simple-character/rich-world hybrid selected.**
-2. Lock character, prop, palette, and location references. **In progress: opening pack presented for approval; the selected opening image is a style anchor, not an interchangeable background.**
+1. Select the character and rendering direction. **Complete: original C01/C02 identities retained; unified cel-cartoon rendering selected.**
+2. Lock character, prop, palette, and location references. **In progress: corrected combined proof and revised unified background await approval; earlier realistic and flat-haired proofs are not active references.**
 3. Generate the full master narration in Kaggle and verify the actual opening duration and word timings.
 4. Produce the opening frame batch and review it in sequence under `CONTINUITY_PROTOCOL.md`.
 5. Assemble and present the 30–45 second pilot.

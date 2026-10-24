@@ -1,28 +1,43 @@
-# The Store Had Everything — User-Supplied Character Style Reference
+# The Store Had Everything — Character and Rendering References
 
-## Source
+## User-supplied construction source
 
 `character_style_user.jpg` was supplied by the user on 2026-10-23. Its original upload filename was `From Klickpin.com- 1096978421763600576-pin-id-1096978421763600576.jpg`.
 
-This image is a **character-construction reference only**. It is not a wardrobe, composition, colour-palette, or background reference, and it is not itself a story frame.
+This image is a **general character-construction reference only**: round head, clean dark outline, minimal black oval eyes, thin neck and limbs, simplified hands and shoes, and expression through brows, mouth and posture.
 
-## User's requested hybrid
+It does **not** dictate Nolan's hairstyle, wardrobe, colour palette, store, props, lighting or composition. In particular, its three hair strokes are not Nolan's approved haircut.
 
-- **Characters:** simple cartoon construction like the supplied reference—oversized round head, clean dark outline, minimal black oval eyes, expressive curved brows and mouth, sparse hair strokes, thin neck and limbs, simplified hands and shoes, and exaggerated but readable posture.
-- **Environment and props:** richer, vivid, cinematic 2D rendering with detailed outdoor equipment, colourful shelves, strong lighting, atmospheric depth, and controlled shadows.
-- **Integration:** the characters must belong inside the same scene, with simple cel-shaded colour and lighting that anchors them to the environment. They must not look like flat stickers pasted over a detailed background.
-- **Expressions:** use eyebrow angle, eye shape, mouth curve, head tilt, silhouette, and body language. Do not force realistic irises, detailed noses, or complex facial anatomy onto this character style.
+## S01 — Original hybrid: character identity anchor
 
-## Why this direction is being tested
+The user selected option 1 in the first hybrid test:
 
-The user rejected the previous detailed-character candidates and raised a valid consistency concern. Simpler recurring character construction should reduce identity drift across many frames. Detailed backgrounds still require establishing masters and sequence review; this style change does not replace `CONTINUITY_PROTOCOL.md`.
+`examples/the_store_had_everything/style_tests/hybrid_opening_establishing.png`
 
-## Selected hybrid style anchor
+The original character designs in this image remain the identity direction. Most importantly, **Nolan has a full dark-brown side-swept, spiky fringe with pointed locks and upward tufts**. Later flat/combed-down hair is a continuity error, not a redesign.
 
-The user selected option 1 in the hybrid test. The selected image is retained at `examples/the_store_had_everything/style_tests/hybrid_opening_establishing.png`.
+The realistic background rendering in this test was subsequently rejected for visual cohesion. S01 is not the active environment master.
 
-It is approved as the **style direction anchor**. It is not automatically approved as a final story frame or as the canonical empty background; those roles are handled separately in `REFERENCE_PACK.md`.
+## S02 — Unified cartoon: rendering anchor
 
-## Reference-pack gate
+After the background-cohesion concern, the user selected option 2 in the unified-cartoon test:
 
-Separate Nolan and Lena identity images, an opening store background plate, and a fixed store schematic have been generated for user review. No full pilot frame batch will be produced until this pack is approved.
+`examples/the_store_had_everything/style_tests/unified_cartoon_opening.png`
+
+This 769×1363 portrait image is a **rendering-style reference only**, not a final frame. It guides the shared outlines, cel shading and vivid colour relationships. Final story frames remain horizontal 16:9.
+
+## Current correction state
+
+- The first unified cohesion proof flattened Nolan's hair and was rejected.
+- `examples/the_store_had_everything/style_tests/unified_cohesion_proof_corrected.png` restores the original C01 spiky hairstyle and uses the simplified cel-cartoon store background.
+- The corrected proof is awaiting user review before the opening master and reference pack are locked.
+- No three-hair-stroke Nolan test was saved; that misunderstanding was aborted and is not part of the direction.
+
+## Unified target
+
+- **Characters:** simple round-head/oval-eye construction, stable C01/C02 hair silhouettes and wardrobe, thin limbs, expressive brows/mouth/posture.
+- **Environment and props:** vivid hand-drawn 2D cel-cartoon rendering with related dark outlines, simplified geometric props, large clean colour shapes and broad stylized light/shadow bands.
+- **Integration:** characters and environment share line, shading and lighting logic. Neither realistic backgrounds nor flat sticker-like characters are acceptable.
+- **Continuity:** the style anchor never overrides the current identity, scene state or `CONTINUITY_PROTOCOL.md`.
+
+No full pilot frame batch will be produced until the corrected combined proof and reference pack are approved.

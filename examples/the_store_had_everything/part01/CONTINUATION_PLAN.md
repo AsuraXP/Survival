@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–5 are complete through P043. Paragraph 6 is accepted through P046 at the office-lock scrape; P047 requires a radio/key-hand correction and P048–P050 are pending. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–6 are complete through P050. The next ungenerated beat is P051 inside the security office. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -65,12 +65,12 @@ See `BATCH06_REVIEW.md` for dispositions, rejection reasons and sequence validat
 | P044 | They reached the office as the announcement ended. | Accepted after correction; exterior closed-door arrival, no early entry. |
 | P045 | Nolan's key missed the lock twice. | Accepted; one store key misses, door remains locked. |
 | P046 | In the sudden silence, every scrape of metal sounded enormous. | Accepted lock-plate scrape insert; no text or early success. |
-| P047 | Lena held the radio against her chest to stop its crank handle from clicking. | In correction; radio must be left/viewer-right against chest and keys right/viewer-left. |
-| P048 | “Nolan,” she said. | Pending; follow accepted P047 with the urgent whisper. |
-| P049 | He found the keyhole. The lock turned. | Pending; single-key unlock only. |
-| P050 | They slipped inside and shut the door as softly as they could. | Pending; soft entry/closing, no control-panel action yet. |
+| P047 | Lena held the radio against her chest to stop its crank handle from clicking. | Accepted after correction; left/viewer-right hand pins radio, right/viewer-left hand retains keys. |
+| P048 | “Nolan,” she said. | Accepted; urgent whisper with fixed props and closed-door quiet. |
+| P049 | He found the keyhole. The lock turned. | Accepted; single-key unlock, no early entry. |
+| P050 | They slipped inside and shut the door as softly as they could. | Accepted after correction; clear office interior and soft closing, no panel action. |
 
-See `BATCH07_REVIEW.md` for dispositions, rejection records and validation. Resume by correcting P047; do not reference its rejected candidate.
+See `BATCH07_REVIEW.md` for dispositions, rejection records and validation. Batch 7 is complete. The next batch begins paragraph 7 with P051, using P050 as the office-interior master and preserving the closed door, radio and keys.
 
 ## Batch gate
 

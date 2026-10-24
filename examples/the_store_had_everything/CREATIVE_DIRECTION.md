@@ -2,7 +2,7 @@
 
 Date: 2026-10-23
 
-Status: direction for review; no recurring characters or story frames locked
+Status: direction approved by the user on 2026-10-23; arc and Part 1 script drafted for review; no recurring characters or story frames locked
 
 ## Why the direction is changing
 
@@ -31,6 +31,8 @@ A clear, expressive 2D animated-story/graphic-novel look that remains practical 
 ### Practical consistency rule
 
 Expressiveness must not come at the cost of identity. Once the style is selected, lock face, eye design, hair, wardrobe, colour palette and lighting rules in recurring references before producing the full story.
+
+Spatial continuity is equally strict: same-situation frames must preserve character positions, facing, props, background landmarks, and accumulated scene damage unless the story explicitly changes them. The mandatory procedure is in `CONTINUITY_PROTOCOL.md`.
 
 ## 2. Narration and retention direction
 

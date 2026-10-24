@@ -172,16 +172,35 @@ def main() -> None:
                 print("[stitch] WARNING: font file missing - captions use system default sans", flush=True)
                 vopts = ["-vf", f"ass={work / 'captions.ass'}"]
             write_ass(moments, work / "captions.ass", family)
-        aopts = [] if args.no_loudnorm else ["-af", "loudnorm=I=-14:TP=-1.5:LRA=11"]
+        opening_duration = sum(sec for _, sec in entries)
+        if opening_duration <= 0:
+            raise SystemExit("opening duration must be positive")
+        # The concat demuxer needs the last image repeated, but that repeated
+        # image can add a whole extra moment to the video.  Do not let
+        # -shortest choose the opening boundary against the FULL master take.
+        # Clone-pad, explicitly trim and timestamp-reset BOTH streams at the
+        # measured word-locked boundary; the source narration remains untouched.
+        vtrim = (
+            f"tpad=stop_mode=clone:stop_duration=2,"
+            f"trim=duration={opening_duration:.3f},setpts=PTS-STARTPTS,fps=30"
+        )
+        if vopts:
+            vopts[-1] = f"{vopts[-1]},{vtrim}"
+        else:
+            vopts = ["-vf", vtrim]
+        afilters = [] if args.no_loudnorm else ["loudnorm=I=-14:TP=-1.5:LRA=11"]
+        afilters += [f"atrim=duration={opening_duration:.3f}", "asetpts=PTS-STARTPTS"]
+        aopts = ["-af", ",".join(afilters)]
         subprocess.run(cmd_base + ["-f", "concat", "-safe", "0", "-i", str(lst),
                                    "-i", str(narr),
                                    *vopts,
-                                   "-c:v", "libx264", "-tune", "stillimage", "-r", "30",
+                                   "-c:v", "libx264", "-tune", "stillimage",
                                    *aopts,
                                    "-c:a", "aac", "-b:a", "192k",
-                                   "-pix_fmt", "yuv420p", "-shortest", args.out],
+                                   "-pix_fmt", "yuv420p", args.out],
                        check=True, capture_output=True)
-        print(f"[stitch] VIDEO -> {args.out}  ({len(entries)} word-locked images, one narration take)", flush=True)
+        print(f"[stitch] VIDEO -> {args.out}  ({len(entries)} word-locked images, "
+              f"opening {opening_duration:.3f}s, one narration take)", flush=True)
         return
 
     segments = []

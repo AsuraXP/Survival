@@ -12,7 +12,8 @@ Date: 2026-10-24
 - Superseded and failed identity candidates are isolated under `rejected/`; no active manifest row references them.
 - The 12 narration segments reproduce approved Part 1 paragraph 1 exactly.
 - `pipeline/prepare_store_pilot.py --project examples/the_store_had_everything` passed after the identity correction: 14 approved script paragraphs, 12 accepted native frames, verbatim opening text and valid reference paths. It derived 14 full-script beats and 12 opening-only word-map rows.
-- `pipeline/qa_store_pilot.py` passed a synthetic timing/media fixture with 26 checks, including a 35-second opening within a 300-second full master.
+- A real-FFmpeg regression reproduced the Kaggle failure: `-shortest` plus the repeated final concat image extended a 32.500-second opening to 35.300 seconds. The corrected stitcher explicitly clone-pads, trims and timestamp-resets both streams at the measured opening boundary.
+- The corrected real-media regression produced a 32.533-second video stream/container and 32.500-second audio for the 32.500-second opening. `pipeline/qa_store_pilot.py` passed all 26 checks, including full decode, using synthetic audio with the actual 12 native frames.
 - `run_store_opening_pilot.sh` passed `bash -n`.
 - `STORE_OPENING_PILOT_KAGGLE.ipynb` parsed as valid one-cell notebook JSON and has no stale commit pin.
 - Python production/QA modules passed bytecode compilation.
@@ -20,7 +21,7 @@ Date: 2026-10-24
 
 ## Not claimed locally
 
-No real narration or completed pilot video has been produced in this sandbox. Edge TTS requires Kaggle Internet access, and local FFmpeg is unavailable. The synthetic QA fixture validates program logic; it is not a substitute for the real Kaggle audio/video QA. The previously delivered notebook must use a commit containing this corrected identity/frame set, not the earlier `a105863` visual state.
+No real narration or completed story pilot has been produced in this sandbox. Edge TTS requires Kaggle Internet access. A temporary local FFmpeg binary validated the stitch correction with synthetic audio; that regression is not a substitute for the real Kaggle narration/video QA. The notebook must use a commit containing both the corrected identity/frame set and this explicit-duration stitch fix, not the earlier `a105863` state.
 
 ## Required Kaggle result
 

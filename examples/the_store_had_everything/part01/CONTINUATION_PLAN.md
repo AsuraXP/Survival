@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–9 are complete through P078. Paragraph 10 is accepted through P079's radio-on-desk action; the next ungenerated beat is P080, the phone's lack of service. The current beat map plans 114 active Part 1 frames: 79 accepted and 35 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–9 are complete through P078. Paragraph 10 is accepted through P080's no-service phone; the next ungenerated beat is P081, the radio not needing the cell network or an outlet. The current beat map plans 114 active Part 1 frames: 80 accepted and 34 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -104,11 +104,11 @@ See `BATCH08_REVIEW.md` for dispositions and validation. Batch 8 is complete. Th
 | P069 | “It also locks,” Nolan said. | Accepted Nolan response; no new switch action. |
 | P070 | They watched the steel curtain descend over the glass. | Accepted partial descent only; no impacts or lock yet. |
 
-See `BATCH09_REVIEW.md` for dispositions and validation. Batch 9 is complete. The next batch begins with P071, fists striking the partial steel curtain.
+See `BATCH09_REVIEW.md` for dispositions and validation. Batch 9 is complete; Batch 10 continues the shutter impacts and radio setup.
 
 ## Batch 10 — Finish Paragraph 9 and begin Paragraph 10
 
-The active-frame plan targets 114 frames. With 79 accepted, 35 planned frames remain: eight more in paragraph 10, eight in paragraph 11, seven in paragraph 12, five in paragraph 13 and seven in paragraph 14.
+The active-frame plan targets 114 frames. With 80 accepted, 34 planned frames remain: seven more in paragraph 10, eight in paragraph 11, seven in paragraph 12, five in paragraph 13 and seven in paragraph 14.
 
 | Frame | Narration | Current gate |
 |---|---|---|
@@ -121,9 +121,9 @@ The active-frame plan targets 114 frames. With 79 accepted, 35 planned frames re
 | P077 | The lock engaged. | Accepted bottom-bar bolt engagement. |
 | P078 | Neither of them cheered. | Accepted subdued two-shot; paragraph 9 complete. |
 | P079 | Lena set the hand-crank radio on the desk. | Accepted radio-on-desk state change; keys retained. |
-| P080 | Her phone had shown no service since the doors locked. | Pending no-service phone; radio stays on desk. |
+| P080 | Her phone had shown no service since the doors locked. | Accepted no-service phone; radio stays on desk and keys retained. |
 
-See `BATCH10_REVIEW.md` for dispositions and validation. Complete P080 before finishing Batch 10.
+See `BATCH10_REVIEW.md` for dispositions and validation. Batch 10 is complete. The next batch begins with P081, the radio working without cell service or an outlet.
 
 ## Batch gate
 

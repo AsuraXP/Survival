@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–9 are complete through P078. Paragraph 10 is accepted through P080's no-service phone; the next ungenerated beat is P081, the radio not needing the cell network or an outlet. The current beat map plans 114 active Part 1 frames: 80 accepted and 34 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–9 are complete through P078. Paragraph 10 is accepted through P085's returning static; the next ungenerated beat is P086, the measured emergency voice. The current beat map plans 114 active Part 1 frames: 85 accepted and 29 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -123,7 +123,26 @@ The active-frame plan targets 114 frames. With 80 accepted, 34 planned frames re
 | P079 | Lena set the hand-crank radio on the desk. | Accepted radio-on-desk state change; keys retained. |
 | P080 | Her phone had shown no service since the doors locked. | Accepted no-service phone; radio stays on desk and keys retained. |
 
-See `BATCH10_REVIEW.md` for dispositions and validation. Batch 10 is complete. The next batch begins with P081, the radio working without cell service or an outlet.
+See `BATCH10_REVIEW.md` for dispositions and validation. Batch 10 is complete; Batch 11 continues the radio information sequence.
+
+## Batch 11 — Radio tuning and the start of the official message
+
+The active-frame plan targets 114 frames. With 85 accepted, 29 planned frames remain: two more in paragraph 10, eight in paragraph 11, seven in paragraph 12, five in paragraph 13 and seven in paragraph 14.
+
+| Frame | Narration | Current gate |
+|---|---|---|
+| P081 | The radio did not need the cell network or an outlet. | Accepted after cleanup; cordless radio, inactive phone and one keyring only. |
+| P082 | She turned the handle and searched for the emergency station. | Accepted after corrections; moving crank and single tuner hand. |
+| P083 | Static. | Accepted after correction; radio/phone-only static insert. |
+| P084 | A burst of music. | Accepted musical notes and rhythmic waves. |
+| P085 | Static again. | Accepted static returns; paragraph-10 prefix complete through this beat. |
+| P086 | Then a measured voice reading road closures and shelter instructions. | Pending measured fictional radio voice; no text instructions. |
+| P087 | Real information. Not a guess from a frightened stranger online. | Pending radio-versus-phone contrast. |
+| P088 | The message was short. | Pending brief message ending. |
+| P089 | The eastern road was closed. | Pending Nolan/radio reaction; no text map. |
+| P090 | The river road was closed. | Pending Lena/radio reaction; keys retained. |
+
+See `BATCH11_REVIEW.md` for dispositions and validation. Complete P086–P090 before finishing Batch 11.
 
 ## Batch gate
 

@@ -41,8 +41,6 @@ The rejected file is isolated and was never used as a visual reference.
 - All 68 accepted continuation frames P013–P080 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
 - Paragraphs 1–9 preflight passed: **78 accepted native frames**, contiguous IDs, verbatim complete paragraphs and valid references. P079–P080 were separately verified as a verbatim paragraph-10 prefix.
 
-## Next-batch gates
+## Batch-11 handoff
 
-- Begin P081 by establishing that the crank radio does not need the cell network or an outlet; keep it on the desk and the phone without service.
-- P082 turns the handle and searches for the emergency station. Preserve the radio's identity, Lena's keys and the closed front shutter.
-- Keep the later static, music and measured-voice beats distinct rather than presenting the phone as an information source.
+Batch 11 is in production. P081–P085 are accepted through the return of static; P086–P090 remain pending. The radio stays on the desk, the phone remains inactive and the front shutter stays closed. See `BATCH11_REVIEW.md` for current dispositions and corrections.

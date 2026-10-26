@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–13 are complete through P107. Paragraph 14 is accepted through P108's decision to pack for the van; the next ungenerated beat is P109, “If the shutter holds, we can unpack.” The current beat map plans 114 active Part 1 frames: 108 accepted and 6 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–13 are complete through P107. Paragraph 14 is accepted through P110's crowded-shelf assessment; the next ungenerated beat is P111, “The answer was not stay or go. Not yet.” The current beat map plans 114 active Part 1 frames: 110 accepted and 4 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -177,10 +177,10 @@ The active-frame plan targets 114 frames. With 100 accepted at the batch start, 
 | P106 | Nolan thought about the food in the aisles, the radio on the desk, and the lock at the loading bay. | Accepted; one coherent shot with supplies, radio/phone and secured bay. |
 | P107 | None of those things could tell them when the front would fail. | Accepted; subdued two-shot and unchanged slight bow; paragraph 13 complete. |
 | P108 | “We pack for the van,” Lena said. | Accepted; sober decision, closed bay and no backpacks yet. |
-| P109 | “If the shutter holds, we can unpack.” | Pending conditional beat; same front bow and no packing action. |
-| P110 | Nolan looked out at the crowded shelves. | Pending office-window beat; exactly three hair strokes and no premature backpack. |
+| P109 | “If the shutter holds, we can unpack.” | Accepted; conditional beat with the same front bow and no packing action. |
+| P110 | Nolan looked out at the crowded shelves. | Accepted; practical office-window assessment with exactly three hair strokes. |
 
-See `BATCH13_REVIEW.md` for dispositions, rejected candidates and validation. Complete P109–P110 before finishing Batch 13.
+See `BATCH13_REVIEW.md` for dispositions, rejected candidates and validation. Batch 13 is complete; the final four-frame batch begins with P111.
 
 ## Batch gate
 

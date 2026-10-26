@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–11 are complete through P095. Paragraph 12 is accepted through P100's conflicted reluctance; the next ungenerated beat is P101, “The store was familiar. That did not make it safe.” The current beat map plans 114 active Part 1 frames: 100 accepted and 14 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–13 are complete through P107. Paragraph 14 is accepted through P108's decision to pack for the van; the next ungenerated beat is P109, “If the shutter holds, we can unpack.” The current beat map plans 114 active Part 1 frames: 108 accepted and 6 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -162,6 +162,25 @@ The active-frame plan targets 114 frames. With 90 accepted at the batch start, 2
 | P100 | Nolan hated how quickly he wanted to say no. | Accepted; exactly three hair strokes and unchanged office state. |
 
 See `BATCH12_REVIEW.md` for dispositions, rejected candidates and validation. Batch 12 is complete; Batch 13 begins with P101 and the limits of familiarity.
+
+## Batch 13 — Finish the tradeoff, front strain and packing decision
+
+The active-frame plan targets 114 frames. With 100 accepted at the batch start, 14 planned frames remained. P101–P108 are now accepted; P109–P110 remain pending.
+
+| Frame | Narration | Current gate |
+|---|---|---|
+| P101 | The store was familiar. That did not make it safe. | Accepted; fixed supplies, cautious Nolan and no premature damage. |
+| P102 | The van was movement. That did not make it a destination. | Accepted after correction; no duplicate phone, map or destination; paragraph 12 complete. |
+| P103 | A deep bang rolled through the building. | Accepted after correction; startled two-shot, front feed intact and shutter undeformed. |
+| P104 | On the front camera, the steel shutter was holding, but its centre had begun to bow inward. | Accepted; slight central bow with secured tracks and lock. |
+| P105 | Not much. Just enough to change the shape of the reflection. | Accepted after localized reflection-only correction. |
+| P106 | Nolan thought about the food in the aisles, the radio on the desk, and the lock at the loading bay. | Accepted; one coherent shot with supplies, radio/phone and secured bay. |
+| P107 | None of those things could tell them when the front would fail. | Accepted; subdued two-shot and unchanged slight bow; paragraph 13 complete. |
+| P108 | “We pack for the van,” Lena said. | Accepted; sober decision, closed bay and no backpacks yet. |
+| P109 | “If the shutter holds, we can unpack.” | Pending conditional beat; same front bow and no packing action. |
+| P110 | Nolan looked out at the crowded shelves. | Pending office-window beat; exactly three hair strokes and no premature backpack. |
+
+See `BATCH13_REVIEW.md` for dispositions, rejected candidates and validation. Complete P109–P110 before finishing Batch 13.
 
 ## Batch gate
 

@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–9 are complete through P078. Paragraph 10 is accepted through P085's returning static; the next ungenerated beat is P086, the measured emergency voice. The current beat map plans 114 active Part 1 frames: 85 accepted and 29 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–10 are complete through P087. Paragraph 11 is accepted through P090's river-road closure; the next ungenerated beat is P091, the official instruction to remain indoors unless evacuation is directed. The current beat map plans 114 active Part 1 frames: 90 accepted and 24 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 

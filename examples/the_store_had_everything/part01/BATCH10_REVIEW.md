@@ -41,6 +41,6 @@ The rejected file is isolated and was never used as a visual reference.
 - All 68 accepted continuation frames P013–P080 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
 - Paragraphs 1–9 preflight passed: **78 accepted native frames**, contiguous IDs, verbatim complete paragraphs and valid references. P079–P080 were separately verified as a verbatim paragraph-10 prefix.
 
-## Batch-11 handoff
+## Batch-11 completion
 
-Batch 11 is in production. P081–P085 are accepted through the return of static; P086–P090 remain pending. The radio stays on the desk, the phone remains inactive and the front shutter stays closed. See `BATCH11_REVIEW.md` for current dispositions and corrections.
+Batch 11 is complete through P090. Paragraph 10 is complete, the radio remains the information source and the phone stays inactive. See `BATCH11_REVIEW.md` for dispositions, corrections and the remaining frame budget.

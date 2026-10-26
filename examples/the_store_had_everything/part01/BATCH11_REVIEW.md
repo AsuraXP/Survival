@@ -1,10 +1,10 @@
 # Part 1 Continuation — Batch 11 Review (P081–P090)
 
-Status: **in production**. P081–P085 passed assistant per-image and sequence QA on 2026-10-24. Paragraph 10 is accepted through “Static again.” P086–P090 remain pending: the measured voice, information-versus-guess contrast, short message and first two road closures. No intermediate Kaggle run is requested.
+Status: **complete**. All ten active frames passed assistant per-image and sequence QA on 2026-10-24. Paragraph 10 is complete through the measured radio information. Paragraph 11 is accepted through the river-road closure. No intermediate Kaggle run is requested.
 
 ## Frame budget
 
-The current story-beat map plans **114 active Part 1 frames**. **85 are accepted and 29 planned frames remain, P086–P114**: two remaining in paragraph 10, eight in paragraph 11, seven in paragraph 12, five in paragraph 13 and seven in paragraph 14. Rejected candidates do not change the active-frame count.
+The current story-beat map plans **114 active Part 1 frames**. **90 are accepted and 24 planned frames remain, P091–P114**: five remaining in paragraph 11, seven in paragraph 12, five in paragraph 13 and seven in paragraph 14. Rejected candidates do not change the active-frame count.
 
 ## Frame dispositions
 
@@ -15,11 +15,11 @@ The current story-beat map plans **114 active Part 1 frames**. **85 are accepted
 | P083 | Accepted after correction | Tight radio/phone-only insert with irregular static; monitor bank out of frame and unchanged. |
 | P084 | Accepted | Musical notes and rhythmic waves replace static; radio/phone positions fixed. |
 | P085 | Accepted | Static returns and musical notes disappear in the same clean insert. |
-| P086 | Pending | Measured fictional emergency voice begins; no readable instructions or real-world claim overlay. |
-| P087 | Pending | Radio-versus-inactive-phone contrast for real information versus an online guess. |
-| P088 | Pending | Short measured message ends; no new action or phone use. |
-| P089 | Pending | Eastern-road closure registers through radio and Nolan's reaction; no text map. |
-| P090 | Pending | River-road closure registers through radio and Lena's reaction; keys retained. |
+| P086 | Accepted | Calm measured radio voice replaces static; no readable instructions or real-world overlay. |
+| P087 | Accepted | Warm authoritative radio contrasts with the dark inactive phone; paragraph 10 complete. |
+| P088 | Accepted | Brief measured pulse sequence tapers without a new broadcast or phone action. |
+| P089 | Accepted | Nolan registers the eastern-road closure with exactly three hair strokes; radio remains the source. |
+| P090 | Accepted | Lena registers the river-road closure with the single keyring secured and phone untouched. |
 
 ## Rejected-candidate record
 
@@ -34,15 +34,15 @@ Rejected P082/P083 candidates were never used as visual references. The pre-clea
 
 ## Sequence review and validation
 
-- P080 → P081 preserves the no-service phone and desk radio while establishing that the radio needs neither cell service nor a power cord.
-- Corrected P082 combines the still-moving crank with a single hand searching the tuner; later inserts keep keys off-frame rather than duplicating them.
-- Corrected P083 → P084 → P085 uses the same tight radio/phone composition for static, music and returning static without changing the surveillance bank.
+- The complete P081–P090 sequence contact sheet was reviewed after acceptance. Radio-only inserts retain one fixed composition, and the final character reactions preserve the radio, dark phone and Lena's single keyring.
+- P080 → P081 establishes that the radio needs neither cell service nor a power cord; P082–P085 preserve crank, tuner and no-service-phone continuity.
+- P086 → P087 changes static into a calm measured voice; P088's short pulses lead into Nolan and Lena hearing the two road closures without captions or maps.
 - The P081 duplicate-key cleanup was inspected at full frame and in the regenerated P081–P085 contact sequence.
-- All 73 accepted continuation frames P013–P085 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
-- Paragraphs 1–9 preflight remains green with **78 accepted native frames**. P079–P085 were separately verified as a verbatim paragraph-10 prefix.
+- All 78 accepted continuation frames P013–P090 are native 1376×768, with no missing, future, unaccepted or rejected visual references.
+- Full preflight passes through paragraph 10 with **87 accepted native frames**; P088–P090 were separately verified as a verbatim paragraph-11 prefix.
 
-## Remaining Batch-11 gates
+## Continuing story gates
 
-- Use accepted P085/P080 for the measured-voice transition. Keep the radio as the source and the phone inactive.
-- Do not print road closures, shelter instructions or real-world emergency claims on screen; the approved fictional narration carries the information.
+- Keep the radio as the information source and phone inactive. Do not print shelter instructions or real-world emergency claims on screen; approved fictional narration carries them.
 - Preserve Nolan's three hair strokes, Lena's retained keys, the closed front shutter and the dark PA in any wider office shots.
+- Next planned beat: P091, people in the district told to remain indoors unless evacuation is directed.

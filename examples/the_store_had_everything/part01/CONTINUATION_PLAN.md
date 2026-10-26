@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–11 are complete through P095. Paragraph 12 is accepted through P097's raised van keys; the next ungenerated beat is P098, “Half a tank.” The current beat map plans 114 active Part 1 frames: 97 accepted and 17 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–11 are complete through P095. Paragraph 12 is accepted through P100's conflicted reluctance; the next ungenerated beat is P101, “The store was familiar. That did not make it safe.” The current beat map plans 114 active Part 1 frames: 100 accepted and 14 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -157,11 +157,11 @@ The active-frame plan targets 114 frames. With 90 accepted at the batch start, 2
 | P095 | She was watching the loading-bay monitor. | Accepted; only the bay feed changes, paragraph 11 complete. |
 | P096 | Her van sat inside the bay, nose toward the outer shutter. | Accepted; one stationary van and closed outer shutter. |
 | P097 | She held up the keys. | Accepted after correction; one keyring in the anatomical right hand. |
-| P098 | “Half a tank,” she said. | Pending matched speaking beat; no fuel text or gauge overlay. |
-| P099 | “Enough to get us somewhere. Not enough to wander.” | Pending limited-range beat; no map or moving van. |
-| P100 | Nolan hated how quickly he wanted to say no. | Pending Nolan reaction; exactly three hair strokes and unchanged office state. |
+| P098 | “Half a tank,” she said. | Accepted; matched speaking beat with fixed keys and monitor feeds. |
+| P099 | “Enough to get us somewhere. Not enough to wander.” | Accepted; limited-range beat without a map or moving van. |
+| P100 | Nolan hated how quickly he wanted to say no. | Accepted; exactly three hair strokes and unchanged office state. |
 
-See `BATCH12_REVIEW.md` for dispositions, rejected candidates and validation. Complete P098–P100 before finishing Batch 12.
+See `BATCH12_REVIEW.md` for dispositions, rejected candidates and validation. Batch 12 is complete; Batch 13 begins with P101 and the limits of familiarity.
 
 ## Batch gate
 

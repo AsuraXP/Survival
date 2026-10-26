@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–13 are complete through P107. Paragraph 14 is accepted through P110's crowded-shelf assessment; the next ungenerated beat is P111, “The answer was not stay or go. Not yet.” The current beat map plans 114 active Part 1 frames: 110 accepted and 4 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: **complete**. All 114 planned Part 1 frames are accepted and validated through paragraph 14; zero frames remain. Full preflight passes with 114 native frames, and the independent continuation audit passes for P013–P114 with zero errors. The final one-cell Kaggle delivery is now unlocked; it must reuse the approved Andrew master and pass media QA in Kaggle.
 
 ## Reuse and continuity rules
 
@@ -165,7 +165,7 @@ See `BATCH12_REVIEW.md` for dispositions, rejected candidates and validation. Ba
 
 ## Batch 13 — Finish the tradeoff, front strain and packing decision
 
-The active-frame plan targets 114 frames. With 100 accepted at the batch start, 14 planned frames remained. P101–P108 are now accepted; P109–P110 remain pending.
+The active-frame plan targets 114 frames. With 100 accepted at the batch start, 14 planned frames remained. All ten Batch-13 frames are now accepted.
 
 | Frame | Narration | Current gate |
 |---|---|---|
@@ -182,10 +182,21 @@ The active-frame plan targets 114 frames. With 100 accepted at the batch start, 
 
 See `BATCH13_REVIEW.md` for dispositions, rejected candidates and validation. Batch 13 is complete; the final four-frame batch begins with P111.
 
+## Final Batch 14 — Readiness and two-backpack capacity
+
+| Frame | Narration | Result |
+|---|---|---|
+| P111 | The answer was not stay or go. Not yet. | Accepted; shared uncertainty with the same slight front bow. |
+| P112 | It was to be ready before the building chose for them. | Accepted after correction; Nolan's full identity and wardrobe preserved. |
+| P113 | They had stopped the voice. They had covered the glass. | Accepted; dark unplugged PA and covered, slightly bowed shutter. |
+| P114 | Now they had to decide what survival could fit into two backpacks. | Accepted after corrections; exactly two empty desk backpacks and hands-free character framing. |
+
+See `BATCH14_REVIEW.md`, `FINAL_REVIEW.md` and `FINAL_FRAME_AUDIT.csv`. All 114 frames are complete.
+
 ## Batch gate
 
 Inspect every frame immediately, archive failures, review adjacent transitions, verify native dimensions and verbatim paragraph text, then commit accepted checkpoints before using them as later references. Actual display durations come from the saved master timing, not estimated reading speeds.
 
 ## Final-delivery gate
 
-Continue paragraph-by-paragraph through paragraph 14. Do not ask for another intermediate Kaggle run. Only after every remaining frame is accepted, all manifests and sequence reviews pass, and the full Part 1 package is committed should the user receive the final one-cell Kaggle script.
+Frame gate satisfied: every Part 1 frame is accepted, manifests and sequence reviews pass, and the full 114-frame audit is recorded. Use `STORE_PART01_FINAL_KAGGLE.md` or `STORE_PART01_FINAL_KAGGLE.ipynb`. The final Kaggle run reuses the approved master, renders all 114 moments and must pass media QA before the MP4 is considered delivered.

@@ -124,6 +124,8 @@ files = [
 ]
 files += [str(Path(item['frame_file']).relative_to(video_dir)) for item in coverage['moments']]
 files += [str(path.relative_to(video_dir)) for path in sorted((video_dir / 'part01').glob('BATCH*_REVIEW.md'))]
+if int(coverage['through_paragraph']) == 14:
+    files += ['part01/FINAL_REVIEW.md', 'part01/FINAL_FRAME_AUDIT.csv']
 with ZipFile(deliverable, 'w', compression=ZIP_DEFLATED, compresslevel=1) as archive:
     for name in files:
         path = video_dir / name

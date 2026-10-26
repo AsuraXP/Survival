@@ -30,7 +30,7 @@ The 14 approved paragraphs contain **986 words**. Every paragraph's ordered fram
 
 ## Production handoff
 
-The frame-generation gate for the final Kaggle script is now satisfied. Use `STORE_PART01_FINAL_KAGGLE.md` or `STORE_PART01_FINAL_KAGGLE.ipynb` from the repository root. The cell uses the existing approved master in the opening session or restores it from `STORE_OPENING_PILOT_DELIVERABLE.zip`; it does not synthesize a replacement opening.
+The frame-generation gate for the final Kaggle script is now satisfied. Use `STORE_PART01_FINAL_KAGGLE.md` or `STORE_PART01_FINAL_KAGGLE.ipynb` from the repository root. No opening ZIP is required: a fresh session builds the complete Andrew master once through the opening builder, then the full-video runner reuses that same take. An existing master is reused without forced re-recording; the 12 opening frames remain locked.
 
 Expected Kaggle outputs after a successful run:
 

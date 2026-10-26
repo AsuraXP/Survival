@@ -1,6 +1,6 @@
 # The Store Had Everything — Part 1 Continuation Plan
 
-Status: the opening and paragraphs 2–10 are complete through P087. Paragraph 11 is accepted through P090's river-road closure; the next ungenerated beat is P091, the official instruction to remain indoors unless evacuation is directed. The current beat map plans 114 active Part 1 frames: 90 accepted and 24 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
+Status: the opening and paragraphs 2–11 are complete through P095. Paragraph 12 is accepted through P097's raised van keys; the next ungenerated beat is P098, “Half a tank.” The current beat map plans 114 active Part 1 frames: 97 accepted and 17 remaining. Per the user's instruction, generation proceeds in 10-image batches and no intermediate Kaggle scripts will be delivered; the final run script comes only after every Part 1 frame is complete.
 
 ## Reuse and continuity rules
 
@@ -142,7 +142,26 @@ The active-frame plan targets 114 frames. With 85 accepted, 29 planned frames re
 | P089 | The eastern road was closed. | Pending Nolan/radio reaction; no text map. |
 | P090 | The river road was closed. | Pending Lena/radio reaction; keys retained. |
 
-See `BATCH11_REVIEW.md` for dispositions and validation. Complete P086–P090 before finishing Batch 11.
+See `BATCH11_REVIEW.md` for dispositions and validation. Batch 11 is complete; Batch 12 continues the stay-versus-leave decision and van reveal.
+
+## Batch 12 — Finish the official message and reveal the van tradeoff
+
+The active-frame plan targets 114 frames. With 90 accepted at the batch start, 24 planned frames remained. P091–P097 are now accepted; P098–P100 remain pending.
+
+| Frame | Narration | Current gate |
+|---|---|---|
+| P091 | People in the district were being told to remain indoors unless an official evacuation notice directed them elsewhere. | Accepted; fictional radio instruction only, no printed guidance or phone action. |
+| P092 | Nolan looked through the office window at rows of food, water, and camping gear. | Accepted; elevated office-window view and exactly three hair strokes. |
+| P093 | For the first time all night, staying felt like a decision instead of a surrender. | Accepted; cautious agency without celebration or packing. |
+| P094 | Lena did not look at the shelves. | Accepted after corrections; tight crop avoids a key-hand contradiction. |
+| P095 | She was watching the loading-bay monitor. | Accepted; only the bay feed changes, paragraph 11 complete. |
+| P096 | Her van sat inside the bay, nose toward the outer shutter. | Accepted; one stationary van and closed outer shutter. |
+| P097 | She held up the keys. | Accepted after correction; one keyring in the anatomical right hand. |
+| P098 | “Half a tank,” she said. | Pending matched speaking beat; no fuel text or gauge overlay. |
+| P099 | “Enough to get us somewhere. Not enough to wander.” | Pending limited-range beat; no map or moving van. |
+| P100 | Nolan hated how quickly he wanted to say no. | Pending Nolan reaction; exactly three hair strokes and unchanged office state. |
+
+See `BATCH12_REVIEW.md` for dispositions, rejected candidates and validation. Complete P098–P100 before finishing Batch 12.
 
 ## Batch gate
 

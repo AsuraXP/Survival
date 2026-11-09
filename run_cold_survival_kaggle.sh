@@ -19,7 +19,7 @@ RATE="+10%"
 FPS=30
 WORK="$(pwd)/${SLUG}_kaggle_work"
 PROJ="${SLUG}_video"
-RUNNER_VERSION="v5-wordbound-guard"
+RUNNER_VERSION="v6-twosided-interp"
 SCRIPT="$(readlink -f "$0")"
 rm -rf "${WORK}"          # never reuse manifests/segs from a previous run
 mkdir -p "${WORK}"
@@ -138,11 +138,24 @@ def forms(tok):
     f = [norm(tok)]
     if re.fullmatch(r'\d{1,4}', tok):
         f.append(''.join(norm(w) for w in num_words(int(tok))))
+    if re.fullmatch(r'\d{1,2}:\d{2}', tok):                      # 04:12 -> "four twelve"
+        parts = tok.split(':')
+        f.append(''.join(norm(w) for p in parts for w in num_words(int(p))))
+        fz = []                                                  # ...or "zero four twelve"
+        for p in parts:
+            if p.startswith('0') and len(p) > 1: fz.append('zero')
+            fz += num_words(int(p))
+        f.append(''.join(norm(w) for w in fz))
+    if tok[:1] in '-−' and re.fullmatch(r'\d{1,3}', tok[1:]):     # -20 -> "minus twenty"
+        f.append('minus' + ''.join(norm(w) for w in num_words(int(tok[1:]))))
+    if tok.endswith('%') and re.fullmatch(r'\d{1,3}', tok[:-1]):  # 90% -> "ninety percent"
+        f.append(''.join(norm(w) for w in num_words(int(tok[:-1]))) + 'percent')
     return f
-def align(bounds, tokens, starts, window=16):
-    cuts = []
+def align(bounds, tokens, starts, window=24):
+    n = len(starts)
+    times = [None] * n
     bi = 0; last_t = 0.0; last_tok = 0; spw = 0.32   # seconds-per-word EMA seed
-    for s in starts:                                  # beat 0 included: consume its boundary
+    for idx, s in enumerate(starts):                # beat 0 included: consume its boundary
         target = forms(tokens[s]); hit = None
         for j in range(bi, min(bi + window, len(bounds))):
             acc = ''
@@ -156,15 +169,30 @@ def align(bounds, tokens, starts, window=16):
             j, t = hit
             gap_tok = max(1, s - last_tok)
             spw = 0.5 * spw + 0.5 * max(0.05, (t - last_t) / gap_tok)
-            cuts.append(t); bi = j + 1; last_t = t; last_tok = s
-        else:                                        # rare: spoken form unmatched -> EMA estimate
-            cuts.append(last_t + spw * (s - last_tok)); last_tok = s
-    cuts[0] = 0.0                                     # reel starts with the audio
-    for k in range(1, len(cuts)):                    # monotonic, min beat 0.30 s
-        cuts[k] = max(cuts[k], cuts[k - 1] + 0.30)
-    return cuts
+            times[idx] = t; bi = j + 1; last_t = t; last_tok = s
+    locked = [(i, starts[i], times[i]) for i in range(n) if times[i] is not None]
+    nlock = len(locked)
+    for i in range(n):                              # pass 2: misses interpolated BETWEEN
+        if times[i] is not None: continue           # locked neighbours (two-sided), never
+        s = starts[i]                               # one-sided drift
+        prev = (starts[0], 0.0)
+        for (li, ls, lt) in locked:
+            if li < i: prev = (ls, lt)
+            else: break
+        nxt = None
+        for (li, ls, lt) in locked:
+            if li > i: nxt = (ls, lt); break
+        if nxt:
+            ps, pt = prev; ns, nt = nxt
+            times[i] = pt + (nt - pt) * (s - ps) / max(1, ns - ps) if ns != ps else pt
+        else:
+            times[i] = prev[1] + spw * (s - prev[0])
+    times[0] = 0.0                                  # reel starts with the audio
+    for k in range(1, n):                           # monotonic, min beat 0.30 s
+        times[k] = max(times[k], times[k - 1] + 0.30)
+    return times, nlock
 # ---END ALIGN---
-cuts = align(bounds, tokens, starts)
+cuts, nlock = align(bounds, tokens, starts)
 
 dur = float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration',
                             '-of','csv=p=0', f'{work}/voice.mp3'],
@@ -182,9 +210,12 @@ json.dump(manifest, open(f'{work}/manifest.json', 'w'), indent=1)
 open(f'{work}/video_dur.txt', 'w').write(f'{frame_edges[-1] / FPS:.6f}')
 ds = [m['end'] - m['start'] for m in manifest]
 ds.sort()
-print(f'TTS done: {dur:.1f}s audio | {len(manifest)} word-locked hard cuts | '
+print(f'TTS done: {dur:.1f}s audio | {nlock}/{len(manifest)} beats locked on word boundaries '
+      f'({len(manifest) - nlock} interpolated between locks) | '
       f'beat len min/med/max = {ds[0]:.2f}/{ds[len(ds)//2]:.2f}/{ds[-1]:.2f}s | '
       f'total video frames = {frame_edges[-1]}')
+if nlock < 0.7 * len(manifest):
+    print('FATAL: lock rate below 70% — alignment unreliable'); sys.exit(1)
 if ds[0] < 0.25 or frame_edges[-1] < int(dur * FPS) - FPS:
     print('FATAL: alignment collapsed (flash-frame risk)'); sys.exit(1)
 PYEOF

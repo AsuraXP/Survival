@@ -19,7 +19,7 @@ RATE="+10%"
 FPS=30
 WORK="$(pwd)/${SLUG}_kaggle_work"
 PROJ="${SLUG}_video"
-RUNNER_VERSION="v4-live-heartbeat"
+RUNNER_VERSION="v5-wordbound-guard"
 SCRIPT="$(readlink -f "$0")"
 rm -rf "${WORK}"          # never reuse manifests/segs from a previous run
 mkdir -p "${WORK}"
@@ -84,7 +84,7 @@ for t in texts:
     pos += len(t.split())
 
 async def run():
-    comm = edge_tts.Communicate(full, voice, rate=rate)
+    comm = edge_tts.Communicate(full, voice, rate=rate, boundary="WordBoundary")
     audio = bytearray(); bounds = []
     t0 = time.monotonic(); last = t0
     async for chunk in comm.stream():
@@ -109,6 +109,10 @@ for attempt in (1, 2):
         if attempt == 2:
             raise SystemExit('FATAL: TTS stream timed out twice — voice service unreachable')
 open(f'{work}/voice.mp3', 'wb').write(audio)
+print(f'  word boundaries received: {len(bounds)} events / {len(tokens)} script tokens', flush=True)
+if len(bounds) < 0.8 * len(tokens):
+    raise SystemExit('FATAL: WordBoundary channel dead (sentence-level events?) — '
+                     'refusing to guess timing; aborting')
 
 # ---ALIGN---
 # robust monotonic token<->boundary alignment (no char offsets anywhere)
@@ -230,10 +234,12 @@ if fs[0] < 8:
     raise SystemExit('FATAL: segment frame counts collapsed (strobe risk) — aborting before encode finish')
 PYEOF
 VID_DUR=$(cat "${WORK}/video_dur.txt")
-echo "== final mux + loudnorm -14 LUFS @ $(date +%T)"
-ffmpeg -y -v error -f concat -safe 0 -i "${WORK}/segs.txt" -i "${WORK}/voice.mp3" \
-  -c:v copy -c:a aac -b:a 192k -af "loudnorm=I=-14:TP=-1.5:LRA=11,apad" -t "${VID_DUR}" \
-  -movflags +faststart "${WORK}/VIDEO.mp4"
+echo "== loudnorm -14 LUFS pre-pass on narration @ $(date +%T)"
+ffmpeg -y -v error -i "${WORK}/voice.mp3" -af "loudnorm=I=-14:TP=-1.5:LRA=11,apad" \
+  -t "${VID_DUR}" -c:a aac -b:a 192k "${WORK}/voice_norm.m4a"
+echo "== final mux (video stream-copy + pre-normalized audio, zero filters at mux) @ $(date +%T)"
+ffmpeg -y -v error -f concat -safe 0 -i "${WORK}/segs.txt" -i "${WORK}/voice_norm.m4a" \
+  -c:v copy -c:a copy -movflags +faststart "${WORK}/VIDEO.mp4"
 echo "== mux done @ $(date +%T)"
 ffprobe -v error -show_entries format=duration -of csv=p=0 "${WORK}/VIDEO.mp4"
 

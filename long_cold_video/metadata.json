@@ -1,0 +1,18 @@
+{
+  "slug": "long_cold",
+  "title": "The Long Cold — A 10-Minute Survival Story",
+  "premise": "A sun-dimming volcanic winter freezes the city overnight. One survivor walks 900 miles south.",
+  "pov": "second person, present tense",
+  "runtime_target_seconds": 600,
+  "word_count": 1876,
+  "voice": {"engine": "edge-tts", "name": "en-US-AndrewNeural", "rate": "+10%"},
+  "aspect_ratio": "16:9",
+  "resolution": "1920x1080",
+  "fps": 30,
+  "captions": "none",
+  "audio": {"codec": "aac", "bitrate": "192k", "loudness_target_lufs": -14, "music": "none"},
+  "edit": {"transitions": "hard cut only", "crossfade": false, "fade_in_out": false},
+  "style": "ink-and-watercolour cartoon on warm parchment",
+  "deliverable": "long_cold_DELIVERABLE.zip",
+  "status": "script drafted, awaiting approval"
+}

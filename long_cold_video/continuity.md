@@ -1,25 +1,28 @@
 # CONTINUITY — long_cold_video
 
-> Status: **DRAFT** — style anchors get locked at STATE 4 after 2–3 style tests. Copy the blocks below VERBATIM into every prompt.
+> **v3 LOCK (current).** Style = the user's original reference: `refs/ref_style_02_caveman_phone_cave.jpg`.
+> v1 (dark anime-watercolour) and v2 (gouache / ink-wash / matte) are **REJECTED** — do not reuse anything from them.
 
 ## Art direction reference
-`refs/ref_style_01_modern_caveman_3panel.jpg`, `refs/ref_style_02_caveman_phone_cave.jpg`
-**Use:** rendering medium, line weight, shading, palette, face/hair shapes.
-**Never use:** their composition, cave layout, props, or framing as a template. Environment changes per row.
+`refs/ref_style_02_caveman_phone_cave.jpg` — **the canonical look.** Clean black ink line, flat warm watercolour, cream parchment, round white head, dot eyes, shaggy ink-stroke hair.
+`refs/ref_style_01_modern_caveman_3panel.jpg` — same look, secondary.
+**Use:** drawing technique, line quality, paper texture, palette, character design.
+**Never use:** their composition, cave layout, props (fire pit, carved panel, potted plant, starry sky), or framing as a template. Environment changes per row.
 
-## STYLE & MEDIUM (verbatim block)
-> Ink-and-watercolour cartoon on warm off-white parchment paper, loose confident black ink outlines with visible line weight variation, soft wet-on-wet watercolour washes that bleed slightly past the linework, visible cold-press paper grain and a subtle uneven paper edge framing the image, limited palette of slate blue-grey and pale cyan for cold, amber and burnt ochre for firelight, desaturated shadows, no gradients, no 3D render, no photorealism, no digital airbrush, no text, no lettering, no signage, no logos.
+## STYLE & MEDIUM (verbatim block — paste unchanged into every prompt)
+> Hand-drawn comic watercolour illustration on warm cream parchment paper: confident black ink outlines of clearly varying weight, loose hatching and cross-hatch strokes for shadow, flat transparent watercolour washes laid inside the ink lines that occasionally bleed a little past them, visible cold-press paper grain, a slightly uneven hand-torn paper border framing the whole image, warm cream paper tone, palette of ochre, burnt sienna, warm brown and cream with cool slate blue and deep indigo reserved for night, snow and distance, no smooth gradients, no airbrush, no 3D render, no photorealism, no anime or manga rendering, no glossy shading, no text, no lettering, no signage, no logos.
 
-## PROTAGONIST ("You") (verbatim block)
-> A single everyman survivor drawn in the same ink-and-watercolour cartoon style: perfectly round white head with no nose, two simple black dot eyes and a small thin-line mouth, shaggy dark-brown hair falling over the forehead, thin black stick-like limbs with rounded hands and feet, slender cartoon body. Clothing: layered winter wear — oversized dark-navy wool coat over a grey jumper, thick olive scarf, dark trousers, scuffed boots, worn knitted gloves, small canvas backpack. Face reads tired, wary, determined. Never photorealistic, never muscular, never a child, never a second protagonist in the same frame.
+## PROTAGONIST ("You") (verbatim block — paste unchanged into every prompt)
+> A single cartoon survivor drawn in exactly the reference character's design: perfectly round cream-white head with no nose, two small solid black dot eyes set wide apart, a thin single black line for a mouth, shaggy dark-brown hair drawn as loose spiky ink strokes falling over the forehead, thin black stick-like arms and legs with simple rounded hands and feet, compact small body. Modern winter clothing in flat watercolour washes: heavy dark-navy hooded parka, thick olive-green scarf, brown wool trousers, sturdy brown boots, small canvas backpack. Expression simple, tired, wary, never shaded realistically, never glossy, never anime, never muscular, never a child, never a second survivor in the same frame.
 
 ## Supporting cast (lock when first used)
-- **The driver:** broad-shouldered man, full frost-caked beard, orange knit cap, patched canvas work jacket, one chipped front tooth, calm flat stare. Never armed on screen; rifle stays out of frame.
+- **The driver:** broad-shouldered man, full frost-caked beard drawn in ink hatching, orange knit cap, patched canvas work jacket, one chipped front tooth, flat tired stare. No weapon ever on screen.
 
-## Palette lock
-- Cold exteriors: slate `#5A6B7B`, pale cyan snow `#DCE8EE`, bruise-violet sky `#3C3F5C`, paper `#F2E8D5`.
-- Firelight: amber `#E0913A`, burnt ochre `#B4652A`, deep brown shadow `#3A2A22`.
-- Snow is NEVER pure white; it always carries paper warmth or blue shadow.
+## Palette lock (sampled from the reference)
+- Paper `#F2E8D5` · cream face `#FBF7EF` · ink `#1E1A17` · ochre `#C9973F` · burnt sienna `#8C4F2B` · olive scarf `#7A7A45`
+- Cold: slate `#5C6E7E` · pale snow blue `#D8E3EA` · indigo night `#2E3552`
+- Firelight: amber `#E0913A` · ember red `#B4652A`
+- Snow is NEVER pure white: it is paper with a pale blue wash. Ink lines never disappear under a wash.
 
 ## Content moderation swaps
 | Intended | Shipped wording |
@@ -33,43 +36,35 @@
 1. Frost on the **inside** of glass — crystalline ferns on the inner pane, breath fog in the foreground.
 2. The sun as a **pale coin** behind smoked glass, no rays, no glow.
 3. Fire in a **metal bucket**, small and mean, never a cosy hearth.
-4. Breath vapour in every exterior beat.
-5. The protagonist's scarf is olive in every shot — a colour anchor for continuity.
+4. Breath vapour in every exterior beat, drawn as two or three thin ink curls.
+5. The protagonist's scarf is olive in every shot — the colour anchor for continuity.
+6. Faces stay simple and unshaded: cream fill, dot eyes, one line mouth. No rendering.
 
-## Declared exceptions
-_(none yet)_
-
----
-
-## LOCKED ANCHORS (STATE 4) — 3 style tests, one hand
-
-All three were generated with the identical **master prompt formula** and came back interchangeable in style. Use `style_test_A` as the canonical wide-shot anchor, `B` for firelight interiors, `C` for close-ups. Any drift from these three is a QC fail.
-
-```
-refs/style_test_A_highway.png    HIGH WIDE — the doors-open highway (canonical anchor)
-refs/style_test_B_bucketfire.png MEDIUM LOW — bucket fire, amber vs slate split
-refs/style_test_C_face.png       EXTREME CLOSE-UP — frost brows, olive scarf, breath plume
-```
-
-### Master prompt formula (no re-ordering, ever)
+## Master prompt formula (no re-ordering, ever)
 ```
 [STYLE & MEDIUM verbatim block] + [PROTAGONIST ("You") verbatim block] + [DYNAMIC FRAMING & ACTION from visuals.csv]
 ```
 
-### Exact prompts used for the anchors (copy these verbatim, swap only the final framing clause)
+## Reference-conditioning note
+When a generation tool accepts a reference image, pass `refs/ref_style_02_caveman_phone_cave.jpg` with the instruction: *match the drawing technique, line quality, paper texture and character design exactly; compose an entirely different scene; do not reuse the cave, fire pit, carved panel, plant or starry sky.*
 
-**A — canonical anchor**
-> 16:9 widescreen cinematic illustration. Ink-and-watercolour cartoon on warm off-white parchment paper, loose confident black ink outlines with visible line weight variation, soft wet-on-wet watercolour washes that bleed slightly past the linework, visible cold-press paper grain and a subtle uneven paper edge framing the image, limited palette of slate blue-grey and pale cyan for cold, amber and burnt ochre for firelight, desaturated shadows, no gradients, no 3D render, no photorealism, no digital airbrush, no text, no lettering, no signage, no logos. A single everyman survivor drawn in the same ink-and-watercolour cartoon style: perfectly round white head with no nose, two simple black dot eyes and a small thin-line mouth, shaggy dark-brown hair falling over the forehead, thin black stick-like limbs with rounded hands and feet, slender cartoon body. Clothing: layered winter wear, oversized dark-navy wool coat over a grey jumper, thick olive scarf, dark trousers, scuffed boots, worn knitted gloves, small canvas backpack. Face reads tired, wary, determined. Never photorealistic, never muscular, never a child, never a second protagonist in the same frame. + HIGH WIDE SHOT: the survivor stands tiny between lanes of an eight-lane highway jammed with snow-covered abandoned cars, their driver doors hanging open in a sawtooth line receding to the horizon, heavy straight snowfall, a dead streetlight overhead, pale cyan drifts against slate-blue bodies, bruised violet-grey sky, breath vapour, no warm light anywhere.
+## v3 ANCHORS — **APPROVED (user, this session)**
+| File | Shot | Status |
+|---|---|---|
+| `refs/v3_anchor_A_highway.png` | HIGH WIDE, doors-open highway | LOCKED — canonical |
+| `refs/v3_anchor_B_bucketfire.png` | MEDIUM LOW, bucket fire | LOCKED — firelight lock |
+| `refs/v3_anchor_C_closeup.png` | EXTREME CLOSE-UP, face | LOCKED — close-up lock |
 
-**B — firelight lock**
-> [same style + protagonist blocks] + MEDIUM SHOT, slightly low angle: the survivor crouched on a concrete floor beside a small paper fire burning in a dented metal bucket, both hands held out to the flames, orange amber light on one cheek and cold slate-blue on the other, dark shelving and blank cardboard boxes behind, steam and smoke curling upward, firelight pooling on the floor; mean small fire, not a cosy hearth.
+### CANONICAL PROMPT PREFIX (v3) — use verbatim, every single frame
+Pass `refs/ref_style_02_caveman_phone_cave.jpg` as the style-conditioning image, then this text, then the row's framing clause:
 
-**C — close-up lock**
-> [same style + protagonist blocks] + EXTREME CLOSE-UP of the survivor's face filling the frame, olive scarf pulled up under the chin, hoar frost crusting the eyebrows and eyelashes, cracked lips, a plume of breath vapour catching pale grey light, snow blurring out of focus behind, cold slate-blue wash on the skin, one tiny warm amber highlight in each dot eye, the paper edge of the drawing visible at the top corner.
+> Match the drawing technique, line quality, paper texture and character design of the reference image EXACTLY: clean confident black ink outlines of varying weight, loose hatching for shadow, flat transparent watercolour washes inside the lines with a few intentional bleeds, warm cream parchment paper with visible grain and a slightly uneven torn paper border. Do not reuse the cave, fire pit, carved panel, potted plant or starry sky from the reference - compose an entirely new scene. Hand-drawn comic watercolour illustration, palette of ochre, burnt sienna, warm brown and cream with cool slate blue and deep indigo for cold and night, no gradients, no airbrush, no 3D render, no photorealism, no anime, no glossy shading, no text, no lettering, no signage, no logos. A single cartoon survivor drawn in exactly the reference character's design: perfectly round cream-white head with no nose, two small solid black dot eyes set wide apart, a thin single black line for a mouth, shaggy dark-brown hair drawn as loose spiky ink strokes over the forehead, thin black stick-like arms and legs with rounded hands and feet, compact small body, heavy dark-navy hooded parka, thick olive-green scarf, brown wool trousers, sturdy boots, small canvas backpack.
 
-### Anchor observations (QC notes for workers)
-- The model renders the face **rounder and softer** than the stick figure in the original refs. This is the locked look — do not fight it.
-- Hair renders long and shaggy with visible individual strands. Consistent across all three.
-- Hands render semi-realistic (4 fingers), not pure circles. Accept it; do not re-roll for finger count unless a hand is melted or duplicated.
-- `no lettering` in the style block is doing real work — keep it in every prompt or signage text will appear.
-- Fire is **small and mean** (bucket, paper). Any prompt that implies a generous hearth breaks the film's physics.
+- **Never in frame:** a readable word. Blankets of lettering appear if `no text` is dropped — it is load-bearing.
+- **No-people beats:** close the framing clause with "NO PEOPLE anywhere in the frame" — the prefix alone will otherwise invent a figure.
+
+## Batch log
+- **Batch 01** — `beat01m01`–`beat01m06` — 6/6 pass. Style, line quality, palette and face all match anchor A/B/C. All six frames were generated at 1393x752 (consistent), no rejects, repair budget unspent. Framing genuinely varies row to row (wide bedroom → macro eye → overhead floor → low-angle door → over-the-shoulder → macro vent).
+
+## Declared exceptions
+_(none yet)_

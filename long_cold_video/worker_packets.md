@@ -1,6 +1,8 @@
 # WORKER PACKETS — `long_cold_video` (v3 look, post-batch-01)
 
-Hand these to the worker chats. **289 frames total, 6 already done** (`beat01m01`–`beat01m06`) → **283 frames** split 91 / 96 / 96.
+Hand these to the worker chats. **289 frames total.** The MASTER chat (this session) generates rows 7-97 itself, so only **WORKER 2 and WORKER 3 packets below need to be handed out**: 96 + 96 = 192 frames.
+
+Split: master 91 (rows 7-97) · worker 2 96 (rows 98-193) · worker 3 96 (rows 194-289) · already done 6 (beat01m01-01m06).
 
 ---
 
@@ -57,7 +59,9 @@ COMMIT
 
 ---
 
-## WORKER 1 — rows 7-97 · 91 frames · `beat01m07` → `beat15m07`
+## WORKER 1 — MASTER CHAT (this session) — rows 7-97 · 91 frames · `beat01m07` → `beat15m07`
+
+> Not for handout — the master agent generates these.
 ```
 - Scan: apartment wake-up (row 7 = end of slide 01) → phone/sister → frozen tiles → frost inside glass →
   dead taps → street & snow → front door → hallway → lock → waiting on the bed → dawn + thermometer →

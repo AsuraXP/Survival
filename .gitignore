@@ -1,0 +1,6 @@
+frames/*.png
+frames/*.jpg
+*.zip
+VIDEO.mp4
+__pycache__/
+.DS_Store

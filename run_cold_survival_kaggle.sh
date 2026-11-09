@@ -19,7 +19,7 @@ RATE="+10%"
 FPS=30
 WORK="$(pwd)/${SLUG}_kaggle_work"
 PROJ="${SLUG}_video"
-RUNNER_VERSION="v6-twosided-interp"
+RUNNER_VERSION="v7-chunked-tts"
 SCRIPT="$(readlink -f "$0")"
 rm -rf "${WORK}"          # never reuse manifests/segs from a previous run
 mkdir -p "${WORK}"
@@ -83,32 +83,63 @@ for t in texts:
     starts.append(pos)
     pos += len(t.split())
 
-async def run():
-    comm = edge_tts.Communicate(full, voice, rate=rate, boundary="WordBoundary")
-    audio = bytearray(); bounds = []
+async def stream_once(text):
+    comm = edge_tts.Communicate(text, voice, rate=rate, boundary="WordBoundary")
+    audio = bytearray(); bnd = []
     t0 = time.monotonic(); last = t0
     async for chunk in comm.stream():
         now = time.monotonic()
-        if now - t0 > 900:
-            raise TimeoutError('TTS stream exceeded 15 minutes')
+        if now - t0 > 300:
+            raise TimeoutError('chunk stream exceeded 5 minutes')
         if now - last > 60:
-            print(f'  tts streaming… {len(audio) * 8 // 48000}s of audio buffered', flush=True)
+            print(f'  tts streaming… {len(audio) * 8 // 48000}s buffered in this chunk', flush=True)
             last = now
         if chunk['type'] == 'audio':
             audio.extend(chunk['data'])
         elif chunk['type'] == 'WordBoundary':
-            bounds.append((chunk['text'], chunk['offset'] / 1e7))   # 100ns ticks -> s
-    return bytes(audio), bounds
-bounds = None
-for attempt in (1, 2):
-    try:
-        audio, bounds = asyncio.run(run())
-        break
-    except TimeoutError as e:
-        print(f'  TTS attempt {attempt} timed out: {e}', flush=True)
-        if attempt == 2:
-            raise SystemExit('FATAL: TTS stream timed out twice — voice service unreachable')
-open(f'{work}/voice.mp3', 'wb').write(audio)
+            bnd.append((chunk['text'], chunk['offset'] / 1e7))      # 100ns ticks -> s
+    return bytes(audio), bnd
+
+# ~60 s TTS sessions at beat boundaries: long single sessions get dropped by the service
+chunk_ranges = []; cstart = 0; cwords = 0
+for k, t in enumerate(texts):
+    w = len(t.split())
+    if cwords and cwords + w > 190:
+        chunk_ranges.append((cstart, k)); cstart = k; cwords = 0
+    cwords += w
+chunk_ranges.append((cstart, len(texts)))
+import wave
+parts = []; bounds = []; t_off = 0.0
+for ci, (a, b) in enumerate(chunk_ranges):
+    ctext = ' '.join(texts[a:b])
+    err = None
+    for attempt in (1, 2, 3):
+        try:
+            ab, cb = asyncio.run(stream_once(ctext)); err = None; break
+        except Exception as e:
+            err = e
+            print(f'  chunk {ci + 1}/{len(chunk_ranges)} attempt {attempt} failed '
+                  f'({type(e).__name__}); retrying', flush=True)
+            time.sleep(2 * attempt)
+    if err is not None:
+        raise SystemExit(f'FATAL: TTS chunk {ci + 1} failed 3 times: {err}')
+    mp3 = f'{work}/chunk{ci:02d}.mp3'; open(mp3, 'wb').write(ab)
+    wv = f'{work}/chunk{ci:02d}.wav'
+    subprocess.run(['ffmpeg','-y','-v','error','-i',mp3,'-acodec','pcm_s16le',wv], check=True)
+    with wave.open(wv) as wf:
+        D = wf.getnframes() / wf.getframerate()
+    for (wtxt, t) in cb:
+        bounds.append((wtxt, t + t_off))          # chunk-local -> global timeline
+    parts.append(wv)
+    print(f'  chunk {ci + 1}/{len(chunk_ranges)} ok: {D:.1f}s audio, {len(cb)} word events', flush=True)
+    t_off += D                                    # exact sample-accurate chunk offset
+with wave.open(parts[0]) as w0:
+    with wave.open(f'{work}/voice.wav', 'wb') as out:
+        out.setparams(w0.getparams())
+        for p in parts:
+            with wave.open(p) as wi:
+                out.writeframes(wi.readframes(wi.getnframes()))
+dur = t_off
 print(f'  word boundaries received: {len(bounds)} events / {len(tokens)} script tokens', flush=True)
 if len(bounds) < 0.8 * len(tokens):
     raise SystemExit('FATAL: WordBoundary channel dead (sentence-level events?) — '
@@ -193,10 +224,6 @@ def align(bounds, tokens, starts, window=24):
     return times, nlock
 # ---END ALIGN---
 cuts, nlock = align(bounds, tokens, starts)
-
-dur = float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration',
-                            '-of','csv=p=0', f'{work}/voice.mp3'],
-                           capture_output=True, text=True).stdout.strip())
 cuts.append(dur)
 frame_edges = [round(c * FPS) for c in cuts]
 for k in range(1, len(frame_edges)):                 # exact frame grid, strictly increasing
@@ -266,7 +293,7 @@ if fs[0] < 8:
 PYEOF
 VID_DUR=$(cat "${WORK}/video_dur.txt")
 echo "== loudnorm -14 LUFS pre-pass on narration @ $(date +%T)"
-ffmpeg -y -v error -i "${WORK}/voice.mp3" -af "loudnorm=I=-14:TP=-1.5:LRA=11,apad" \
+ffmpeg -y -v error -i "${WORK}/voice.wav" -af "loudnorm=I=-14:TP=-1.5:LRA=11,apad" \
   -t "${VID_DUR}" -c:a aac -b:a 192k "${WORK}/voice_norm.m4a"
 echo "== final mux (video stream-copy + pre-normalized audio, zero filters at mux) @ $(date +%T)"
 ffmpeg -y -v error -f concat -safe 0 -i "${WORK}/segs.txt" -i "${WORK}/voice_norm.m4a" \

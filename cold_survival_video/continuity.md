@@ -23,6 +23,7 @@ All three QC-passed; workers reference the matching anchor image for their scene
 1. MITTEN HANDS (3 strikes so far): always add clause "hands are simple rounded mitten hands with no separated fingers and no nails" whenever any hand is visible. Models default to realistic fingered hands otherwise.
 2. DOT EYES (1 strike): always add "eyes rendered ONLY as two small solid black dots, never white sclera rings" on protagonist face close-ups.
 3. BURNED-IN CAPTIONS (3 strikes): always add "Absolutely no captions, no narration text, no words, no lettering anywhere in the image" unless the row explicitly calls for comic SFX / diegetic screen text (then name exactly which text is allowed).
+4. REALISTIC PROFILE FACE (1 strike, beat18m04_take1): in profile or 3/4 views models drift to sculpted human noses/lips/teeth. Add clause "in profile the face stays a simple round pale cartoon head with a minimal ink line nose and no visible teeth or lips detail" on any non-frontal character shot.
 
 ## MODERATION LOG
 - (none — user specified no hard rules)

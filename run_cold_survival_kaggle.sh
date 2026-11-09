@@ -19,6 +19,11 @@ RATE="+10%"
 FPS=30
 WORK="$(pwd)/${SLUG}_kaggle_work"
 PROJ="${SLUG}_video"
+RUNNER_VERSION="v3-framegrid-execguard"
+SCRIPT="$(readlink -f "$0")"
+rm -rf "${WORK}"          # never reuse manifests/segs from a previous run
+mkdir -p "${WORK}"
+echo "== runner ${RUNNER_VERSION}"
 
 echo "== [1/7] deps"
 python3 -m pip install --quiet edge-tts pillow 2>&1 | tail -1 || true
@@ -29,13 +34,19 @@ command -v ffmpeg >/dev/null 2>&1 || { echo "FATAL: ffmpeg unavailable"; exit 1;
 
 echo "== [2/7] clone/update repo @ ${BRANCH}"
 if [ -d Survival/.git ]; then
+  BEFORE=$(git -C Survival rev-parse HEAD)
   git -C Survival fetch --depth 1 origin "${BRANCH}"
   git -C Survival reset --hard FETCH_HEAD
+  AFTER=$(git -C Survival rev-parse HEAD)
+  if [ "${BEFORE}" != "${AFTER}" ] && [ -z "${CS_SELFEXEC:-}" ]; then
+    echo "== runner file changed during update -> re-exec from byte 0"
+    CS_SELFEXEC=1 exec bash "${SCRIPT}"
+  fi
 else
   git clone --depth 1 --branch "${BRANCH}" "${REPO_URL}" Survival
 fi
 cd Survival
-mkdir -p "${WORK}"
+echo "== executing commit $(git rev-parse HEAD | cut -c1-10) with runner ${RUNNER_VERSION}"
 
 echo "== [3/7] preflight (die on missing frames / voice / files)"
 python3 - "${PROJ}" <<'PYEOF'
@@ -181,6 +192,8 @@ python3 - "${WORK}" "${FPS}" <<'PYEOF'
 import json, os, subprocess, sys
 work, FPS = sys.argv[1], sys.argv[2]
 man = json.load(open(f'{work}/manifest.json'))
+if sorted(m['frames'] for m in man)[0] < 8:
+    raise SystemExit('FATAL: segment frame counts collapsed (strobe risk) — refusing to encode')
 segdir = f'{work}/segs'; os.makedirs(segdir, exist_ok=True)
 for i, m in enumerate(man):
     src = f"{work}/padded/" + os.path.basename(m['frame'])
@@ -192,7 +205,12 @@ with open(f'{work}/segs.txt','w') as fh:
     for i in range(len(man)):
         fh.write(f"file '{segdir}/seg{i:04d}.mp4'\n")
 tot = sum(m['frames'] for m in man) / int(FPS)
+fs = sorted(m['frames'] for m in man)
 print(f'{len(man)} segments encoded, exact frame counts, total {tot:.1f}s, zero transitions')
+print(f'seg frames min/med/max = {fs[0]}/{fs[len(fs)//2]}/{fs[-1]} '
+      f'({fs[0]/int(FPS):.2f}s / {fs[len(fs)//2]/int(FPS):.2f}s / {fs[-1]/int(FPS):.2f}s per beat)')
+if fs[0] < 8:
+    raise SystemExit('FATAL: segment frame counts collapsed (strobe risk) — aborting before encode finish')
 PYEOF
 VID_DUR=$(cat "${WORK}/video_dur.txt")
 ffmpeg -y -v error -f concat -safe 0 -i "${WORK}/segs.txt" -i "${WORK}/voice.mp3" \

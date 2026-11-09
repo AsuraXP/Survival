@@ -19,7 +19,7 @@ RATE="+10%"
 FPS=30
 WORK="$(pwd)/${SLUG}_kaggle_work"
 PROJ="${SLUG}_video"
-RUNNER_VERSION="v7-chunked-tts"
+RUNNER_VERSION="v8-resilient-tts"
 SCRIPT="$(readlink -f "$0")"
 rm -rf "${WORK}"          # never reuse manifests/segs from a previous run
 mkdir -p "${WORK}"
@@ -109,37 +109,45 @@ for k, t in enumerate(texts):
     cwords += w
 chunk_ranges.append((cstart, len(texts)))
 import wave
-parts = []; bounds = []; t_off = 0.0
-for ci, (a, b) in enumerate(chunk_ranges):
+import wave, random
+PARTS = []; bounds = []; TOFF = [0.0]
+def synth_range(a, b, depth=0):
     ctext = ' '.join(texts[a:b])
-    err = None
-    for attempt in (1, 2, 3):
+    for attempt, dl in enumerate((4, 8, 16, 32, 64, 96), 1):
+        time.sleep(2)                       # pace sessions: stay under throttle windows
         try:
-            ab, cb = asyncio.run(stream_once(ctext)); err = None; break
+            ab, cb = asyncio.run(stream_once(ctext))
         except Exception as e:
-            err = e
-            print(f'  chunk {ci + 1}/{len(chunk_ranges)} attempt {attempt} failed '
-                  f'({type(e).__name__}); retrying', flush=True)
-            time.sleep(2 * attempt)
-    if err is not None:
-        raise SystemExit(f'FATAL: TTS chunk {ci + 1} failed 3 times: {err}')
-    mp3 = f'{work}/chunk{ci:02d}.mp3'; open(mp3, 'wb').write(ab)
-    wv = f'{work}/chunk{ci:02d}.wav'
-    subprocess.run(['ffmpeg','-y','-v','error','-i',mp3,'-acodec','pcm_s16le',wv], check=True)
-    with wave.open(wv) as wf:
-        D = wf.getnframes() / wf.getframerate()
-    for (wtxt, t) in cb:
-        bounds.append((wtxt, t + t_off))          # chunk-local -> global timeline
-    parts.append(wv)
-    print(f'  chunk {ci + 1}/{len(chunk_ranges)} ok: {D:.1f}s audio, {len(cb)} word events', flush=True)
-    t_off += D                                    # exact sample-accurate chunk offset
-with wave.open(parts[0]) as w0:
+            print(f'  beats {a + 1}-{b} attempt {attempt} failed ({type(e).__name__}); '
+                  f'backoff {dl}s', flush=True)
+            time.sleep(dl + random.random() * 3)
+            continue
+        mp3 = f'{work}/part{len(PARTS):03d}.mp3'; open(mp3, 'wb').write(ab)
+        wv = mp3[:-4] + '.wav'
+        subprocess.run(['ffmpeg','-y','-v','error','-i',mp3,'-acodec','pcm_s16le',wv], check=True)
+        with wave.open(wv) as wf:
+            D = wf.getnframes() / wf.getframerate()
+        for (wtxt, t) in cb:
+            bounds.append((wtxt, t + TOFF[0]))
+        PARTS.append(wv); TOFF[0] += D
+        print(f'  part {len(PARTS):02d}: beats {a + 1}-{b} ok: {D:.1f}s audio, '
+              f'{len(cb)} word events', flush=True)
+        return
+    if b - a > 1:                            # sustained failure: bisect to isolate
+        m = (a + b) // 2
+        print(f'  beats {a + 1}-{b}: 6 failures - bisecting', flush=True)
+        synth_range(a, m, depth + 1); synth_range(m, b, depth + 1)
+    else:
+        raise SystemExit(f'FATAL: beat {a + 1} failed 6 times; text: {texts[a]!r}')
+for (a, b) in chunk_ranges:
+    synth_range(a, b)
+with wave.open(PARTS[0]) as w0:
     with wave.open(f'{work}/voice.wav', 'wb') as out:
         out.setparams(w0.getparams())
-        for p in parts:
+        for p in PARTS:
             with wave.open(p) as wi:
                 out.writeframes(wi.readframes(wi.getnframes()))
-dur = t_off
+dur = TOFF[0]
 print(f'  word boundaries received: {len(bounds)} events / {len(tokens)} script tokens', flush=True)
 if len(bounds) < 0.8 * len(tokens):
     raise SystemExit('FATAL: WordBoundary channel dead (sentence-level events?) — '

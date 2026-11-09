@@ -19,20 +19,20 @@ RATE="+10%"
 FPS=30
 WORK="$(pwd)/${SLUG}_kaggle_work"
 PROJ="${SLUG}_video"
-RUNNER_VERSION="v3-framegrid-execguard"
+RUNNER_VERSION="v4-live-heartbeat"
 SCRIPT="$(readlink -f "$0")"
 rm -rf "${WORK}"          # never reuse manifests/segs from a previous run
 mkdir -p "${WORK}"
 echo "== runner ${RUNNER_VERSION}"
 
-echo "== [1/7] deps"
+echo "== [1/7] deps @ $(date +%T)"
 python3 -m pip install --quiet edge-tts pillow 2>&1 | tail -1 || true
 if ! command -v ffmpeg >/dev/null 2>&1; then
   (apt-get update -y && apt-get install -y ffmpeg) >/dev/null 2>&1 || { sudo apt-get update -y && sudo apt-get install -y ffmpeg; }
 fi
 command -v ffmpeg >/dev/null 2>&1 || { echo "FATAL: ffmpeg unavailable"; exit 1; }
 
-echo "== [2/7] clone/update repo @ ${BRANCH}"
+echo "== [2/7] clone/update repo @ ${BRANCH} @ $(date +%T)"
 if [ -d Survival/.git ]; then
   BEFORE=$(git -C Survival rev-parse HEAD)
   git -C Survival fetch --depth 1 origin "${BRANCH}"
@@ -48,8 +48,8 @@ fi
 cd Survival
 echo "== executing commit $(git rev-parse HEAD | cut -c1-10) with runner ${RUNNER_VERSION}"
 
-echo "== [3/7] preflight (die on missing frames / voice / files)"
-python3 - "${PROJ}" <<'PYEOF'
+echo "== [3/7] preflight (die on missing frames / voice / files) @ $(date +%T)"
+python3 -u - "${PROJ}" <<'PYEOF'
 import csv, os, sys, asyncio
 proj = sys.argv[1]
 rows = list(csv.DictReader(open(f'{proj}/visuals.csv')))
@@ -68,9 +68,9 @@ if not asyncio.run(chk()):
 print(f'preflight OK: {len(rows)} beats, all frames + assets present, voice resolvable')
 PYEOF
 
-echo "== [4/7] one continuous TTS take + word-level timestamps -> word-locked hard cuts"
-python3 - "${PROJ}" "${WORK}" "${VOICE}" "${RATE}" "${FPS}" <<'PYEOF'
-import csv, os, re, sys, asyncio, json, subprocess
+echo "== [4/7] one continuous TTS take + word-level timestamps -> word-locked hard cuts @ $(date +%T)"
+python3 -u - "${PROJ}" "${WORK}" "${VOICE}" "${RATE}" "${FPS}" <<'PYEOF'
+import csv, os, re, sys, asyncio, json, subprocess, time
 import edge_tts
 proj, work, voice, rate, FPS = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], int(sys.argv[5])
 rows = list(csv.DictReader(open(f'{proj}/visuals.csv')))
@@ -86,14 +86,29 @@ for t in texts:
 async def run():
     comm = edge_tts.Communicate(full, voice, rate=rate)
     audio = bytearray(); bounds = []
+    t0 = time.monotonic(); last = t0
     async for chunk in comm.stream():
+        now = time.monotonic()
+        if now - t0 > 900:
+            raise TimeoutError('TTS stream exceeded 15 minutes')
+        if now - last > 60:
+            print(f'  tts streaming… {len(audio) * 8 // 48000}s of audio buffered', flush=True)
+            last = now
         if chunk['type'] == 'audio':
             audio.extend(chunk['data'])
         elif chunk['type'] == 'WordBoundary':
             bounds.append((chunk['text'], chunk['offset'] / 1e7))   # 100ns ticks -> s
-    open(f'{work}/voice.mp3', 'wb').write(bytes(audio))
-    return bounds
-bounds = asyncio.run(run())
+    return bytes(audio), bounds
+bounds = None
+for attempt in (1, 2):
+    try:
+        audio, bounds = asyncio.run(run())
+        break
+    except TimeoutError as e:
+        print(f'  TTS attempt {attempt} timed out: {e}', flush=True)
+        if attempt == 2:
+            raise SystemExit('FATAL: TTS stream timed out twice — voice service unreachable')
+open(f'{work}/voice.mp3', 'wb').write(audio)
 
 # ---ALIGN---
 # robust monotonic token<->boundary alignment (no char offsets anywhere)
@@ -170,8 +185,8 @@ if ds[0] < 0.25 or frame_edges[-1] < int(dur * FPS) - FPS:
     print('FATAL: alignment collapsed (flash-frame risk)'); sys.exit(1)
 PYEOF
 
-echo "== [5/7] PIL even-snap black-canvas pre-padding (no -vf pad/scale later!)"
-python3 - "${PROJ}" "${WORK}" <<'PYEOF'
+echo "== [5/7] PIL even-snap black-canvas pre-padding (no -vf pad/scale later!) @ $(date +%T)"
+python3 -u - "${PROJ}" "${WORK}" <<'PYEOF'
 import json, os, sys
 from PIL import Image
 proj, work = sys.argv[1], sys.argv[2]
@@ -187,8 +202,8 @@ for m, im in zip(man, ims):
 print(f'padded {len(man)} frames to {W}x{H} (even) on black RGB canvas')
 PYEOF
 
-echo "== [6/7] frame-grid-exact segments + HARD-CUT concat + aac192k + loudnorm -14 LUFS + 30fps libx264 yuv420p"
-python3 - "${WORK}" "${FPS}" <<'PYEOF'
+echo "== [6/7] frame-grid-exact segments + HARD-CUT concat + aac192k + loudnorm -14 LUFS + 30fps libx264 yuv420p @ $(date +%T)"
+python3 -u - "${WORK}" "${FPS}" <<'PYEOF'
 import json, os, subprocess, sys
 work, FPS = sys.argv[1], sys.argv[2]
 man = json.load(open(f'{work}/manifest.json'))
@@ -201,6 +216,8 @@ for i, m in enumerate(man):
     subprocess.run(['ffmpeg','-y','-v','error','-loop','1','-framerate',FPS,'-i',src,
                     '-frames:v',str(m['frames']),'-c:v','libx264','-preset','veryfast',
                     '-crf','18','-pix_fmt','yuv420p',out], check=True)
+    if i % 20 == 0 or i == len(man) - 1:
+        print(f'  seg {i + 1}/{len(man)} encoded', flush=True)
 with open(f'{work}/segs.txt','w') as fh:
     for i in range(len(man)):
         fh.write(f"file '{segdir}/seg{i:04d}.mp4'\n")
@@ -213,12 +230,14 @@ if fs[0] < 8:
     raise SystemExit('FATAL: segment frame counts collapsed (strobe risk) — aborting before encode finish')
 PYEOF
 VID_DUR=$(cat "${WORK}/video_dur.txt")
+echo "== final mux + loudnorm -14 LUFS @ $(date +%T)"
 ffmpeg -y -v error -f concat -safe 0 -i "${WORK}/segs.txt" -i "${WORK}/voice.mp3" \
   -c:v copy -c:a aac -b:a 192k -af "loudnorm=I=-14:TP=-1.5:LRA=11,apad" -t "${VID_DUR}" \
   -movflags +faststart "${WORK}/VIDEO.mp4"
+echo "== mux done @ $(date +%T)"
 ffprobe -v error -show_entries format=duration -of csv=p=0 "${WORK}/VIDEO.mp4"
 
-echo "== [7/7] package deliverable"
+echo "== [7/7] package deliverable @ $(date +%T)"
 cp "${WORK}/VIDEO.mp4" ./VIDEO.mp4
 zip -j -q "${SLUG}_DELIVERABLE.zip" VIDEO.mp4 "${PROJ}/thumbnail.jpg" "${PROJ}/metadata.json" "${PROJ}/script.md" "${PROJ}/youtube.txt"
 ls -la "${SLUG}_DELIVERABLE.zip" VIDEO.mp4

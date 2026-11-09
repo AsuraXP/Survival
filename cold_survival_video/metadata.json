@@ -1,0 +1,26 @@
+{
+  "slug": "cold_survival",
+  "series": "Cold Survival",
+  "episode": 1,
+  "title_draft": "Cold Survival EP1: The Morning the Sun Went Wrong",
+  "logline": "You wake up in your bedroom to news of a world-ending volcanic eruption chain; dust blankets the planet, temperatures fall, and the world slides into chaos.",
+  "platform": "YouTube",
+  "aspect_ratio": "16:9",
+  "captions": "none",
+  "pov": "second-person",
+  "voice": "en-US-AndrewNeural",
+  "voice_rate": "+10%",
+  "wps": 3.1,
+  "target_runtime_seconds": 480,
+  "form": "long-form YouTube",
+  "art_style": "hand-drawn ink linework with loose watercolor washes on aged cream paper; muted earthy palette",
+  "style_ref": "refs/style_ref_source.jpg",
+  "hard_rules": {
+    "must_appear": [],
+    "must_never_appear": []
+  },
+  "state": "STATE_2_SCRIPT_PENDING_APPROVAL",
+  "branch": "arena/23004249-survival",
+  "created": "2026-11-09",
+  "audio_policy": "no audio in workspace; TTS/mix/encode on Kaggle only"
+}
